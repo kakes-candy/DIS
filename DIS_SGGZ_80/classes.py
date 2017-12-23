@@ -1,21 +1,17 @@
 
 
 
-from DIS_SGGZ_80.format_definitions import format_patient, format_dbctraject
-
-
-# from format_definitions import format_patient
-
+from DIS_SGGZ_80.format_definitions import *
 
 """
 Klassen voor het opslaan en verwerken van DIS data
 """
 
-class Patient(object):
+class DISdataObject(object):
 
-    format_definitions = format_patient
+    format_definitions = None
     # attributen voor links met andere objecten
-    children = ['DBCtrajecten']
+    children = []
     parents = []
 
     def __init__(self, **kwargs):
@@ -39,7 +35,7 @@ class Patient(object):
                                     .format(classname = self.__class__.__name__,
                                             attr_name = name))
         else:
-            super(Patient, self).__setattr__(name, value)
+            super(DISdataObject, self).__setattr__(name, value)
 
 
     def set_attributes_from_kwargs(self, kwargs):
@@ -67,20 +63,63 @@ class Patient(object):
         atts_of_interest = ['DDID', 'Naam', 'Lengte', 'Patroon']
         print('Dit dataobject heeft de volgende attributen:')
         for definition in self.format_definitions:
-            l = ["{n} {key}: {value}".format(n =n, key = item, value = definition[item])
+            l = ["{key}: {value}".format(key = item, value = definition[item])
                     for item in atts_of_interest]
             print(l)
 
 
-class DBCTraject(Patient):
+
+class Patient(DISdataObject):
+
+    format_definitions = format_patient
+    # attributen voor links met andere objecten
+    children = ['Zorgtraject']
+    parents = []
+
+    def __init__(self, **kwargs):
+        super(Patient, self).__init__()
+
+
+class Zorgtraject(DISdataObject):
+
+    format_definitions = format_zorgtraject
+    # attributen voor links met andere objecten
+    children = ['DBCTraject']
+    parents = ['Patient']
+
+    def __init__(self, **kwargs):
+        super(Zorgtraject, self).__init__()
+
+
+class DBCTraject(DISdataObject):
     format_definitions = format_dbctraject
 
-
-    children = []
+    children = ['GeleverdZorgprofielTijdschrijven']
     parents = ['Zorgtraject']
 
     def __init__(self, **kwargs):
         super(DBCTraject, self).__init__()
+
+
+class GeleverdZorgprofielTijdschrijven(DISdataObject):
+    format_definitions = format_geleverd_zorgprofiel_tijdschrijven
+
+    children = []
+    parents = ['DBCTraject']
+
+    def __init__(self, **kwargs):
+        super(GeleverdZorgprofielTijdschrijven, self).__init__()
+
+
+class Diagnose(DISdataObject):
+    format_definitions = format_diagnose
+
+    children = []
+    parents = ['DBCTraject']
+
+    def __init__(self, **kwargs):
+        super(Diagnose, self).__init__()
+
 
 
 # Eerste tests
@@ -88,15 +127,12 @@ class DBCTraject(Patient):
 p1 = Patient()
 print(p1.help())
 #
-# p1._1433 = 'Harry'
-# p1._1444 = '19761020'
 
-
-# dbc1 = DBCTraject()
-# print(dbc1.help())
-
-# dbc1._4091 = 'testendoet'
-# dbc1._1465 = '20170101'
-
-
-# p1.add_child('DBCtrajecten', dbc1)
+zt = Zorgtraject()
+print(zt.help())
+dbc = DBCTraject()
+print(dbc.help())
+tijd = GeleverdZorgprofielTijdschrijven()
+print(tijd.help())
+diagnose = Diagnose()
+print(diagnose.help())
