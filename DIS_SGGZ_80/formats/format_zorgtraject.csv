@@ -1,0 +1,14 @@
+DDID,Naam,Type,Lengte,Begin,Eind,Patroon,Verplicht,Sleutel,Codetabel,Code org
+1449,Zorgtrajectnummer,AN,20,1,20,,V,PK,,
+1450,Status vlag,AN,1,21,21,[spatie] of 'V',O,,,
+1451,Begindatum zorgtraject,D,8,22,29,YYYYMMDD,V,,,
+1452,Einddatum zorgtraject,D,8,30,37,YYYYMMDD,O,,,
+1453,Koppelnummer,AN,15,38,52,,V,FK,,
+1454,Verwijzende instelling,AN,8,53,60,NNNNNNNN,O,,AGB register,Vektis
+1455,Soort verwijzer,AN,4,61,64,,O,,"Zorgverlenersspecificatie, COD016",Vektis
+1456,Primaire diagnosecode,AN,20,65,84,,CV,,CL_DIAGNOSE_GGZ,NZa
+1457,Primaire diagnose; trekken van,AN,1,85,85,[spatie] of 'J',O,,,
+1458,Primaire diagnosedatum,D,8,86,93,YYYYMMDD,CV,,,
+4168,Primaire diagnosecode DSM-5,AN,30,94,123,,CV,,CL_D5_DIAGNOSE,NZa
+4098,Verwijsdatum,D,8,124,131,YYYYMMDD,O,,,
+4105,Reserve,AN,20,132,151,,O,,,

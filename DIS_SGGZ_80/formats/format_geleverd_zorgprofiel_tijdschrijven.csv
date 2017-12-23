@@ -1,0 +1,19 @@
+DDID,Naam,Type,Lengte,Begin,Eind,Patroon,Verplicht,Sleutel,Codetabel,Code org
+1488,DBC-trajectnummer,AN,20,1,20,,V,FK,,
+1489,Activiteitnummer,AN,20,21,40,,V,PK,,
+1490,Activiteitcode,AN,20,41,60,,V,,CL_ACTIVITEIT_GGZ,NZa
+1491,Activiteitdatum,D,8,61,68,YYYYMMDD,V,,,
+4135,Behandelaarcode,AN,8,69,76,,O,,AGB register,Vektis
+1492,Beroepcode,AN,20,77,96,,V,,"CL_BEROEP_GGZ of
+CL_HOOFDBEROEPEN_GGZ",NZa
+4136,Hoofdbehandelaar,AN,1,97,97,'J' of 'N' of [spatie],CV,,,
+1493,Direct patiëntgebonden tijd (minuten),N,6,98,103,,V,,,
+1495,"Indirect patiëntgebonden tijd -
+algemeen (minuten)",N,6,104,109,,V,,,
+1494,"Indirect patiëntgebonden tijd - reistijd
+(minuten)",N,6,110,115,,V,,,
+4142,Uitvoerende instelling,AN,8,116,123,NNNNNNNN,O,,AGB register,Vektis
+3002,Postwijk,N,4,124,127,,O,,,
+3188,Deelfactor groepscontacten,N,4,128,131,,O,,,
+3189,Afspraaknummer/code,AN,20,132,151,,O,,,
+4128,Reserve,AN,20,152,171,,O,,,

@@ -1,0 +1,7 @@
+DDID,Naam,Type,Lengte,Begin,Eind,Patroon,Verplicht,Sleutel,Codetabel,Code org
+1481,DBC-trajectnummer,AN,20,1,20,,V,"PK, FK",,
+1482,Diagnosedatum,D,8,21,28,YYYYMMDD,V,,,
+1483,Diagnosecode,AN,20,29,48,,V,PK,CL_DIAGNOSE_GGZ,NZa
+1484,Trekken van,AN,1,49,49,[spatie] of 'J',O,,,
+4167,Diagnosecode DSM-5,AN,30,50,79,,CV,,CL_D5_DIAGNOSE,NZa
+4104,Reserve,AN,20,80,99,,O,,,

@@ -1,0 +1,21 @@
+DDID,Naam,Type,Lengte,Begin,Eind,Patroon,Verplicht,Sleutel,Codetabel,Code org
+1430,Declarerende instelling,AN,8,1,8,NNNNNNNN,V,PK,AGB register,Vektis
+1431,Instelling volgnr DIS,AN,2,9,10,NN,V,PK,,
+1432,Koppelnummer,AN,15,11,25,,V,PK,,
+1433,Naam_1,AN,25,26,50,,V,,,
+1434,Naam voorvoegsel_1,AN,10,51,60,,O,,,
+1435,Naamcode_1,AN,1,61,61,1 of 2,V,,,
+1436,Naam_2,AN,25,62,86,,O,,,
+1437,Naam voorvoegsel_2,AN,10,87,96,,O,,,
+1438,Naamcode_2,AN,1,97,97,1 of 2 of [spatie],CV,,,
+1439,Voorletters,AN,6,98,103,,V,,,
+1440,Postcode,AN,6,104,109,,CV,,4-positiepostcodetabel (4PP),postcode.nl
+1441,Huisnummer,N,5,110,114,,O,,,
+1442,Huisnummer toevoeging,AN,4,115,118,,O,,,
+1443,Landcode,AN,2,119,120,,V,,ISO 3166-1,ISO
+1444,Geboortedatum,D,8,121,128,YYYYMMDD,V,,,
+1445,Geslacht,N,1,129,129,,V,,Geslacht (COD046),Vektis
+1446,Burgerservicenummer,AN,9,130,138,9xN,V,,,
+3182,Eerste inschrijfdatum,AN,6,139,144,YYYYMM,O,,,
+3183,Laatste uitschrijfdatum,AN,6,145,150,YYYYMM,O,,,
+4113,Reserve,AN,20,151,170,,O,,,

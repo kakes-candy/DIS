@@ -1,0 +1,29 @@
+DDID,Naam,Type,Lengte,Begin,Eind,Patroon,Verplicht,Sleutel,Codetabel,Code org
+1462,DBC-trajectnummer,AN,20,1,20,,V,PK,,
+1463,Status vlag,AN,1,21,21,[spatie] of 'V',O,,,
+1464,Zorgtrajectnummer,AN,20,22,41,,V,FK,,
+1465,Begindatum DBC-traject,D,8,42,49,YYYYMMDD,V,,,
+1466,Einddatum DBC-traject,D,8,50,57,YYYYMMDD,V,,,
+4091,1e hoofdbehandelaar,AN,8,58,65,NNNNNNNN,CV,,AGB register,Vektis
+4093,Beroepcode 1e hoofdbehandelaar,AN,20,66,85,,CV,,CL_HOOFDBEROEPEN_GGZ,NZa
+4092,2e hoofdbehandelaar,AN,8,86,93,NNNNNNNN,CV,,AGB register,Vektis
+4094,Beroepcode 2e hoofdbehandelaar,AN,20,94,113,,CV,,CL_HOOFDBEROEPEN_GGZ,NZa
+4171,Experimenteerruimte,AN,1,114,114,"'J', 'N', Null",O,,,
+4095,Verwijstype/code (zelf)verwijzer,AN,2,115,116,,V,,COD327-VEK1 (volwassenen),Vektis
+4146,Verwijzer,AN,8,117,124,NNNNNNNN,CV,,AGB register,Vektis
+1467,Zorgverzekeraarcode,AN,4,125,128,,O,,UZOVI register,Vektis
+1468,Zorgtypecode,AN,20,129,148,,V,,CL_ZORGTYPE_GGZ,NZa
+1469,Circuitcode,AN,20,149,168,,V,,CL_CIRCUIT_GGZ,NZa
+1470,DBC Reden sluiten code,AN,20,169,188,,V,,CL_REDENSLUITEN_GGZ,NZa
+1471,Verkoopprijs DBC,N,11,189,199,,CV,,,
+1472,Nieuwe patiënt,AN,1,200,200,"'J', 'N', [spatie]",O,,,
+1473,Productgroepcode,AN,6,201,206,,V,,CL_PRODUCTGROEP_GGZ,NZa
+1474,Prestatiecode,AN,12,207,218,,V,,CL_PRESTATIECODE_GGZ,NZa
+1475,Declaratiecode,AN,6,219,224,,V,,CL_TARIEF_GGZ,NZa
+1476,DBC-tarief,N,11,225,235,,V,,CL_TARIEF_GGZ,NZa
+1477,Verrekenbedrag,N,11,236,246,,V,,,
+2144,Declaratiedatum,D,8,247,254,YYYYMMDD,O,,,
+3217,NHC-tarief behandeldeel,N,11,255,265,,V,,CL_TARIEF_GGZ,NZa
+3218,NHC totaal gedeclareerd bedrag,N,11,266,276,,V,,,
+4106,Leeftijd,N,3,277,279,,O,,,
+4103,Reserve,AN,20,280,299,,O,,,
