@@ -19,6 +19,8 @@ class DISdataObject(object):
         self.init_definitions()
         for link in self.children:
             setattr(self, link, [])
+        for link in self.parents:
+            setattr(self, link, [])
         self.set_attributes_from_kwargs(kwargs)
 
     def init_definitions(self):
@@ -94,7 +96,7 @@ class Zorgtraject(DISdataObject):
 class DBCTraject(DISdataObject):
     format_definitions = format_dbctraject
 
-    children = ['GeleverdZorgprofielTijdschrijven']
+    children = ['GeleverdZorgprofielTijdschrijven', 'Diagnose']
     parents = ['Zorgtraject']
 
     def __init__(self, **kwargs):
@@ -125,14 +127,20 @@ class Diagnose(DISdataObject):
 # Eerste tests
 
 p1 = Patient()
-print(p1.help())
+# print(p1.help())
 #
 
+print(p1.format_definitions)
+
+print(sorted(p1.format_definitions, key = lambda x:int(x['Begin']), reverse = True))
+
+
+
 zt = Zorgtraject()
-print(zt.help())
+# print(zt.help())
 dbc = DBCTraject()
-print(dbc.help())
+# print(dbc.help())
 tijd = GeleverdZorgprofielTijdschrijven()
-print(tijd.help())
+# print(tijd.help())
 diagnose = Diagnose()
-print(diagnose.help())
+# print(diagnose.help())
