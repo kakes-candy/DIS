@@ -9,57 +9,36 @@ Klassen voor het opslaan en verwerken van DIS data
 
 class DISdataObject(object):
 
+    #format_definitions is een lijst met DIS data specificaties
     format_definitions = None
     # attributen voor links met andere objecten
-    children = []
-    parents = []
+    child_types, parent_types = list(), list()
 
     def __init__(self, **kwargs):
-        # Check of attributen uit definitie al gezet zijn
-        self.init_definitions()
-        for link in self.children:
-            setattr(self, link, [])
-        for link in self.parents:
-            setattr(self, link, [])
-        self.set_attributes_from_kwargs(kwargs)
-
-    def init_definitions(self):
-        # definities gebruiken om klasattributen te zetten
         for definition in self.format_definitions:
-            ID = '_{}'.format(definition['DDID'])
+            ID = '_{id}'.format(id = definition['DDID'])
             setattr(self, ID, None)
 
-    def __setattr__(self, name, value):
-        allowed_attributes = ['_{}'.format(item['DDID']) for item in self.format_definitions]
-        allowed_attributes = allowed_attributes + self.children
-        if not name in allowed_attributes:
-            raise AttributeError('{classname} has no attribute named {attr_name}'
-                                    .format(classname = self.__class__.__name__,
-                                            attr_name = name))
-        else:
-            super(DISdataObject, self).__setattr__(name, value)
+        self.children = {child_type : set() for child_type in self.child_types}
+        self.parents = {parent_type : set() for parent_type in self.parent_types}
 
 
-    def set_attributes_from_kwargs(self, kwargs):
-        for key, value in kwargs.items():
-            setattr(self, key, value)
 
     def write_to_string(self):
         result = ''
         for definition in self.format_definitions:
-            # type = definition.type
-            ddid = '_' + str(definition['DDID'])
-            raw_value = getattr(self, ddid)
-            if not raw_value:
-                raw_value = ''
-            # Nog afhankelijk maken van type
+            dis_id = '_' + str(definition['DDID'])
+            raw_value = getattr(self, dis_id, '')
             result = result + raw_value.rjust(int(definition['Lengte']), ' ')
         return(result)
 
-    def add_child(self, to, obj):
-        old_links = getattr(self, to)
-        new_links =  old_links + [obj]
-        setattr(self, to, new_links)
+
+    def add_member(self, to, obj):
+        self.children.get(to, set()).add(obj)
+
+    def delete_member(self, to, obj):
+        self.children.get(to, set()).discard(obj)
+
 
     def help(self):
         atts_of_interest = ['DDID', 'Naam', 'Lengte', 'Patroon']
@@ -74,53 +53,73 @@ class DISdataObject(object):
 class Patient(DISdataObject):
 
     format_definitions = format_patient
-    # attributen voor links met andere objecten
-    children = ['Zorgtraject']
-    parents = []
+    child_types = ['Zorgtraject']
+    parent_types = []
 
     def __init__(self, **kwargs):
         super(Patient, self).__init__()
+
+    # Methode om object te valideren
+    def validate(self):
+        # start assuming object is valid
+        valid = True
+
+        # check if object has children if defined in class
+        for child in self.children:
+            if len(child) == 0:
+                valid = False
+            else:
+                for child_instance in child:
+                    pass
+
+        # Also check for parents
+        for parent in self.parents:
+            if len(parent) == 0:
+                valid = False
+
+
 
 
 class Zorgtraject(DISdataObject):
 
     format_definitions = format_zorgtraject
-    # attributen voor links met andere objecten
-    children = ['DBCTraject']
-    parents = ['Patient']
+    child_types = ['DBCTraject']
+    parent_types = ['Patient']
 
     def __init__(self, **kwargs):
         super(Zorgtraject, self).__init__()
 
 
 class DBCTraject(DISdataObject):
-    format_definitions = format_dbctraject
 
-    children = ['GeleverdZorgprofielTijdschrijven', 'Diagnose']
-    parents = ['Zorgtraject']
+    format_definitions = format_dbctraject
+    child_types = ['Tijdschrijven', 'Diagnose']
+    parent_types = ['Zorgtraject']
 
     def __init__(self, **kwargs):
         super(DBCTraject, self).__init__()
 
 
-class GeleverdZorgprofielTijdschrijven(DISdataObject):
-    format_definitions = format_geleverd_zorgprofiel_tijdschrijven
+class Tijdschrijven(DISdataObject):
 
-    children = []
-    parents = ['DBCTraject']
+    format_definitions = format_geleverd_zorgprofiel_tijdschrijven
+    child_types = []
+    parent_types = ['DBCTraject']
 
     def __init__(self, **kwargs):
-        super(GeleverdZorgprofielTijdschrijven, self).__init__()
+        super(Tijdschrijven, self).__init__()
 
 
 class Diagnose(DISdataObject):
-    format_definitions = format_diagnose
 
-    children = []
-    parents = ['DBCTraject']
+    format_definitions = format_diagnose
+    child_types = []
+    parent_types = ['DBCTraject']
 
     def __init__(self, **kwargs):
         super(Diagnose, self).__init__()
+
+
 
 
 
@@ -129,18 +128,18 @@ class Diagnose(DISdataObject):
 p1 = Patient()
 # print(p1.help())
 #
-
-print(p1.format_definitions)
-
-print(sorted(p1.format_definitions, key = lambda x:int(x['Begin']), reverse = True))
-
-
+p1.validate()
 
 zt = Zorgtraject()
 # print(zt.help())
 dbc = DBCTraject()
+
+
 # print(dbc.help())
-tijd = GeleverdZorgprofielTijdschrijven()
+tijd = Tijdschrijven()
 # print(tijd.help())
 diagnose = Diagnose()
-# print(diagnose.help())
+dbc.add_member('Diagnose', diagnose)
+print(dbc.children)
+dbc.delete_member('Diagnose', diagnose)
+print(dbc.children)
