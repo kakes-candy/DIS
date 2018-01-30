@@ -1,7 +1,7 @@
 
 
 
-from DIS_SGGZ_80.format_definitions import *
+from format_definitions import *
 
 """
 Klassen voor het opslaan en verwerken van DIS data
@@ -23,12 +23,13 @@ class DISdataObject(object):
         self.parents = {parent_type : set() for parent_type in self.parent_types}
 
 
-
     def write_to_string(self):
         result = ''
         for definition in self.format_definitions:
             dis_id = '_' + str(definition['DDID'])
-            raw_value = getattr(self, dis_id, '')
+            raw_value = getattr(self, dis_id)
+            if not raw_value:
+                raw_value = ''
             result = result + raw_value.rjust(int(definition['Lengte']), ' ')
         return(result)
 
@@ -57,7 +58,9 @@ class Patient(DISdataObject):
     parent_types = []
 
     def __init__(self, **kwargs):
-        super(Patient, self).__init__()
+        super().__init__()
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
     # Methode om object te valideren
     def validate(self):
@@ -118,28 +121,3 @@ class Diagnose(DISdataObject):
 
     def __init__(self, **kwargs):
         super(Diagnose, self).__init__()
-
-
-
-
-
-# Eerste tests
-
-p1 = Patient()
-# print(p1.help())
-#
-p1.validate()
-
-zt = Zorgtraject()
-# print(zt.help())
-dbc = DBCTraject()
-
-
-# print(dbc.help())
-tijd = Tijdschrijven()
-# print(tijd.help())
-diagnose = Diagnose()
-dbc.add_member('Diagnose', diagnose)
-print(dbc.children)
-dbc.delete_member('Diagnose', diagnose)
-print(dbc.children)
