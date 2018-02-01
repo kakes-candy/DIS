@@ -33,6 +33,15 @@ class DISdataObject(object):
             result = result + raw_value.rjust(int(definition['Lengte']), ' ')
         return(result)
 
+    @classmethod
+    def from_string(cls, string):
+        dictionary = {}
+        for item in cls.format_definitions:
+            key = '_{}'.format(item.get('DDID'))
+            begin, eind = int(item.get('Begin')), int(item.get('Eind'))
+            dictionary[key] = string[begin-1:eind]
+        return(cls(**dictionary))
+
 
     def add_member(self, to, obj):
         self.children.get(to, set()).add(obj)
@@ -58,7 +67,7 @@ class Patient(DISdataObject):
     parent_types = []
 
     def __init__(self, **kwargs):
-        super().__init__()
+        super(Patient, self).__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -101,6 +110,8 @@ class DBCTraject(DISdataObject):
 
     def __init__(self, **kwargs):
         super(DBCTraject, self).__init__()
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
 
 class Tijdschrijven(DISdataObject):
@@ -111,7 +122,8 @@ class Tijdschrijven(DISdataObject):
 
     def __init__(self, **kwargs):
         super(Tijdschrijven, self).__init__()
-
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
 class Diagnose(DISdataObject):
 
@@ -121,3 +133,5 @@ class Diagnose(DISdataObject):
 
     def __init__(self, **kwargs):
         super(Diagnose, self).__init__()
+        for key, value in kwargs.items():
+            setattr(self, key, value)
