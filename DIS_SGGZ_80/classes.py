@@ -42,6 +42,16 @@ class DISdataObject(object):
             dictionary[key] = string[begin-1:eind]
         return(cls(**dictionary))
 
+    @classmethod
+    def from_list(cls, lijst):
+        dictionary = {}
+        for i, item in enumerate(lijst):
+            dis_id = '_{}'.format(cls.format_definitions[i].get('DDID'))
+            dictionary[dis_id] = item
+        return(cls(**dictionary))
+
+
+
 
     def add_member(self, to, obj):
         self.children.get(to, set()).add(obj)

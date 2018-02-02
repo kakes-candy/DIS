@@ -29,6 +29,11 @@ class testPatient(unittest.TestCase):
         self.patient = Patient().from_string(string)
         self.assertEqual(self.patient._1430, '73730802')
 
+    def test_from_list(self):
+        lijst = ['73730802', '1']
+        self.patient = Patient().from_list(lijst = lijst)
+        self.assertEqual(self.patient._1430, '73730802')
+
 
 
 
