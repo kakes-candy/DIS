@@ -51,8 +51,6 @@ class DISdataObject(object):
         return(cls(**dictionary))
 
 
-
-
     def add_member(self, to, obj):
         self.children.get(to, set()).add(obj)
 
@@ -77,9 +75,10 @@ class Patient(DISdataObject):
     parent_types = []
 
     def __init__(self, **kwargs):
-        super(Patient, self).__init__()
+        super().__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
+
 
     # Methode om object te valideren
     def validate(self):
@@ -98,7 +97,6 @@ class Patient(DISdataObject):
         for parent in self.parents:
             if len(parent) == 0:
                 valid = False
-
 
 
 

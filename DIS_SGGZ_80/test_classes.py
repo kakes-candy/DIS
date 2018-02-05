@@ -34,6 +34,9 @@ class testPatient(unittest.TestCase):
         self.patient = Patient().from_list(lijst = lijst)
         self.assertEqual(self.patient._1430, '73730802')
 
+    # def test_add_self(self):
+    #     self.assertIn(self.patient1, self.patient1.patienten)
+
 
 
 
