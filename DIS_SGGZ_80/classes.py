@@ -68,6 +68,7 @@ class DISdataObject(object):
 
 
 
+
 class Patient(DISdataObject):
 
     format_definitions = format_patient
@@ -78,6 +79,11 @@ class Patient(DISdataObject):
         super().__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
+
+
+    def __str__(self):
+        return('_'.join([self._1430, self._1431, self._1432]))
+
 
 
     # Methode om object te valideren
