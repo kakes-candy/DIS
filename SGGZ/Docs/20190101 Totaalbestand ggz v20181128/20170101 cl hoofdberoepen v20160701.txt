@@ -1,0 +1,13 @@
+cl_hoofdberoepen_begindatum|cl_hoofdberoepen_einddatum|cl_hoofdberoepen_code|cl_hoofdberoepen_beschrijving|cl_hoofdberoepen_branche_indicatie
+20150101|99991231|MB.SF.vslarts|Arts verslavingszorg|1
+20170101|99991231|MB.SP.kger|Klinisch geriater|1
+20150101|99991231|MB.SP.oud|Specialist ouderengeneeskunde|1
+20150101|99991231|MB.SP.psych|Psychiater|1
+20150101|99991231|OV.KJ.psych|Kinder- en jeugdpsycholoog|1
+20150101|99991231|OV.OR.gen|Orthopedagoog-generalist|1
+20150101|20161231|OV.SP.kger|Klinisch geriater|1
+20150101|99991231|PB.BG.gzpsy|GZ-psycholoog|1
+20150101|99991231|PB.SP.klinneurops|Klinisch neuropsycholoog|1
+20150101|99991231|PB.SP.klinps|Klinisch psycholoog|1
+20150101|99991231|PT.BG.psth|Psychotherapeut|1
+20150101|99991231|VB.SP.vrplsp|Verpleegkundig specialist ggz|1

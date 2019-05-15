@@ -1,0 +1,14 @@
+cl_redensluiten_begindatum|cl_redensluiten_einddatum|cl_redensluiten_code|cl_redensluiten_beschrijving|cl_redensluiten_sorteervolgorde|cl_redensluiten_mutatie|cl_redensluiten_branche_indicatie
+20000101|99991231|1|Reden voor afsluiting bij patiënt/ niet bij behandelaar |10||0
+20140101|99991231|10|Afsluiten vanwege overgang naar andere bekostiging|100||1
+20140101|99991231|19|Afsluiten vanwege overgang naar ZZP-systematiek|190||1
+20000101|99991231|2|Reden voor afsluiting bij behandelaar/ om inhoudelijke redenen|20||0
+20140101|20141231|20|Afsluiten vanwege overgang naar jeugd-ggz|200||1
+20000101|99991231|3|In onderling overleg beëindigd zorgtraject/ patiënt uitbehandeld|30||0
+20000101|20131231|4|Afsluiten DBC/DBBC administratief of vanwege openen vervolg-DBC/DBBC|40||0
+20140101|99991231|4|Afsluiten DBBC administratief of vanwege openen vervolg-DBBC|40||2
+20000101|99991231|5|Afsluiting na alleen pré-intake/intake/diagnostiek/crisisopvang|50||0
+20070101|99991231|6|Reden voor afsluiten door beëindigen strafrechtelijke titel|25||2
+20110101|99991231|7|Reden voor afsluiting door onvoorziene beëindiging strafrechtelijke titel|60||2
+20130101|99991231|8|Time out|80||2
+20140101|99991231|9|Afsluiten vanwege openen vervolg-DBC|90||1

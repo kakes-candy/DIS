@@ -1,0 +1,689 @@
+cl_activiteit_begindatum|cl_activiteit_einddatum|cl_activiteit_code|cl_activiteit_groepcode|cl_activiteit_element|cl_activiteit_beschrijving|cl_activiteit_aanspraak_type|cl_activiteit_hierarchieniveau|cl_activiteit_selecteerbaar|cl_activiteit_sorteervolgorde|cl_activiteit_soort|cl_activiteit_mag_direct|cl_activiteit_mag_indirect|cl_activiteit_mag_reistijd|cl_activiteit_mag_groep|cl_activiteit_mutatie|cl_activiteit_branche_indicatie
+20000101|20121231|act_1||Pré intake|Pré intake||1|1|20|Tijdschrijven|N|J|N|J||0
+20130101|99991231|act_1||Pré intake|Pré intake|D|1|1|20|Tijdschrijven|N|J|N|J||0
+20070101|99991231|act_10||Verrichting|Verrichting||1|0|2040|Verrichting|N|N|N|N||0
+20070101|20121231|act_10.1|act_10|Electroconvulsietherapie|Verrichting - Electroconvulsietherapie||2|1|2041|Verrichting|N|N|N|N||0
+20130101|99991231|act_10.1|act_10|Electroconvulsietherapie|Verrichting - Electroconvulsietherapie|C|2|1|2041|Verrichting|N|N|N|N||0
+20070101|20121231|act_10.2|act_10|Ambulante methadon (medicijn, registratie per maand)|Verrichting - Ambulante methadon (medicijn, registratie per maand)||2|1|2042|Verrichting|N|N|N|N||0
+20130101|99991231|act_10.2|act_10|Ambulante methadon (medicijn, registratie per maand)|Verrichting - Ambulante methadon (medicijn, registratie per maand)|C|2|1|2042|Verrichting|N|N|N|N||0
+20130101|99991231|act_10.3|act_10|Beschikbaarheidscomponent voor 24-uurs crisiszorg|Beschikbaarheidscomponent voor 24-uurs crisiszorg|D|2|1|2043|Verrichting|N|N|N|N|2|1
+20130101|99991231|act_10.4|act_10|fpt-forensisch psychiatrisch toezicht|fpt-forensisch psychiatrisch toezicht||2|1|2046|Verrichting|N|N|N|N||2
+20130101|99991231|act_10.5|act_10|SGLVG+|SGLVG+||2|1|2047|Verrichting|N|N|N|N||2
+20170101|20181231|act_10.6|act_10|Toeslag tolk gebarentaal/communicatiespecialist|Toeslag tolk gebarentaal/communicatiespecialist||2|1|2060|Verrichting|N|N|N|N||1
+20190101|99991231|act_10.6|act_10|Toeslag tolk gebarentaal/communicatiespecialist|Toeslag tolk gebarentaal/communicatiespecialist||2|1|2060|Verrichting|N|N|N|N||0
+20190101|99991231|act_10.7|act_10|Toeslag - Oorlog gerelateerd psychotrauma|Toeslag - Oorlogsgerelateerd psychotrauma||2|1|2060|Verrichting|N|N|N|N||1
+20000101|99991231|act_2||Diagnostiek|Diagnostiek||1|0|30|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_2.1|act_2|Intake & screening|Intake & screening||2|1|40|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.1|act_2|Intake & screening|Intake & screening|B|2|1|40|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.10|act_2|Lichamelijk onderzoek|Lichamelijk onderzoek||2|1|160|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.10|act_2|Lichamelijk onderzoek|Lichamelijk onderzoek|B|2|1|160|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.11|act_2|Aanvullend onderzoek: lab, rad, klin.neur.fys., nucleair|Aanvullend onderzoek: lab, rad, klin.neur.fys., nucleair||2|1|170|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.11|act_2|Aanvullend onderzoek: lab, rad, klin.neur.fys., nucleair|Aanvullend onderzoek: lab, rad, klin.neur.fys., nucleair|B|2|1|170|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.12|act_2|Advisering|Advisering||2|1|180|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.12|act_2|Advisering|Advisering|B|2|1|180|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.13|act_2|Overige diagnostische activiteiten|Overige diagnostische activiteiten||2|1|190|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.13|act_2|Overige diagnostische activiteiten|Overige diagnostische activiteiten|B|2|1|190|Tijdschrijven|J|J|J|J||0
+20070101|99991231|act_2.14|act_2|Risicotaxatie|Risicotaxatie||2|1|195|Tijdschrijven|J|J|J|J||2
+20000101|20121231|act_2.2|act_2|Verwerven informatie van eerdere behandelaars|Verwerven informatie van eerdere behandelaars||2|1|50|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.2|act_2|Verwerven informatie van eerdere behandelaars|Verwerven informatie van eerdere behandelaars|B|2|1|50|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.3|act_2|Anamnese / vragenlijsten|Anamnese / vragenlijsten||2|1|60|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.3|act_2|Anamnese / vragenlijsten|Anamnese / vragenlijsten|B|2|1|60|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.4|act_2|Hetero anamnese|Hetero anamnese||2|1|70|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.4|act_2|Hetero anamnese|Hetero anamnese|B|2|1|70|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.5|act_2|Psychiatrisch onderzoek|Psychiatrisch onderzoek||2|1|80|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.5|act_2|Psychiatrisch onderzoek|Psychiatrisch onderzoek|B|2|1|80|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_2.6|act_2|Psychodiagnostisch onderzoek|Psychodiagnostisch onderzoek||2|0|90|Tijdschrijven|J|J|J|N||1
+20070101|99991231|act_2.6|act_2|Psychodiagnostisch onderzoek|Psychodiagnostisch onderzoek||2|0|90|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_2.6.1|act_2.6|Intelligentie|Psychodiagnostisch onderzoek: Intelligentie||3|1|100|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.6.1|act_2.6|Intelligentie|Psychodiagnostisch onderzoek: Intelligentie|B|3|1|100|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.6.2|act_2.6|Neuropsychologisch|Psychodiagnostisch onderzoek: Neuropsychologisch||3|1|110|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.6.2|act_2.6|Neuropsychologisch|Psychodiagnostisch onderzoek: Neuropsychologisch|B|3|1|110|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.6.3|act_2.6|Persoonlijkheid|Psychodiagnostisch onderzoek: Persoonlijkheid||3|1|120|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.6.3|act_2.6|Persoonlijkheid|Psychodiagnostisch onderzoek: Persoonlijkheid|B|3|1|120|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.7|act_2|Orthodidactisch onderzoek|Orthodidactisch onderzoek||2|1|130|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.7|act_2|Orthodidactisch onderzoek|Orthodidactisch onderzoek|B|2|1|130|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.8|act_2|Vaktherapeutisch onderzoek|Vaktherapeutisch onderzoek||2|1|140|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.8|act_2|Vaktherapeutisch onderzoek|Vaktherapeutisch onderzoek|B|2|1|140|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_2.9|act_2|Contextueel onderzoek (gezin, school, etc)|Contextueel onderzoek (gezin, school, etc)||2|1|150|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_2.9|act_2|Contextueel onderzoek (gezin, school, etc)|Contextueel onderzoek (gezin, school, etc)|B|2|1|150|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3||Behandeling|Behandeling||1|0|200|Tijdschrijven|N|N|N|N||0
+20000101|99991231|act_3.1|act_3|Communicatieve behandeling|Communicatieve behandeling||2|0|210|Tijdschrijven|N|N|N|N||0
+20000101|99991231|act_3.1.1|act_3.1|Follow up behandelcontact|Follow up behandelcontact||3|0|220|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.1.1|act_3.1.1|Patiënt individueel|Follow up behandelcontact: Patiënt individueel||4|1|230|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.1.1|act_3.1.1|Patiënt individueel|Follow up behandelcontact: Patiënt individueel|C|4|1|230|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.1.2|act_3.1.1|Patiënt in groep|Follow up behandelcontact: Patiënt in groep||4|1|240|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.1.2|act_3.1.1|Patiënt in groep|Follow up behandelcontact: Patiënt in groep|C|4|1|240|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.1.3|act_3.1.1|Systeem (gezin/paar/ouders) met patient|Follow up behandelcontact: Systeem (gezin/paar/ouders) met patient||4|1|250|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.1.4|act_3.1.1|Systeem (gezin/paar/ouders) zonder patient individueel|Follow up behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|260|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.1.4|act_3.1.1|Systeem (gezin/paar/ouders) zonder patient individueel|Follow up behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|260|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.1.4|act_3.1.1|Systeem (gezin/paar/ouders) zonder patient individueel|Follow up behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|260|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.1.5|act_3.1.1|Systeem (gezin/paar/ouders) zonder patient in groep|Follow up behandelcontact: Systeem (gezin/paar/ouders) zonder patient in groep||4|1|270|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.1.5|act_3.1.1|Systeem (gezin/paar/ouders) zonder patient in groep|Follow up behandelcontact: Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|270|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.1.6|act_3.1.1|Systeem (gezin/paar/ouders) met patient individueel|Follow up behandelcontact: Systeem (gezin/paar/ouders) met patient individueel||4|1|250|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.1.6|act_3.1.1|Systeem (gezin/paar/ouders) met patient individueel|Follow up behandelcontact: Systeem (gezin/paar/ouders) met patient individueel|C|4|1|250|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.1.7|act_3.1.1|Systeem (gezin/paar/ouders) met patient in groep|Follow up behandelcontact: Systeem (gezin/paar/ouders) met patient in groep||4|1|251|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.1.7|act_3.1.1|Systeem (gezin/paar/ouders) met patient in groep|Follow up behandelcontact: Systeem (gezin/paar/ouders) met patient in groep|C|4|1|251|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.2|act_3.1|Steunend en structurerend behandelcontact|Steunend en structurerend behandelcontact||3|0|280|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.2.1|act_3.1.2|Patiënt individueel|Steunend en structurerend behandelcontact: Patiënt individueel||4|1|290|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.2.1|act_3.1.2|Patiënt individueel|Steunend en structurerend behandelcontact: Patiënt individueel|C|4|1|290|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.2.2|act_3.1.2|Patiënt in groep|Steunend en structurerend behandelcontact: Patiënt in groep||4|1|300|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.2.2|act_3.1.2|Patiënt in groep|Steunend en structurerend behandelcontact: Patiënt in groep|C|4|1|300|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.2.3|act_3.1.2|Systeem (gezin/paar/ouders) met patient|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) met patient||4|1|310|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.2.4|act_3.1.2|Systeem (gezin/paar/ouders) zonder patient individueel|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|320|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.2.4|act_3.1.2|Systeem (gezin/paar/ouders) zonder patient individueel|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|320|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.2.4|act_3.1.2|Systeem (gezin/paar/ouders) zonder patient individueel|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|320|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.2.5|act_3.1.2|Systeem (gezin/paar/ouders) zonder patient in groep|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) zonder patient in groep||4|1|330|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.2.5|act_3.1.2|Systeem (gezin/paar/ouders) zonder patient in groep|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|330|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.2.6|act_3.1.2|Systeem (gezin/paar/ouders) met patient individueel|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) met patient individueel||4|1|310|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.2.6|act_3.1.2|Systeem (gezin/paar/ouders) met patient individueel|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) met patient individueel|C|4|1|310|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.2.7|act_3.1.2|Systeem (gezin/paar/ouders) met patient in groep|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) met patient in groep||4|1|311|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.2.7|act_3.1.2|Systeem (gezin/paar/ouders) met patient in groep|Steunend en structurerend behandelcontact: Systeem (gezin/paar/ouders) met patient in groep|C|4|1|311|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3|act_3.1|Psychotherapie|Psychotherapie||3|0|340|Tijdschrijven|N|N|N|N||0
+20000101|99991231|act_3.1.3.1|act_3.1.3|Psychoanalyse|Psychoanalyse||4|0|350|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.1.1|act_3.1.3.1|Patiënt individueel|Psychoanalyse: Patiënt individueel||5|1|360|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.1.1|act_3.1.3.1|Patiënt individueel|Psychoanalyse: Patiënt individueel|E|5|1|360|Tijdschrijven|J|J|J|N||0
+20000101|20071231|act_3.1.3.1.2|act_3.1.3.1|Patiënt in groep|Psychoanalyse: Patiënt in groep||5|1|370|Tijdschrijven|J|J|J|J||1
+20000101|20071231|act_3.1.3.1.3|act_3.1.3.1|Systeem (gezin/paar/ouders) met patient|Psychoanalyse: Systeem (gezin/paar/ouders) met patient||5|1|380|Tijdschrijven|J|J|J|J||1
+20080101|20091231|act_3.1.3.1.3|act_3.1.3.1|Systeem (gezin/paar/ouders) met patient|Psychoanalyse: Systeem (gezin/paar/ouders) met patient||5|1|380|Tijdschrijven|J|J|J|N||0
+20000101|20061231|act_3.1.3.1.4|act_3.1.3.1|Systeem (gezin/paar/ouders) zonder patient individueel|Psychoanalyse: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|390|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.1.4|act_3.1.3.1|Systeem (gezin/paar/ouders) zonder patient individueel|Psychoanalyse: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|390|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.1.4|act_3.1.3.1|Systeem (gezin/paar/ouders) zonder patient individueel|Psychoanalyse: Systeem (gezin/paar/ouders) zonder patient individueel|E|5|1|390|Tijdschrijven|J|J|J|N||0
+20000101|20071231|act_3.1.3.1.5|act_3.1.3.1|Systeem (gezin/paar/ouders) zonder patient in groep|Psychoanalyse: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|400|Tijdschrijven|J|J|J|J||1
+20100101|20121231|act_3.1.3.1.6|act_3.1.3.1|Systeem (gezin/paar/ouders) met patient individueel|Psychoanalyse: Systeem (gezin/paar/ouders) met patient individueel||5|1|380|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.1.6|act_3.1.3.1|Systeem (gezin/paar/ouders) met patient individueel|Psychoanalyse: Systeem (gezin/paar/ouders) met patient individueel|E|5|1|380|Tijdschrijven|J|J|J|N||0
+20000101|99991231|act_3.1.3.2|act_3.1.3|Psychodynamische psychotherapie|Psychodynamische psychotherapie||4|0|410|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.2.1|act_3.1.3.2|Patiënt individueel|Psychodynamische psychotherapie: Patiënt individueel||5|1|420|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.2.1|act_3.1.3.2|Patiënt individueel|Psychodynamische psychotherapie: Patiënt individueel|C|5|1|420|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.2.2|act_3.1.3.2|Patiënt in groep|Psychodynamische psychotherapie: Patiënt in groep||5|1|430|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.2.2|act_3.1.3.2|Patiënt in groep|Psychodynamische psychotherapie: Patiënt in groep|C|5|1|430|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.2.3|act_3.1.3.2|Systeem (gezin/paar/ouders) met patient|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) met patient||5|1|440|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.2.4|act_3.1.3.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|450|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.2.4|act_3.1.3.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|450|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.2.4|act_3.1.3.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|450|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.2.5|act_3.1.3.2|Systeem (gezin/paar/ouders) zonder patient in groep|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|460|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.2.5|act_3.1.3.2|Systeem (gezin/paar/ouders) zonder patient in groep|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|460|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.2.6|act_3.1.3.2|Systeem (gezin/paar/ouders) met patient individueel|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|440|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.2.6|act_3.1.3.2|Systeem (gezin/paar/ouders) met patient individueel|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|440|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.2.7|act_3.1.3.2|Systeem (gezin/paar/ouders) met patient in groep|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|441|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.2.7|act_3.1.3.2|Systeem (gezin/paar/ouders) met patient in groep|Psychodynamische psychotherapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|441|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.3|act_3.1.3|Gedragstherapie|Gedragstherapie||4|0|470|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.3.1|act_3.1.3.3|Patiënt individueel|Gedragstherapie: Patiënt individueel||5|1|480|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.3.1|act_3.1.3.3|Patiënt individueel|Gedragstherapie: Patiënt individueel|C|5|1|480|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.3.2|act_3.1.3.3|Patiënt in groep|Gedragstherapie: Patiënt in groep||5|1|490|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.3.2|act_3.1.3.3|Patiënt in groep|Gedragstherapie: Patiënt in groep|C|5|1|490|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.3.3|act_3.1.3.3|Systeem (gezin/paar/ouders) met patient|Gedragstherapie: Systeem (gezin/paar/ouders) met patient||5|1|500|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.3.4|act_3.1.3.3|Systeem (gezin/paar/ouders) zonder patient individueel|Gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|510|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.3.4|act_3.1.3.3|Systeem (gezin/paar/ouders) zonder patient individueel|Gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|510|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.3.4|act_3.1.3.3|Systeem (gezin/paar/ouders) zonder patient individueel|Gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|510|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.3.5|act_3.1.3.3|Systeem (gezin/paar/ouders) zonder patient in groep|Gedragstherapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|520|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.3.5|act_3.1.3.3|Systeem (gezin/paar/ouders) zonder patient in groep|Gedragstherapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|520|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.3.6|act_3.1.3.3|Systeem (gezin/paar/ouders) met patient individueel|Gedragstherapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|500|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.3.6|act_3.1.3.3|Systeem (gezin/paar/ouders) met patient individueel|Gedragstherapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|500|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.3.7|act_3.1.3.3|Systeem (gezin/paar/ouders) met patient in groep|Gedragstherapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|501|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.3.7|act_3.1.3.3|Systeem (gezin/paar/ouders) met patient in groep|Gedragstherapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|501|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.4|act_3.1.3|Cognitieve gedragstherapie|Cognitieve gedragstherapie||4|0|530|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.4.1|act_3.1.3.4|Patiënt individueel|Cognitieve gedragstherapie: Patiënt individueel||5|1|540|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.4.1|act_3.1.3.4|Patiënt individueel|Cognitieve gedragstherapie: Patiënt individueel|C|5|1|540|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.4.2|act_3.1.3.4|Patiënt in groep|Cognitieve gedragstherapie: Patiënt in groep||5|1|550|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.4.2|act_3.1.3.4|Patiënt in groep|Cognitieve gedragstherapie: Patiënt in groep|C|5|1|550|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.4.3|act_3.1.3.4|Systeem (gezin/paar/ouders) met patient|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) met patient||5|1|560|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.4.4|act_3.1.3.4|Systeem (gezin/paar/ouders) zonder patient individueel|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|570|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.4.4|act_3.1.3.4|Systeem (gezin/paar/ouders) zonder patient individueel|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|570|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.4.4|act_3.1.3.4|Systeem (gezin/paar/ouders) zonder patient individueel|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|570|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.4.5|act_3.1.3.4|Systeem (gezin/paar/ouders) zonder patient in groep|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|580|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.4.5|act_3.1.3.4|Systeem (gezin/paar/ouders) zonder patient in groep|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|580|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.4.6|act_3.1.3.4|Systeem (gezin/paar/ouders) met patient individueel|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|560|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.4.6|act_3.1.3.4|Systeem (gezin/paar/ouders) met patient individueel|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|560|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.4.7|act_3.1.3.4|Systeem (gezin/paar/ouders) met patient in groep|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|561|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.4.7|act_3.1.3.4|Systeem (gezin/paar/ouders) met patient in groep|Cognitieve gedragstherapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|561|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.5|act_3.1.3|Interpersoonlijke therapie|Interpersoonlijke therapie||4|0|590|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.5.1|act_3.1.3.5|Patiënt individueel|Interpersoonlijke therapie: Patiënt individueel||5|1|600|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.5.1|act_3.1.3.5|Patiënt individueel|Interpersoonlijke therapie: Patiënt individueel|C|5|1|600|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.5.2|act_3.1.3.5|Patiënt in groep|Interpersoonlijke therapie: Patiënt in groep||5|1|610|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.5.2|act_3.1.3.5|Patiënt in groep|Interpersoonlijke therapie: Patiënt in groep|C|5|1|610|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.5.3|act_3.1.3.5|Systeem (gezin/paar/ouders) met patient|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) met patient||5|1|620|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.5.4|act_3.1.3.5|Systeem (gezin/paar/ouders) zonder patient individueel|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|630|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.5.4|act_3.1.3.5|Systeem (gezin/paar/ouders) zonder patient individueel|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|630|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.5.4|act_3.1.3.5|Systeem (gezin/paar/ouders) zonder patient individueel|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|630|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.5.5|act_3.1.3.5|Systeem (gezin/paar/ouders) zonder patient in groep|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|640|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.5.5|act_3.1.3.5|Systeem (gezin/paar/ouders) zonder patient in groep|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|640|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.5.6|act_3.1.3.5|Systeem (gezin/paar/ouders) met patient individueel|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|620|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.5.6|act_3.1.3.5|Systeem (gezin/paar/ouders) met patient individueel|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|620|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.5.7|act_3.1.3.5|Systeem (gezin/paar/ouders) met patient in groep|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|621|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.5.7|act_3.1.3.5|Systeem (gezin/paar/ouders) met patient in groep|Interpersoonlijke therapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|621|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.6|act_3.1.3|Cliëntgerichte therapie|Cliëntgerichte therapie||4|0|650|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.6.1|act_3.1.3.6|Patiënt individueel|Cliëntgerichte therapie: Patiënt individueel||5|1|660|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.6.1|act_3.1.3.6|Patiënt individueel|Cliëntgerichte therapie: Patiënt individueel|C|5|1|660|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.6.2|act_3.1.3.6|Patiënt in groep|Cliëntgerichte therapie: Patiënt in groep||5|1|670|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.6.2|act_3.1.3.6|Patiënt in groep|Cliëntgerichte therapie: Patiënt in groep|C|5|1|670|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.6.3|act_3.1.3.6|Systeem (gezin/paar/ouders) met patient|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) met patient||5|1|680|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.6.4|act_3.1.3.6|Systeem (gezin/paar/ouders) zonder patient individueel|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|690|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.6.4|act_3.1.3.6|Systeem (gezin/paar/ouders) zonder patient individueel|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|690|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.6.4|act_3.1.3.6|Systeem (gezin/paar/ouders) zonder patient individueel|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|690|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.6.5|act_3.1.3.6|Systeem (gezin/paar/ouders) zonder patient in groep|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|700|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.6.5|act_3.1.3.6|Systeem (gezin/paar/ouders) zonder patient in groep|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|700|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.6.6|act_3.1.3.6|Systeem (gezin/paar/ouders) met patient individueel|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|680|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.6.6|act_3.1.3.6|Systeem (gezin/paar/ouders) met patient individueel|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|680|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.6.7|act_3.1.3.6|Systeem (gezin/paar/ouders) met patient in groep|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|681|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.6.7|act_3.1.3.6|Systeem (gezin/paar/ouders) met patient in groep|Cliëntgerichte therapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|681|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.7|act_3.1.3|Systeemtherapie|Systeemtherapie||4|0|710|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.7.1|act_3.1.3.7|Patiënt individueel|Systeemtherapie: Patiënt individueel||5|1|720|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.7.1|act_3.1.3.7|Patiënt individueel|Systeemtherapie: Patiënt individueel|C|5|1|720|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.7.2|act_3.1.3.7|Patiënt in groep|Systeemtherapie: Patiënt in groep||5|1|730|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.7.2|act_3.1.3.7|Patiënt in groep|Systeemtherapie: Patiënt in groep|C|5|1|730|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.7.3|act_3.1.3.7|Systeem (gezin/paar/ouders) met patient|Systeemtherapie: Systeem (gezin/paar/ouders) met patient||5|1|740|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.7.4|act_3.1.3.7|Systeem (gezin/paar/ouders) zonder patient individueel|Systeemtherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|750|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.7.4|act_3.1.3.7|Systeem (gezin/paar/ouders) zonder patient individueel|Systeemtherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|750|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.7.4|act_3.1.3.7|Systeem (gezin/paar/ouders) zonder patient individueel|Systeemtherapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|750|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.7.5|act_3.1.3.7|Systeem (gezin/paar/ouders) zonder patient in groep|Systeemtherapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|760|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.7.5|act_3.1.3.7|Systeem (gezin/paar/ouders) zonder patient in groep|Systeemtherapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|760|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.7.6|act_3.1.3.7|Systeem (gezin/paar/ouders) met patient individueel|Systeemtherapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|740|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.7.6|act_3.1.3.7|Systeem (gezin/paar/ouders) met patient individueel|Systeemtherapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|740|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.7.7|act_3.1.3.7|Systeem (gezin/paar/ouders) met patient in groep|Systeemtherapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|741|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.7.7|act_3.1.3.7|Systeem (gezin/paar/ouders) met patient in groep|Systeemtherapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|741|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.3.8|act_3.1.3|Overig psychotherapie|Overig psychotherapie||4|0|770|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.3.8.1|act_3.1.3.8|Patiënt individueel|Overig psychotherapie: Patiënt individueel||5|1|780|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.8.1|act_3.1.3.8|Patiënt individueel|Overig psychotherapie: Patiënt individueel|C|5|1|780|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.8.2|act_3.1.3.8|Patiënt in groep|Overig psychotherapie: Patiënt in groep||5|1|790|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.8.2|act_3.1.3.8|Patiënt in groep|Overig psychotherapie: Patiënt in groep|C|5|1|790|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.3.8.3|act_3.1.3.8|Systeem (gezin/paar/ouders) met patient|Overig psychotherapie: Systeem (gezin/paar/ouders) met patient||5|1|800|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.3.8.4|act_3.1.3.8|Systeem (gezin/paar/ouders) zonder patient individueel|Overig psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|810|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.3.8.4|act_3.1.3.8|Systeem (gezin/paar/ouders) zonder patient individueel|Overig psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||5|1|810|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.8.4|act_3.1.3.8|Systeem (gezin/paar/ouders) zonder patient individueel|Overig psychotherapie: Systeem (gezin/paar/ouders) zonder patient individueel|C|5|1|810|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.3.8.5|act_3.1.3.8|Systeem (gezin/paar/ouders) zonder patient in groep|Overig psychotherapie: Systeem (gezin/paar/ouders) zonder patient in groep||5|1|820|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.8.5|act_3.1.3.8|Systeem (gezin/paar/ouders) zonder patient in groep|Overig psychotherapie: Systeem (gezin/paar/ouders) zonder patient in groep|C|5|1|820|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.3.8.6|act_3.1.3.8|Systeem (gezin/paar/ouders) met patient individueel|Overig psychotherapie: Systeem (gezin/paar/ouders) met patient individueel||5|1|800|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.3.8.6|act_3.1.3.8|Systeem (gezin/paar/ouders) met patient individueel|Overig psychotherapie: Systeem (gezin/paar/ouders) met patient individueel|C|5|1|800|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.3.8.7|act_3.1.3.8|Systeem (gezin/paar/ouders) met patient in groep|Overig psychotherapie: Systeem (gezin/paar/ouders) met patient in groep||5|1|801|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.3.8.7|act_3.1.3.8|Systeem (gezin/paar/ouders) met patient in groep|Overig psychotherapie: Systeem (gezin/paar/ouders) met patient in groep|C|5|1|801|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.1.4|act_3.1|Overige (communicatieve) behandeling|Overige (communicatieve) behandeling||3|0|830|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.1.4.1|act_3.1.4|Patiënt individueel|Overige (communicatieve) behandeling: Patiënt individueel||4|1|840|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.4.1|act_3.1.4|Patiënt individueel|Overige (communicatieve) behandeling: Patiënt individueel|C|4|1|840|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.4.2|act_3.1.4|Patiënt in groep|Overige (communicatieve) behandeling: Patiënt in groep||4|1|850|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.4.2|act_3.1.4|Patiënt in groep|Overige (communicatieve) behandeling: Patiënt in groep|C|4|1|850|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.1.4.3|act_3.1.4|Systeem (gezin/paar/ouders) met patient|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) met patient||4|1|860|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.1.4.4|act_3.1.4|Systeem (gezin/paar/ouders) zonder patient individueel|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|870|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.1.4.4|act_3.1.4|Systeem (gezin/paar/ouders) zonder patient individueel|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|870|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.4.4|act_3.1.4|Systeem (gezin/paar/ouders) zonder patient individueel|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|870|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.1.4.5|act_3.1.4|Systeem (gezin/paar/ouders) zonder patient in groep|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) zonder patient in groep||4|1|880|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.4.5|act_3.1.4|Systeem (gezin/paar/ouders) zonder patient in groep|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|880|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.1.4.6|act_3.1.4|Systeem (gezin/paar/ouders) met patient individueel|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) met patient individueel||4|1|860|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.1.4.6|act_3.1.4|Systeem (gezin/paar/ouders) met patient individueel|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) met patient individueel|C|4|1|860|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.1.4.7|act_3.1.4|Systeem (gezin/paar/ouders) met patient in groep|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) met patient in groep||4|1|861|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.1.4.7|act_3.1.4|Systeem (gezin/paar/ouders) met patient in groep|Overige (communicatieve) behandeling: Systeem (gezin/paar/ouders) met patient in groep|C|4|1|861|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_3.2|act_3|Farmacotherapie|Farmacotherapie||2|1|890|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.2|act_3|Farmacotherapie|Farmacotherapie|C|2|1|890|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.3|act_3|Fysische therapie|Fysische therapie||2|0|900|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.3.1|act_3.3|Elektroconvulsietherapie|Elektroconvulsietherapie||3|1|910|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.3.1|act_3.3|Elektroconvulsietherapie|Elektroconvulsietherapie|C|3|1|910|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_3.3.2|act_3.3|Lichttherapie|Lichttherapie||3|1|920|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.3.2|act_3.3|Lichttherapie|Lichttherapie|C|3|1|920|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_3.3.3|act_3.3|Transcraniële magnetische stimulatie|Transcraniële magnetische stimulatie||3|1|930|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.3.3|act_3.3|Transcraniële magnetische stimulatie|Transcraniële magnetische stimulatie|E|3|1|930|Tijdschrijven|J|J|J|J||0
+20000101|20121231|act_3.3.4|act_3.3|Overig behandeling fysische technieken|Overig behandeling fysische technieken||3|1|940|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.3.4|act_3.3|Overig behandeling fysische technieken|Overig behandeling fysische technieken|C|3|1|940|Tijdschrijven|J|J|J|J||0
+20130101|20131231|act_3.3.5|act_3.3|Deep brain stimulation|Deep brain stimulation|A|3|1|941|Tijdschrijven|J|J|J|J||0
+20140101|99991231|act_3.3.5|act_3.3|Deep brain stimulation|Deep brain stimulation||3|1|941|Tijdschrijven|J|J|J|J||0
+20130101|20131231|act_3.3.6|act_3.3|Neurofeedback|Neurofeedback|A|3|1|942|Tijdschrijven|J|J|J|J||0
+20150101|99991231|act_3.3.6|act_3.3|Neurofeedback|Neurofeedback||3|1|942|Tijdschrijven|J|J|J|J||2
+20000101|99991231|act_3.4|act_3|Vaktherapie|Vaktherapie||2|0|950|Tijdschrijven|N|N|N|N||0
+20000101|20161231|act_3.4.1|act_3.4|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc)|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc)||3|0|960|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.4.1.1|act_3.4.1|Patiënt individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Patiënt individueel||4|1|970|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.1.1|act_3.4.1|Patiënt individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Patiënt individueel|C|4|1|970|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.1.2|act_3.4.1|Patiënt in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Patiënt in groep||4|1|980|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.1.2|act_3.4.1|Patiënt in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Patiënt in groep|C|4|1|980|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.4.1.3|act_3.4.1|Systeem (gezin/paar/ouders) met patient|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) met patient||4|1|990|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.4.1.4|act_3.4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1000|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.4.1.4|act_3.4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1000|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.1.4|act_3.4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|1000|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.1.5|act_3.4.1|Systeem (gezin/paar/ouders) zonder patient in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) zonder patient in groep||4|1|1010|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.1.5|act_3.4.1|Systeem (gezin/paar/ouders) zonder patient in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|1010|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.4.1.6|act_3.4.1|Systeem (gezin/paar/ouders) met patient individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) met patient individueel||4|1|990|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.1.6|act_3.4.1|Systeem (gezin/paar/ouders) met patient individueel|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) met patient individueel|C|4|1|990|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.4.1.7|act_3.4.1|Systeem (gezin/paar/ouders) met patient in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) met patient in groep||4|1|991|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.1.7|act_3.4.1|Systeem (gezin/paar/ouders) met patient in groep|Creatieve therapie (drama, beeldend, muziek, dans, tuin, etc): Systeem (gezin/paar/ouders) met patient in groep|C|4|1|991|Tijdschrijven|J|J|J|J||0
+20000101|20161231|act_3.4.2|act_3.4|Psychomotorische therapie (beweging, expressie, interactie)|Psychomotorische therapie (beweging, expressie, interactie)||3|0|1020|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.4.2.1|act_3.4.2|Patiënt individueel|Psychomotorische therapie (beweging, expressie, interactie): Patiënt individueel||4|1|1030|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.2.1|act_3.4.2|Patiënt individueel|Psychomotorische therapie (beweging, expressie, interactie): Patiënt individueel|C|4|1|1030|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.2.2|act_3.4.2|Patiënt in groep|Psychomotorische therapie (beweging, expressie, interactie): Patiënt in groep||4|1|1040|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.2.2|act_3.4.2|Patiënt in groep|Psychomotorische therapie (beweging, expressie, interactie): Patiënt in groep|C|4|1|1040|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.4.2.3|act_3.4.2|Systeem (gezin/paar/ouders) met patient|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) met patient||4|1|1050|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.4.2.4|act_3.4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1060|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.4.2.4|act_3.4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1060|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.2.4|act_3.4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|1060|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.2.5|act_3.4.2|Systeem (gezin/paar/ouders) zonder patient in groep|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) zonder patient in groep||4|1|1070|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.2.5|act_3.4.2|Systeem (gezin/paar/ouders) zonder patient in groep|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|1070|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.4.2.6|act_3.4.2|Systeem (gezin/paar/ouders) met patient individueel|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) met patient individueel||4|1|1050|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.2.6|act_3.4.2|Systeem (gezin/paar/ouders) met patient individueel|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) met patient individueel|C|4|1|1050|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.4.2.7|act_3.4.2|Systeem (gezin/paar/ouders) met patient in groep|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) met patient in groep||4|1|1051|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.2.7|act_3.4.2|Systeem (gezin/paar/ouders) met patient in groep|Psychomotorische therapie (beweging, expressie, interactie): Systeem (gezin/paar/ouders) met patient in groep|C|4|1|1051|Tijdschrijven|J|J|J|J||0
+20000101|20161231|act_3.4.3|act_3.4|Vaktherapie overig|Vaktherapie overig||3|0|1080|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.4.3.1|act_3.4.3|Patiënt individueel|Vaktherapie overig: Patiënt individueel||4|1|1090|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.3.1|act_3.4.3|Patiënt individueel|Vaktherapie overig: Patiënt individueel|C|4|1|1090|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.3.2|act_3.4.3|Patiënt in groep|Vaktherapie overig: Patiënt in groep||4|1|1100|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.3.2|act_3.4.3|Patiënt in groep|Vaktherapie overig: Patiënt in groep|C|4|1|1100|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.4.3.3|act_3.4.3|Systeem (gezin/paar/ouders) met patient|Vaktherapie overig: Systeem (gezin/paar/ouders) met patient||4|1|1110|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.4.3.4|act_3.4.3|Systeem (gezin/paar/ouders) zonder patient individueel|Vaktherapie overig: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1120|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_3.4.3.4|act_3.4.3|Systeem (gezin/paar/ouders) zonder patient individueel|Vaktherapie overig: Systeem (gezin/paar/ouders) zonder patient individueel||4|1|1120|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.3.4|act_3.4.3|Systeem (gezin/paar/ouders) zonder patient individueel|Vaktherapie overig: Systeem (gezin/paar/ouders) zonder patient individueel|C|4|1|1120|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.4.3.5|act_3.4.3|Systeem (gezin/paar/ouders) zonder patient in groep|Vaktherapie overig: Systeem (gezin/paar/ouders) zonder patient in groep||4|1|1130|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.3.5|act_3.4.3|Systeem (gezin/paar/ouders) zonder patient in groep|Vaktherapie overig: Systeem (gezin/paar/ouders) zonder patient in groep|C|4|1|1130|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_3.4.3.6|act_3.4.3|Systeem (gezin/paar/ouders) met patient individueel|Vaktherapie overig: Systeem (gezin/paar/ouders) met patient individueel||4|1|1110|Tijdschrijven|J|J|J|N||0
+20130101|20161231|act_3.4.3.6|act_3.4.3|Systeem (gezin/paar/ouders) met patient individueel|Vaktherapie overig: Systeem (gezin/paar/ouders) met patient individueel|C|4|1|1110|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.4.3.7|act_3.4.3|Systeem (gezin/paar/ouders) met patient in groep|Vaktherapie overig: Systeem (gezin/paar/ouders) met patient in groep||4|1|1111|Tijdschrijven|J|J|J|J||0
+20130101|20161231|act_3.4.3.7|act_3.4.3|Systeem (gezin/paar/ouders) met patient in groep|Vaktherapie overig: Systeem (gezin/paar/ouders) met patient in groep|C|4|1|1111|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.4|act_3.4|Beeldende therapie|Beeldende therapie||3|0|961|Tijdschrijven|N|N|N|N||0
+20170101|99991231|act_3.4.4.1|act_3.4.4|Patiënt individueel|Beeldende therapie: Patiënt individueel||4|1|962|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.4.2|act_3.4.4|Patiënt in groep|Beeldende therapie: Patiënt in groep||4|1|963|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.4.4|act_3.4.4|Systeem (gezin/paar/ouders) zonder patiënt individueel|Beeldende therapie: Systeem (gezin/paar/ouders) zonder patiënt individueel||4|1|964|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.4.5|act_3.4.4|Systeem (gezin/paar/ouders) zonder patiënt in groep|Beeldende therapie: Systeem (gezin/paar/ouders) zonder patiënt in groep||4|1|965|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.4.6|act_3.4.4|Systeem (gezin/paar/ouders) met patiënt individueel|Beeldende therapie: Systeem (gezin/paar/ouders) met patiënt individueel||4|1|966|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.4.7|act_3.4.4|Systeem (gezin/paar/ouders) met patiënt in groep|Beeldende therapie: Systeem (gezin/paar/ouders) met patiënt in groep||4|1|967|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.5|act_3.4|Danstherapie|Danstherapie||3|0|971|Tijdschrijven|N|N|N|N||0
+20170101|99991231|act_3.4.5.1|act_3.4.5|Patiënt individueel|Danstherapie: Patiënt individueel||4|1|972|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.5.2|act_3.4.5|Patiënt in groep|Danstherapie: Patiënt in groep||4|1|973|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.5.4|act_3.4.5|Systeem (gezin/paar/ouders) zonder patiënt individueel|Danstherapie: Systeem (gezin/paar/ouders) zonder patiënt individueel||4|1|974|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.5.5|act_3.4.5|Systeem (gezin/paar/ouders) zonder patiënt in groep|Danstherapie: Systeem (gezin/paar/ouders) zonder patiënt in groep||4|1|975|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.5.6|act_3.4.5|Systeem (gezin/paar/ouders) met patiënt individueel|Danstherapie: Systeem (gezin/paar/ouders) met patiënt individueel||4|1|976|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.5.7|act_3.4.5|Systeem (gezin/paar/ouders) met patiënt in groep|Danstherapie: Systeem (gezin/paar/ouders) met patiënt in groep||4|1|977|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.6|act_3.4|Dramatherapie|Dramatherapie||3|0|981|Tijdschrijven|N|N|N|N||0
+20170101|99991231|act_3.4.6.1|act_3.4.6|Patiënt individueel|Dramatherapie: Patiënt individueel||4|1|982|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.6.2|act_3.4.6|Patiënt in groep|Dramatherapie: Patiënt in groep||4|1|983|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.6.4|act_3.4.6|Systeem (gezin/paar/ouders) zonder patiënt individueel|Dramatherapie: Systeem (gezin/paar/ouders) zonder patiënt individueel||4|1|984|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.6.5|act_3.4.6|Systeem (gezin/paar/ouders) zonder patiënt in groep|Dramatherapie: Systeem (gezin/paar/ouders) zonder patiënt in groep||4|1|985|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.6.6|act_3.4.6|Systeem (gezin/paar/ouders) met patiënt individueel|Dramatherapie: Systeem (gezin/paar/ouders) met patiënt individueel||4|1|986|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.6.7|act_3.4.6|Systeem (gezin/paar/ouders) met patiënt in groep|Dramatherapie: Systeem (gezin/paar/ouders) met patiënt in groep||4|1|987|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.7|act_3.4|Muziektherapie|Muziektherapie||3|0|1081|Tijdschrijven|N|N|N|N||0
+20170101|99991231|act_3.4.7.1|act_3.4.7|Patiënt individueel|Muziektherapie: Patiënt individueel||4|1|1082|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.7.2|act_3.4.7|Patiënt in groep|Muziektherapie: Patiënt in groep||4|1|1083|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.7.4|act_3.4.7|Systeem (gezin/paar/ouders) zonder patiënt individueel|Muziektherapie: Systeem (gezin/paar/ouders) zonder patiënt individueel||4|1|1084|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.7.5|act_3.4.7|Systeem (gezin/paar/ouders) zonder patiënt in groep|Muziektherapie: Systeem (gezin/paar/ouders) zonder patiënt in groep||4|1|1085|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.7.6|act_3.4.7|Systeem (gezin/paar/ouders) met patiënt individueel|Muziektherapie: Systeem (gezin/paar/ouders) met patiënt individueel||4|1|1086|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.7.7|act_3.4.7|Systeem (gezin/paar/ouders) met patiënt in groep|Muziektherapie: Systeem (gezin/paar/ouders) met patiënt in groep||4|1|1087|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.8|act_3.4|Psychomotorische therapie|Psychomotorische therapie||3|0|1181|Tijdschrijven|N|N|N|N||0
+20170101|99991231|act_3.4.8.1|act_3.4.8|Patiënt individueel|Psychomotorische therapie: Patiënt individueel||4|1|1182|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.8.2|act_3.4.8|Patiënt in groep|Psychomotorische therapie: Patiënt in groep||4|1|1183|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.8.4|act_3.4.8|Systeem (gezin/paar/ouders) zonder patiënt individueel|Psychomotorische therapie: Systeem (gezin/paar/ouders) zonder patiënt individueel||4|1|1184|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.8.5|act_3.4.8|Systeem (gezin/paar/ouders) zonder patiënt in groep|Psychomotorische therapie: Systeem (gezin/paar/ouders) zonder patiënt in groep||4|1|1185|Tijdschrijven|J|J|J|J||0
+20170101|99991231|act_3.4.8.6|act_3.4.8|Systeem (gezin/paar/ouders) met patiënt individueel|Psychomotorische therapie: Systeem (gezin/paar/ouders) met patiënt individueel||4|1|1186|Tijdschrijven|J|J|J|N||0
+20170101|99991231|act_3.4.8.7|act_3.4.8|Systeem (gezin/paar/ouders) met patiënt in groep|Psychomotorische therapie: Systeem (gezin/paar/ouders) met patiënt in groep||4|1|1187|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.5|act_3|Fysiotherapie|Fysiotherapie||2|0|1140|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.5.1|act_3.5|Patiënt individueel|Fysiotherapie: Patiënt individueel||3|1|1150|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.5.1|act_3.5|Patiënt individueel|Fysiotherapie: Patiënt individueel|C|3|1|1150|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.5.2|act_3.5|Patiënt in groep|Fysiotherapie: Patiënt in groep||3|1|1160|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.5.2|act_3.5|Patiënt in groep|Fysiotherapie: Patiënt in groep|C|3|1|1160|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.5.3|act_3.5|Systeem (gezin/paar/ouders) met patient|Fysiotherapie: Systeem (gezin/paar/ouders) met patient||3|1|1190|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.5.4|act_3.5|Systeem (gezin/paar/ouders) zonder patient individueel|Fysiotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1191|Tijdschrijven|J|J|J|J||1
+20000101|20061231|act_3.5.5|act_3.5|Systeem (gezin/paar/ouders) zonder patient in groep|Fysiotherapie: Systeem (gezin/paar/ouders) zonder patient in groep||3|1|1192|Tijdschrijven|J|J|J|J||1
+20100101|20121231|act_3.5.6|act_3.5|Systeem (gezin/paar/ouders) met patient individueel|Fysiotherapie: Systeem (gezin/paar/ouders) met patient individueel||3|1|1190|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.5.6|act_3.5|Systeem (gezin/paar/ouders) met patient individueel|Fysiotherapie: Systeem (gezin/paar/ouders) met patient individueel|C|3|1|1190|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.5.7|act_3.5|Systeem (gezin/paar/ouders) met patient in groep|Fysiotherapie: Systeem (gezin/paar/ouders) met patient in groep||3|1|1191|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.5.7|act_3.5|Systeem (gezin/paar/ouders) met patient in groep|Fysiotherapie: Systeem (gezin/paar/ouders) met patient in groep|C|3|1|1191|Tijdschrijven|J|J|J|J||0
+20000101|99991231|act_3.6|act_3|Ergotherapie|Ergotherapie||2|0|1200|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_3.6.1|act_3.6|Patiënt individueel|Ergotherapie: Patiënt individueel||3|1|1210|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.6.1|act_3.6|Patiënt individueel|Ergotherapie: Patiënt individueel|C|3|1|1210|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_3.6.2|act_3.6|Patiënt in groep|Ergotherapie: Patiënt in groep||3|1|1220|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.6.2|act_3.6|Patiënt in groep|Ergotherapie: Patiënt in groep|C|3|1|1220|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_3.6.3|act_3.6|Systeem (gezin/paar/ouders) met patient|Ergotherapie: Systeem (gezin/paar/ouders) met patient||3|1|1230|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_3.6.4|act_3.6|Systeem (gezin/paar/ouders) zonder patient individueel|Ergotherapie: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1240|Tijdschrijven|J|J|J|J||1
+20000101|20061231|act_3.6.5|act_3.6|Systeem (gezin/paar/ouders) zonder patient in groep|Ergotherapie: Systeem (gezin/paar/ouders) zonder patient in groep||3|1|1250|Tijdschrijven|J|J|J|J||1
+20100101|20121231|act_3.6.6|act_3.6|Systeem (gezin/paar/ouders) met patient individueel|Ergotherapie: Systeem (gezin/paar/ouders) met patient individueel||3|1|1230|Tijdschrijven|J|J|J|N||0
+20130101|99991231|act_3.6.6|act_3.6|Systeem (gezin/paar/ouders) met patient individueel|Ergotherapie: Systeem (gezin/paar/ouders) met patient individueel|C|3|1|1230|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_3.6.7|act_3.6|Systeem (gezin/paar/ouders) met patient in groep|Ergotherapie: Systeem (gezin/paar/ouders) met patient in groep||3|1|1231|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_3.6.7|act_3.6|Systeem (gezin/paar/ouders) met patient in groep|Ergotherapie: Systeem (gezin/paar/ouders) met patient in groep|C|3|1|1231|Tijdschrijven|J|J|J|J||0
+20150101|20151231|act_3.7|act_3|Systeemcontact behandeling (jeugd ggz)|Systeemcontact behandeling (jeugd ggz)||2|0|1240|Tijdschrijven|N|N|N|N||1
+20150101|20151231|act_3.7.1|act_3.7|Systeemcontact behandeling (jeugd ggz)|Systeemcontact behandeling (jeugd ggz)||3|1|1241|Tijdschrijven|J|J|J|J||1
+20000101|99991231|act_4||Begeleiding|Begeleiding||1|0|1260|Tijdschrijven|N|N|N|N||0
+20000101|20181231|act_4.1|act_4|Activerend begeleidingscontact|Activerend begeleidingscontact||2|0|1270|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_4.1.1|act_4.1|Patiënt individueel|Activerend begeleidingscontact: Patiënt individueel||3|1|1280|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.1.1|act_4.1|Patiënt individueel|Activerend begeleidingscontact: Patiënt individueel|D|3|1|1280|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_4.1.2|act_4.1|Patiënt in groep|Activerend begeleidingscontact: Patiënt in groep||3|1|1290|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.1.2|act_4.1|Patiënt in groep|Activerend begeleidingscontact: Patiënt in groep|D|3|1|1290|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_4.1.3|act_4.1|Systeem (gezin/paar/ouders) met patient|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) met patient||3|1|1300|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_4.1.4|act_4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1310|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_4.1.4|act_4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1310|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.1.4|act_4.1|Systeem (gezin/paar/ouders) zonder patient individueel|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel|D|3|1|1310|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_4.1.5|act_4.1|Systeem (gezin/paar/ouders) zonder patient in groep|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep||3|1|1320|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.1.5|act_4.1|Systeem (gezin/paar/ouders) zonder patient in groep|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep|D|3|1|1320|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_4.1.6|act_4.1|Systeem (gezin/paar/ouders) met patient individueel|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel||3|1|1300|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.1.6|act_4.1|Systeem (gezin/paar/ouders) met patient individueel|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel|D|3|1|1300|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_4.1.7|act_4.1|Systeem (gezin/paar/ouders) met patient in groep|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep||3|1|1301|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.1.7|act_4.1|Systeem (gezin/paar/ouders) met patient in groep|Activerend begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep|D|3|1|1301|Tijdschrijven|J|J|J|J||0
+20000101|20181231|act_4.2|act_4|Ondersteunend begeleidingscontact|Ondersteunend begeleidingscontact||2|0|1330|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_4.2.1|act_4.2|Patiënt individueel|Ondersteunend begeleidingscontact: Patiënt individueel||3|1|1340|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.2.1|act_4.2|Patiënt individueel|Ondersteunend begeleidingscontact: Patiënt individueel|D|3|1|1340|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_4.2.2|act_4.2|Patiënt in groep|Ondersteunend begeleidingscontact: Patiënt in groep||3|1|1350|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.2.2|act_4.2|Patiënt in groep|Ondersteunend begeleidingscontact: Patiënt in groep|D|3|1|1350|Tijdschrijven|J|J|J|J||0
+20000101|20091231|act_4.2.3|act_4.2|Systeem (gezin/paar/ouders) met patient|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) met patient||3|1|1360|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_4.2.4|act_4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1370|Tijdschrijven|J|J|J|J||1
+20070101|20121231|act_4.2.4|act_4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1370|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.2.4|act_4.2|Systeem (gezin/paar/ouders) zonder patient individueel|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel|D|3|1|1370|Tijdschrijven|J|J|J|N||0
+20000101|20121231|act_4.2.5|act_4.2|Systeem (gezin/paar/ouders) zonder patient in groep|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep||3|1|1380|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.2.5|act_4.2|Systeem (gezin/paar/ouders) zonder patient in groep|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep|D|3|1|1380|Tijdschrijven|J|J|J|J||0
+20100101|20121231|act_4.2.6|act_4.2|Systeem (gezin/paar/ouders) met patient individueel|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel||3|1|1360|Tijdschrijven|J|J|J|N||0
+20130101|20181231|act_4.2.6|act_4.2|Systeem (gezin/paar/ouders) met patient individueel|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel|D|3|1|1360|Tijdschrijven|J|J|J|N||0
+20100101|20121231|act_4.2.7|act_4.2|Systeem (gezin/paar/ouders) met patient in groep|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep||3|1|1361|Tijdschrijven|J|J|J|J||0
+20130101|20181231|act_4.2.7|act_4.2|Systeem (gezin/paar/ouders) met patient in groep|Ondersteunend begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep|D|3|1|1361|Tijdschrijven|J|J|J|J||0
+20070101|99991231|act_4.3|act_4|Beveiligende begeleiding|Beveiligende begeleiding||2|0|1381|Tijdschrijven|N|N|N|N||2
+20070101|99991231|act_4.3.1|act_4.3|met patiënt (verlofbegeleiding)|Beveiligende begeleiding: met patiënt (verlofbegeleiding)||3|1|1382|Tijdschrijven|J|J|J|N||2
+20070101|99991231|act_4.3.2|act_4.3|zonder patiënt (verlofcontrole)|Beveiligende begeleiding: zonder patiënt (verlofcontrole)||3|1|1383|Tijdschrijven|J|J|J|N||2
+20070101|99991231|act_4.4|act_4|Financiële / fiscale begeleiding|Financiële / fiscale begeleiding||2|0|1384|Tijdschrijven|N|N|N|N||2
+20070101|99991231|act_4.4.1|act_4.4|Patiënt individueel|Financiële / fiscale begeleiding: Patiënt individueel||3|1|1385|Tijdschrijven|J|J|J|N||2
+20070101|99991231|act_4.4.2|act_4.4|Patiënt in groep|Financiële / fiscale begeleiding: Patiënt in groep||3|1|1386|Tijdschrijven|J|J|J|J||2
+20070101|20091231|act_4.4.3|act_4.4|Systeem (gezin/paar/ouders) met patient|Financiële / fiscale begeleiding: Systeem (gezin/paar/ouders) met patient||3|1|1387|Tijdschrijven|J|J|J|J||2
+20070101|99991231|act_4.4.4|act_4.4|Systeem (gezin/paar/ouders) zonder patient individueel|Financiële / fiscale begeleiding: Systeem (gezin/paar/ouders) zonder patient individueel||3|1|1388|Tijdschrijven|J|J|J|N||2
+20070101|99991231|act_4.4.5|act_4.4|Systeem (gezin/paar/ouders) zonder patient in groep|Financiële / fiscale begeleiding: Systeem (gezin/paar/ouders) zonder patient in groep||3|1|1389|Tijdschrijven|J|J|J|J||2
+20100101|99991231|act_4.4.6|act_4.4|Systeem (gezin/paar/ouders) met patient individueel|Financiële / fiscale begeleiding: Systeem (gezin/paar/ouders) met patient individueel||3|1|1390|Tijdschrijven|J|J|J|N||2
+20100101|99991231|act_4.4.7|act_4.4|Systeem (gezin/paar/ouders) met patient in groep|Financiële / fiscale begeleiding: Systeem (gezin/paar/ouders) met patient in groep||3|1|1391|Tijdschrijven|J|J|J|J||2
+20150101|20151231|act_4.5|act_4|Systeemcontact begeleiding (jeugd ggz)|Systeemcontact begeleiding (jeugd ggz)||2|0|1395|Tijdschrijven|N|N|N|N||1
+20150101|20151231|act_4.5.1|act_4.5|Systeemcontact begeleiding (jeugd ggz)|Systeemcontact begeleiding (jeugd ggz)||3|1|1396|Tijdschrijven|J|J|J|J||1
+20190101|99991231|act_4.6|act_4|Geneeskundig begeleidingscontact|Geneeskundig begeleidingscontact||2|0|1362|Tijdschrijven|N|N|N|N||0
+20190101|99991231|act_4.6.1|act_4.6|Geneeskundig begeleidingscontact: Patiënt individueel|Geneeskundig begeleidingscontact: Patiënt individueel|D|3|1|1363|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.6.2|act_4.6|Geneeskundig begeleidingscontact: Patiënt in groep|Geneeskundig begeleidingscontact: Patiënt in groep|D|3|1|1364|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.6.3|act_4.6|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient individueel|D|3|1|1365|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.6.4|act_4.6|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) zonder patient in groep|D|3|1|1366|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.6.5|act_4.6|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) met patient individueel|D|3|1|1367|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.6.6|act_4.6|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep|Geneeskundig begeleidingscontact: Systeem (gezin/paar/ouders) met patient in groep|D|3|1|1368|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.7|act_4|Ondersteunend begeleidingscontact tijdens verblijf met overnachting|Ondersteunend begeleidingscontact tijdens verblijf met overnachting||2|0|1371|Tijdschrijven|N|N|N|N||0
+20190101|99991231|act_4.7.1|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Patiënt individueel|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Patiënt individueel|D|3|1|1372|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.7.2|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Patiënt in groep|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Patiënt in groep|D|3|1|1373|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.7.3|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) zonder patient individueel|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) zonder patient individueel|D|3|1|1374|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.7.4|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) zonder patient in groep|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) zonder patient in groep|D|3|1|1375|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.7.5|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) met patient individueel|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) met patient individueel|D|3|1|1376|Tijdschrijven|J|J|J|N||0
+20190101|99991231|act_4.7.6|act_4.7|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) met patient in groep|Ondersteunend begeleidingscontact tijdens verblijf met overnachting: Systeem (gezin/paar/ouders) met patient in groep|D|3|1|1377|Tijdschrijven|J|J|J|J||0
+20190101|99991231|act_4.8|act_4|Overig begeleidingscontact fz|Overig begeleidingscontact fz||2|0|1401|Tijdschrijven|N|N|N|N||2
+20190101|99991231|act_4.8.1|act_4.8|Overig begeleidingscontact fz: Patiënt individueel|Overig begeleidingscontact fz: Patiënt individueel|D|3|1|1402|Tijdschrijven|J|J|J|N||2
+20190101|99991231|act_4.8.2|act_4.8|Overig begeleidingscontact fz: Patiënt in groep|Overig begeleidingscontact fz: Patiënt in groep|D|3|1|1403|Tijdschrijven|J|J|J|J||2
+20190101|99991231|act_4.8.3|act_4.8|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) zonder patient individueel|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) zonder patient individueel|D|3|1|1404|Tijdschrijven|J|J|J|N||2
+20190101|99991231|act_4.8.4|act_4.8|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) zonder patient in groep|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) zonder patient in groep|D|3|1|1405|Tijdschrijven|J|J|J|J||2
+20190101|99991231|act_4.8.5|act_4.8|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) met patient individueel|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) met patient individueel|D|3|1|1406|Tijdschrijven|J|J|J|N||2
+20190101|99991231|act_4.8.6|act_4.8|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) met patient in groep|Overig begeleidingscontact fz: Systeem (gezin/paar/ouders) met patient in groep|D|3|1|1407|Tijdschrijven|J|J|J|J||2
+20000101|99991231|act_5||Verpleging|Verpleging||1|0|1393|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_5.1|act_5|Verpleging |Verpleging ||2|1|1400|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_5.1|act_5|Verpleging |Verpleging |C|2|1|1400|Tijdschrijven|J|J|J|J||0
+20000101|20061231|act_5.2|act_5|Persoonlijke verzorging|Persoonlijke verzorging||2|1|1410|Tijdschrijven|J|J|J|J||1
+20000101|20061231|act_5.3|act_5|Huishoudelijke verzorging|Huishoudelijke verzorging||2|1|1420|Tijdschrijven|J|J|J|J||1
+20000101|99991231|act_6||Crisisopvang|Crisisopvang||1|0|1430|Tijdschrijven|N|N|N|N||0
+20000101|20121231|act_6.1|act_6|Crisiscontact binnen kantooruren|Crisiscontact binnen kantooruren||2|1|1440|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_6.1|act_6|Crisiscontact binnen kantooruren|Crisiscontact binnen kantooruren|B|2|1|1440|Tijdschrijven|J|J|J|J||1
+20000101|20121231|act_6.2|act_6|Crisiscontact buiten kantooruren|Crisiscontact buiten kantooruren||2|1|1450|Tijdschrijven|J|J|J|J||0
+20130101|99991231|act_6.2|act_6|Crisiscontact buiten kantooruren|Crisiscontact buiten kantooruren|B|2|1|1450|Tijdschrijven|J|J|J|J||1
+20000101|20061231|act_6.3|act_6|Psychiatrische crisisinterventie thuis|Psychiatrische crisisinterventie thuis||2|1|1460|Tijdschrijven|J|J|J|J||1
+20130101|99991231|act_6.4|act_6|Intake en screening crisisinterventie|Intake en screening crisisinterventie|B|2|1|1461|Tijdschrijven|J|J|J|N||1
+20130101|99991231|act_6.5|act_6|Psychiatrisch onderzoek crisisinterventie|Psychiatrisch onderzoek crisisinterventie|B|2|1|1462|Tijdschrijven|J|J|J|N||1
+20130101|99991231|act_6.6|act_6|Farmacotherapie crisisinterventie|Farmacotherapie crisisinterventie|B|2|1|1463|Tijdschrijven|J|J|J|N||1
+20130101|99991231|act_6.7|act_6|Steunend en structurerend crisiscontact|Steunend en structurerend crisiscontact|B|2|1|1464|Tijdschrijven|J|J|J|N||1
+20000101|99991231|act_7||Algemeen indirecte tijd|Algemeen indirecte tijd||1|0|1470|Tijdschrijven|N|N|N|N||0
+20000101|20061231|act_7.1|act_7|Zorgcoördinatie|Zorgcoördinatie||2|1|1480|Tijdschrijven|N|J|J|J||1
+20070101|20121231|act_7.1|act_7|Zorgcoördinatie|Zorgcoördinatie||2|1|1480|Tijdschrijven|N|J|N|J||0
+20130101|99991231|act_7.1|act_7|Zorgcoördinatie|Zorgcoördinatie|D|2|1|1480|Tijdschrijven|N|J|N|J||0
+20090101|99991231|act_7.10|act_7|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)||2|1|1546|Tijdschrijven|N|J|J|J||2
+20150101|20151231|act_7.11|act_7|Extern overleg met scholen (buiten de instelling)|Extern overleg met scholen (buiten de instelling)||2|1|1547|Tijdschrijven|N|J|N|J||1
+20150101|20151231|act_7.12|act_7|Extern overleg met overige derden (buiten de instelling)|Extern overleg met overige derden (buiten de instelling)||2|1|1548|Tijdschrijven|N|J|N|J||1
+20000101|20061231|act_7.2|act_7|No show|No show||2|1|1490|Tijdschrijven|N|J|J|J||1
+20070101|20091231|act_7.2|act_7|No show|No show||2|1|1490|Tijdschrijven|N|J|N|J||0
+20100101|20111231|act_7.2|act_7|No show|No show||2|1|1490|Tijdschrijven|N|J|J|J||0
+20120101|20121231|act_7.2|act_7|No show|No show||2|1|1490|Tijdschrijven|N|N|J|N||0
+20130101|99991231|act_7.2|act_7|No show|No show|D|2|1|1490|Tijdschrijven|N|N|J|N||0
+20000101|20061231|act_7.3|act_7|Interne patiëntbespreking (MDO)|Interne patiëntbespreking (MDO)||2|1|1500|Tijdschrijven|N|J|J|J||1
+20070101|20121231|act_7.3|act_7|Interne patiëntbespreking (MDO)|Interne patiëntbespreking (MDO)||2|1|1500|Tijdschrijven|N|J|N|J||0
+20130101|99991231|act_7.3|act_7|Interne patiëntbespreking (MDO)|Interne patiëntbespreking (MDO)|D|2|1|1500|Tijdschrijven|N|J|N|J||0
+20000101|20061231|act_7.4|act_7|Extern overleg met derden (buiten de instelling)|Extern overleg met derden (buiten de instelling)||2|1|1510|Tijdschrijven|N|J|J|J||1
+20070101|20081231|act_7.4|act_7|Extern overleg met derden (buiten de instelling)|Extern overleg met derden (buiten de instelling)||2|1|1510|Tijdschrijven|N|J|N|J||0
+20090101|20121231|act_7.4|act_7|Extern overleg met derden (buiten de instelling)|Extern overleg met derden (buiten de instelling)||2|1|1510|Tijdschrijven|N|J|N|J||1
+20130101|99991231|act_7.4|act_7|Extern overleg met derden (buiten de instelling)|Extern overleg met derden (buiten de instelling)|D|2|1|1510|Tijdschrijven|N|J|N|J||1
+20000101|20061231|act_7.5|act_7|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)||2|1|1520|Tijdschrijven|N|J|J|J||1
+20070101|20121231|act_7.5|act_7|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)||2|1|1520|Tijdschrijven|N|J|N|J||0
+20130101|99991231|act_7.5|act_7|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)|Verslaglegging algemeen (b.v. Ontslagbrief, correspondentie)|D|2|1|1520|Tijdschrijven|N|J|N|J||0
+20000101|20061231|act_7.6|act_7|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)||2|1|1530|Tijdschrijven|N|J|J|J||1
+20070101|20081231|act_7.6|act_7|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)||2|1|1530|Tijdschrijven|N|J|N|J||0
+20090101|20121231|act_7.6|act_7|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)||2|1|1530|Tijdschrijven|N|J|N|J||1
+20130101|99991231|act_7.6|act_7|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|Activiteiten ivm juridische procedures (b.v. IBS, BOPZ)|D|2|1|1530|Tijdschrijven|N|J|N|J||1
+20000101|20061231|act_7.7|act_7|Regelen tolken|Regelen tolken||2|1|1540|Tijdschrijven|N|J|J|J||1
+20070101|20121231|act_7.7|act_7|Regelen tolken|Regelen tolken||2|1|1540|Tijdschrijven|N|J|N|J||0
+20130101|99991231|act_7.7|act_7|Regelen tolken|Regelen tolken|D|2|1|1540|Tijdschrijven|N|J|N|J||0
+20070101|99991231|act_7.8|act_7|Dossierstudie|Dossierstudie||2|1|1545|Tijdschrijven|N|J|N|J||2
+20090101|99991231|act_7.9|act_7|Extern overleg met derden (buiten de instelling)|Extern overleg met derden (buiten de instelling)||2|1|1511|Tijdschrijven|N|J|J|J||2
+20000101|99991231|act_8||Verblijf (per verblijfsdag)|Verblijf (per verblijfsdag)||1|0|1550|Verblijfsdag|N|N|N|N||0
+20000101|20081231|act_8.1|act_8|Verblijf kinderen en jeugdigen|Verblijf kinderen en jeugdigen||2|0|1560|Verblijfsdag|N|N|N|N||0
+20090101|20141231|act_8.1|act_8|Verblijf kinderen en jeugdigen|Verblijf kinderen en jeugdigen||2|0|1560|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.1.1|act_8.1|Verblijf kinderen en jeugdigen 1|Verblijf kinderen en jeugdigen 1||3|1|1570|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.1.1|act_8.1|Verblijf kinderen en jeugdigen 1|Verblijf kinderen en jeugdigen 1||3|1|1570|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.1.1|act_8.1|Verblijf kinderen en jeugdigen 1|Verblijf kinderen en jeugdigen 1||3|1|1570|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.1.2|act_8.1|Verblijf kinderen en jeugdigen 2|Verblijf kinderen en jeugdigen 2||3|1|1580|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.1.2|act_8.1|Verblijf kinderen en jeugdigen 2|Verblijf kinderen en jeugdigen 2||3|1|1580|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.1.2|act_8.1|Verblijf kinderen en jeugdigen 2|Verblijf kinderen en jeugdigen 2||3|1|1580|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.1.3|act_8.1|Verblijf kinderen en jeugdigen 3|Verblijf kinderen en jeugdigen 3||3|1|1590|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.1.3|act_8.1|Verblijf kinderen en jeugdigen 3|Verblijf kinderen en jeugdigen 3||3|1|1590|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.1.3|act_8.1|Verblijf kinderen en jeugdigen 3|Verblijf kinderen en jeugdigen 3||3|1|1590|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.1.4|act_8.1|Verblijf kinderen en jeugdigen 4|Verblijf kinderen en jeugdigen 4||3|1|1600|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.1.4|act_8.1|Verblijf kinderen en jeugdigen 4|Verblijf kinderen en jeugdigen 4||3|1|1600|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.1.4|act_8.1|Verblijf kinderen en jeugdigen 4|Verblijf kinderen en jeugdigen 4||3|1|1600|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.1.5|act_8.1|Verblijf kinderen en jeugdigen 5|Verblijf kinderen en jeugdigen 5||3|1|1610|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.1.5|act_8.1|Verblijf kinderen en jeugdigen 5|Verblijf kinderen en jeugdigen 5||3|1|1610|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.1.5|act_8.1|Verblijf kinderen en jeugdigen 5|Verblijf kinderen en jeugdigen 5||3|1|1610|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.1.6|act_8.1|Verblijf kinderen en jeugdigen 6|Verblijf kinderen en jeugdigen 6||3|1|1611|Verblijfsdag|N|N|N|N||0
+20090101|20131231|act_8.1.6|act_8.1|Verblijf kinderen en jeugdigen 6|Verblijf kinderen en jeugdigen 6||3|1|1611|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.10|act_8|Verblijf crisis binnen budget|Verblijf crisis binnen budget||2|0|2070|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.10.4|act_8.10|Verblijf crisis binnen budget D (gemiddelde verzorgingsgraad)|Verblijf crisis binnen budget D (gemiddelde verzorgingsgraad)|D|3|1|2080|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.10.5|act_8.10|Verblijf crisis binnen budget E (intensieve verzorgingsgraad)|Verblijf crisis binnen budget E (intensieve verzorgingsgraad)|D|3|1|2090|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.10.6|act_8.10|Verblijf crisis binnen budget F (extra intensieve verzorgingsgraad)|Verblijf crisis binnen budget F (extra intensieve verzorgingsgraad)|D|3|1|2100|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.10.7|act_8.10|Verblijf crisis binnen budget G (zeer intensieve verzorgingsgraad)|Verblijf crisis binnen budget G (zeer intensieve verzorgingsgraad)|D|3|1|2110|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.10.8|act_8.10|Verblijf crisis binnen budget H (high intensieve care)|Verblijf crisis binnen budget H (high intensieve care)||3|1|2120|Verblijfsdag|N|N|N|N|3|1
+20190101|99991231|act_8.11|act_8|Deelprestatie verblijf GGZ  (beveiligingsniveau 2)|Deelprestaties verblijf GGZ (24 uurs verblijf)||2|0|2130|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.1|act_8.11|Deelprestatie verblijf GGZ A2 (Lichte verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ A2 (Lichte verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2140|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.2|act_8.11|Deelprestatie verblijf GGZ B2 (Beperkte verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ B2 (Beperkte verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2150|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.3|act_8.11|Deelprestatie verblijf GGZ C2 (Matige verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ C2 (Matige verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2160|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.4|act_8.11|Deelprestatie verblijf GGZ D2 (Gemiddelde verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ D2 (Gemiddelde verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2170|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.5|act_8.11|Deelprestatie verblijf GGZ E2 (Intensieve verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ E2 (Intensieve verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2180|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.6|act_8.11|Deelprestatie verblijf GGZ F2 (Extra intensieve verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ F2 (Extra intensieve verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2190|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.11.7|act_8.11|Deelprestatie verblijf GGZ G2 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 2)|Deelprestatie verblijf GGZ G2 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 2)|D|3|1|2200|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12|act_8|Deelprestatie verblijf GGZ  (beveiligingsniveau 3)|Deelprestaties verblijf GGZ (24 uurs verblijf)||2|0|2210|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.1|act_8.12|Deelprestatie verblijf GGZ A3 (Lichte verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ A3 (Lichte verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2220|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.2|act_8.12|Deelprestatie verblijf GGZ B3 (Beperkte verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ B3 (Beperkte verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2230|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.3|act_8.12|Deelprestatie verblijf GGZ C3 (Matige verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ C3 (Matige verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2240|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.4|act_8.12|Deelprestatie verblijf GGZ D3 (Gemiddelde verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ D3 (Gemiddelde verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2250|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.5|act_8.12|Deelprestatie verblijf GGZ E3 (Intensieve verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ E3 (Intensieve verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2260|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.6|act_8.12|Deelprestatie verblijf GGZ F3 (Extra intensieve verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ F3 (Extra intensieve verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2270|Verblijfsdag|N|N|N|N||1
+20190101|99991231|act_8.12.7|act_8.12|Deelprestatie verblijf GGZ G3 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 3)|Deelprestatie verblijf GGZ G3 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 3)|D|3|1|2280|Verblijfsdag|N|N|N|N||1
+20000101|20081231|act_8.2|act_8|Verblijf ouderen|Verblijf ouderen||2|0|1620|Verblijfsdag|N|N|N|N||0
+20090101|20141231|act_8.2|act_8|Verblijf ouderen|Verblijf ouderen||2|0|1620|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.2.1|act_8.2|Verblijf ouderen 1|Verblijf ouderen 1||3|1|1630|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.2.1|act_8.2|Verblijf ouderen 1|Verblijf ouderen 1||3|1|1630|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.2.1|act_8.2|Verblijf ouderen 1|Verblijf ouderen 1||3|1|1630|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.2.2|act_8.2|Verblijf ouderen 2|Verblijf ouderen 2||3|1|1640|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.2.2|act_8.2|Verblijf ouderen 2|Verblijf ouderen 2||3|1|1640|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.2.2|act_8.2|Verblijf ouderen 2|Verblijf ouderen 2||3|1|1640|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.2.3|act_8.2|Verblijf ouderen 3|Verblijf ouderen 3||3|1|1650|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.2.3|act_8.2|Verblijf ouderen 3|Verblijf ouderen 3||3|1|1650|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.2.3|act_8.2|Verblijf ouderen 3|Verblijf ouderen 3||3|1|1650|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.2.4|act_8.2|Verblijf ouderen 4|Verblijf ouderen 4||3|1|1660|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.2.4|act_8.2|Verblijf ouderen 4|Verblijf ouderen 4||3|1|1660|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.2.4|act_8.2|Verblijf ouderen 4|Verblijf ouderen 4||3|1|1660|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.2.5|act_8.2|Verblijf ouderen 5|Verblijf ouderen 5||3|1|1670|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.2.5|act_8.2|Verblijf ouderen 5|Verblijf ouderen 5||3|1|1670|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.2.5|act_8.2|Verblijf ouderen 5|Verblijf ouderen 5||3|1|1670|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.2.6|act_8.2|Verblijf ouderen 6|Verblijf ouderen 6||3|1|1671|Verblijfsdag|N|N|N|N||0
+20090101|20131231|act_8.2.6|act_8.2|Verblijf ouderen 6|Verblijf ouderen 6||3|1|1671|Verblijfsdag|N|N|N|N||1
+20000101|20081231|act_8.3|act_8|Verblijf volwassenen kort|Verblijf volwassenen kort||2|0|1680|Verblijfsdag|N|N|N|N||0
+20090101|20141231|act_8.3|act_8|Verblijf volwassenen kort|Verblijf volwassenen kort||2|0|1680|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.3.1|act_8.3|Verblijf volwassenen kort 1|Verblijf volwassenen kort 1||3|1|1690|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.3.1|act_8.3|Verblijf volwassenen kort 1|Verblijf volwassenen kort 1||3|1|1690|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.3.1|act_8.3|Verblijf volwassenen kort 1|Verblijf volwassenen kort 1||3|1|1690|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.3.2|act_8.3|Verblijf volwassenen kort 2|Verblijf volwassenen kort 2||3|1|1700|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.3.2|act_8.3|Verblijf volwassenen kort 2|Verblijf volwassenen kort 2||3|1|1700|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.3.2|act_8.3|Verblijf volwassenen kort 2|Verblijf volwassenen kort 2||3|1|1700|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.3.3|act_8.3|Verblijf volwassenen kort 3|Verblijf volwassenen kort 3||3|1|1710|Verblijfsdag|N|N|N|J||0
+20070101|20081231|act_8.3.3|act_8.3|Verblijf volwassenen kort 3|Verblijf volwassenen kort 3||3|1|1710|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.3.3|act_8.3|Verblijf volwassenen kort 3|Verblijf volwassenen kort 3||3|1|1710|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.3.4|act_8.3|Verblijf volwassenen kort 4|Verblijf volwassenen kort 4||3|1|1720|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.3.4|act_8.3|Verblijf volwassenen kort 4|Verblijf volwassenen kort 4||3|1|1720|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.3.4|act_8.3|Verblijf volwassenen kort 4|Verblijf volwassenen kort 4||3|1|1720|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.3.5|act_8.3|Verblijf volwassenen kort 5|Verblijf volwassenen kort 5||3|1|1730|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.3.5|act_8.3|Verblijf volwassenen kort 5|Verblijf volwassenen kort 5||3|1|1730|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.3.5|act_8.3|Verblijf volwassenen kort 5|Verblijf volwassenen kort 5||3|1|1730|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.3.6|act_8.3|Verblijf volwassenen kort 6|Verblijf volwassenen kort 6||3|1|1731|Verblijfsdag|N|N|N|N||0
+20090101|20131231|act_8.3.6|act_8.3|Verblijf volwassenen kort 6|Verblijf volwassenen kort 6||3|1|1731|Verblijfsdag|N|N|N|N||1
+20000101|20141231|act_8.4|act_8|Verblijf verslavingszorg|Verblijf verslavingszorg||2|0|1740|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.4|act_8|Verblijf verslavingszorg|Verblijf verslavingszorg||2|0|1740|Verblijfsdag|N|N|N|N||2
+20000101|20061231|act_8.4.1|act_8.4|Verblijf verslavingszorg 1|Verblijf verslavingszorg 1||3|1|1750|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.4.1|act_8.4|Verblijf verslavingszorg 1|Verblijf verslavingszorg 1||3|1|1750|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.4.1|act_8.4|Verblijf verslavingszorg 1|Verblijf verslavingszorg 1||3|1|1750|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.4.2|act_8.4|Verblijf verslavingszorg 2|Verblijf verslavingszorg 2||3|1|1760|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.4.2|act_8.4|Verblijf verslavingszorg 2|Verblijf verslavingszorg 2||3|1|1760|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.4.2|act_8.4|Verblijf verslavingszorg 2|Verblijf verslavingszorg 2||3|1|1760|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.4.3|act_8.4|Verblijf verslavingszorg 3|Verblijf verslavingszorg 3||3|1|1770|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.4.3|act_8.4|Verblijf verslavingszorg 3|Verblijf verslavingszorg 3||3|1|1770|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.4.3|act_8.4|Verblijf verslavingszorg 3|Verblijf verslavingszorg 3||3|1|1770|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.4.4|act_8.4|Verblijf verslavingszorg 4|Verblijf verslavingszorg 4||3|1|1780|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.4.4|act_8.4|Verblijf verslavingszorg 4|Verblijf verslavingszorg 4||3|1|1780|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.4.4|act_8.4|Verblijf verslavingszorg 4|Verblijf verslavingszorg 4||3|1|1780|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.4.5|act_8.4|Verblijf verslavingszorg 5|Verblijf verslavingszorg 5||3|1|1790|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.4.5|act_8.4|Verblijf verslavingszorg 5|Verblijf verslavingszorg 5||3|1|1790|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.4.5|act_8.4|Verblijf verslavingszorg 5|Verblijf verslavingszorg 5||3|1|1790|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.4.6|act_8.4|Verblijf verslavingszorg 6|Verblijf verslavingszorg 6||3|1|1791|Verblijfsdag|N|N|N|N||0
+20090101|20131231|act_8.4.6|act_8.4|Verblijf verslavingszorg 6|Verblijf verslavingszorg 6||3|1|1791|Verblijfsdag|N|N|N|N||1
+20000101|20081231|act_8.5|act_8|Verblijf forensisch|Verblijf forensisch||2|0|1800|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5|act_8|Verblijf forensisch|Verblijf forensisch||2|0|1800|Verblijfsdag|N|N|N|N||1
+20090101|99991231|act_8.5|act_8|Verblijf forensisch|Verblijf forensisch||2|0|1796|Verblijfsdag|N|N|N|N||2
+20100101|20141231|act_8.5|act_8|Verblijf forensisch niet in strafrechtelijk kader (SK) |Verblijf forensisch niet in strafrechtelijk kader (SK) ||2|0|1800|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.5.1|act_8.5|Verblijf forensisch 1|Verblijf forensisch 1||3|1|1810|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.5.1|act_8.5|Verblijf forensisch 1|Verblijf forensisch 1||3|1|1810|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.1|act_8.5|Verblijf forensisch 1|Verblijf forensisch 1||3|1|1810|Verblijfsdag|N|N|N|N||1
+20100101|20111231|act_8.5.1|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 1|Verblijf forensisch niet in strafrechtelijk kader (SK) 1||3|1|1810|Verblijfsdag|N|N|N|N||1
+20090101|20131231|act_8.5.10|act_8.5|Verblijfssoort A3|Verblijfssoort A3 (verblijfsintensiteit laag, beveiligingsniveau hoog)||3|1|1803|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.11|act_8.5|Verblijfssoort A4|Verblijfssoort A4 (verblijfsintensiteit laag, beveiligingsniveau  zeer hoog)||3|1|1804|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.12|act_8.5|Verblijfssoort B1|Verblijfssoort B1 (verblijfsintensiteit gemiddeld, beveiligingsniveau laag)||3|1|1805|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.13|act_8.5|Verblijfssoort B2|Verblijfssoort B2 (verblijfsintensiteit gemiddeld, beveiligingsniveau gemiddeld)||3|1|1806|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.14|act_8.5|Verblijfssoort B3|Verblijfssoort B3 (verblijfsintensiteit gemiddeld, beveiligingsniveau hoog)||3|1|1807|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.15|act_8.5|Verblijfssoort B4 |Verblijfssoort B4 (verblijfsintensiteit gemiddeld, beveiligingsniveau zeer hoog)||3|1|1808|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.16|act_8.5|Verblijfssoort C1|Verblijfssoort C1 (verblijfsintensiteit hoog, beveiligingsniveau laag)||3|1|1809|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.17|act_8.5|Verblijfssoort C2|Verblijfssoort C2 (verblijfsintensiteit hoog, beveiligingsniveau gemiddeld)||3|1|1810|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.18|act_8.5|Verblijfssoort C3|Verblijfssoort C3 (verblijfsintensiteit hoog, beveiligingsniveau hoog)||3|1|1811|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.19|act_8.5|Verblijfssoort C4|Verblijfssoort C4 (verblijfsintensiteit hoog, beveiligingsniveau zeer hoog)||3|1|1812|Verblijfsdag|N|N|N|N||2
+20000101|20061231|act_8.5.2|act_8.5|Verblijf forensisch 2|Verblijf forensisch 2||3|1|1820|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.5.2|act_8.5|Verblijf forensisch 2|Verblijf forensisch 2||3|1|1820|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.2|act_8.5|Verblijf forensisch 2|Verblijf forensisch 2||3|1|1820|Verblijfsdag|N|N|N|N||1
+20100101|20111231|act_8.5.2|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 2|Verblijf forensisch niet in strafrechtelijk kader (SK) 2||3|1|1820|Verblijfsdag|N|N|N|N||1
+20140101|99991231|act_8.5.20|act_8.5|Verblijfssoort A1|Verblijfssoort A1 (lichte verzorgingsgraad, beveiligingsniveau laag)||3|1|1820|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.21|act_8.5|Verblijfssoort A2|Verblijfssoort A2 (lichte verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1821|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.22|act_8.5|Verblijfssoort A3|Verblijfssoort A3 (lichte verzorgingsgraad, beveiligingsniveau hoog)||3|1|1822|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.23|act_8.5|Verblijfssoort A4|Verblijfssoort A4 (lichte verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1823|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.24|act_8.5|Verblijfssoort B1|Verblijfssoort B1 (beperkte verzorgingsgraad, beveiligingsniveau laag)||3|1|1824|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.25|act_8.5|Verblijfssoort B2|Verblijfssoort B2 (beperkte verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1825|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.26|act_8.5|Verblijfssoort B3|Verblijfssoort B3 (beperkte verzorgingsgraad, beveiligingsniveau hoog)||3|1|1826|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.27|act_8.5|Verblijfssoort B4|Verblijfssoort B4 (beperkte verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1827|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.28|act_8.5|Verblijfssoort C1|Verblijfssoort C1 (matige verzorgingsgraad, beveiligingsniveau laag)||3|1|1828|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.29|act_8.5|Verblijfssoort C2|Verblijfssoort C2 (matige verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1829|Verblijfsdag|N|N|N|N||2
+20000101|20061231|act_8.5.3|act_8.5|Verblijf forensisch 3|Verblijf forensisch 3||3|1|1830|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.5.3|act_8.5|Verblijf forensisch 3|Verblijf forensisch 3||3|1|1830|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.3|act_8.5|Verblijf forensisch 3|Verblijf forensisch 3||3|1|1830|Verblijfsdag|N|N|N|N||1
+20100101|20111231|act_8.5.3|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 3|Verblijf forensisch niet in strafrechtelijk kader (SK) 3||3|1|1830|Verblijfsdag|N|N|N|N||1
+20140101|99991231|act_8.5.30|act_8.5|Verblijfssoort C3|Verblijfssoort C3 (matige verzorgingsgraad, beveiligingsniveau hoog)||3|1|1830|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.31|act_8.5|Verblijfssoort C4|Verblijfssoort C4 (matige verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1831|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.32|act_8.5|Verblijfssoort D1|Verblijfssoort D1 (gemiddelde verzorgingsgraad, beveiligingsniveau laag)||3|1|1832|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.33|act_8.5|Verblijfssoort D2|Verblijfssoort D2 (gemiddelde verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1833|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.34|act_8.5|Verblijfssoort D3|Verblijfssoort D3 (gemiddelde verzorgingsgraad, beveiligingsniveau hoog)||3|1|1834|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.35|act_8.5|Verblijfssoort D4|Verblijfssoort D4 (gemiddelde verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1835|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.36|act_8.5|Verblijfssoort E1|Verblijfssoort E1 (intensieve verzorgingsgraad, beveiligingsniveau laag)||3|1|1836|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.37|act_8.5|Verblijfssoort E2|Verblijfssoort E2 (intensieve verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1837|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.38|act_8.5|Verblijfssoort E3|Verblijfssoort E3 (intensieve verzorgingsgraad, beveiligingsniveau hoog)||3|1|1838|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.39|act_8.5|Verblijfssoort E4|Verblijfssoort E4 (intensieve verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1839|Verblijfsdag|N|N|N|N||2
+20000101|20061231|act_8.5.4|act_8.5|Verblijf forensisch 4|Verblijf forensisch 4||3|1|1840|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.5.4|act_8.5|Verblijf forensisch 4|Verblijf forensisch 4||3|1|1840|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.4|act_8.5|Verblijf forensisch 4|Verblijf forensisch 4||3|1|1840|Verblijfsdag|N|N|N|N||1
+20100101|20111231|act_8.5.4|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 4|Verblijf forensisch niet in strafrechtelijk kader (SK) 4||3|1|1840|Verblijfsdag|N|N|N|N||1
+20140101|99991231|act_8.5.40|act_8.5|Verblijfssoort F1|Verblijfssoort F1 (extra intensieve verzorgingsgraad, beveiligingsniveau laag)||3|1|1840|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.41|act_8.5|Verblijfssoort F2|Verblijfssoort F2 (extra intensieve verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1841|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.42|act_8.5|Verblijfssoort F3|Verblijfssoort F3 (extra intensieve verzorgingsgraad, beveiligingsniveau hoog)||3|1|1842|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.43|act_8.5|Verblijfssoort F4|Verblijfssoort F4 (extra intensieve verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1843|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.44|act_8.5|Verblijfssoort G1|Verblijfssoort G1 (zeer intensieve verzorgingsgraad, beveiligingsniveau laag)||3|1|1844|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.45|act_8.5|Verblijfssoort G2|Verblijfssoort G2 (zeer intensieve verzorgingsgraad, beveiligingsniveau gemiddeld)||3|1|1845|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.46|act_8.5|Verblijfssoort G3|Verblijfssoort G3 (zeer intensieve verzorgingsgraad, beveiligingsniveau hoog)||3|1|1846|Verblijfsdag|N|N|N|N||2
+20140101|99991231|act_8.5.47|act_8.5|Verblijfssoort G4|Verblijfssoort G4 (zeer intensieve verzorgingsgraad, beveiligingsniveau zeer hoog)||3|1|1847|Verblijfsdag|N|N|N|N||2
+20000101|20061231|act_8.5.5|act_8.5|Verblijf forensisch 5|Verblijf forensisch 5||3|1|1850|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.5.5|act_8.5|Verblijf forensisch 5|Verblijf forensisch 5||3|1|1850|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.5|act_8.5|Verblijf forensisch 5|Verblijf forensisch 5||3|1|1850|Verblijfsdag|N|N|N|N||1
+20100101|20111231|act_8.5.5|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 5|Verblijf forensisch niet in strafrechtelijk kader (SK) 5||3|1|1850|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.5.6|act_8.5|Verblijf forensisch 6|Verblijf forensisch 6||3|1|1851|Verblijfsdag|N|N|N|N||0
+20090101|20091231|act_8.5.6|act_8.5|Verblijf forensisch 6|Verblijf forensisch 6||3|1|1851|Verblijfsdag|N|N|N|N||1
+20100101|20131231|act_8.5.6|act_8.5|Verblijf forensisch niet in strafrechtelijk kader (SK) 6|Verblijf forensisch niet in strafrechtelijk kader (SK) 6||3|1|1851|Verblijfsdag|N|N|N|N||1
+20090101|99991231|act_8.5.7|act_8.5|No show klinisch|No show klinisch||3|1|1799|Verblijfsdag|N|N|N|J||2
+20090101|20131231|act_8.5.8|act_8.5|Verblijfssoort A1|Verblijfssoort A1 (verblijfsintensiteit laag, beveiligingsniveau laag)||3|1|1801|Verblijfsdag|N|N|N|N||2
+20090101|20131231|act_8.5.9|act_8.5|Verblijfssoort A2|Verblijfssoort A2 (verblijfsintensiteit laag, beveiligingsniveau gemiddeld)||3|1|1802|Verblijfsdag|N|N|N|N||2
+20000101|20081231|act_8.6|act_8|Verblijf volwassenen lang|Verblijf volwassenen lang||2|0|1860|Verblijfsdag|N|N|N|N||0
+20090101|20141231|act_8.6|act_8|Verblijf volwassenen lang|Verblijf volwassenen lang||2|0|1860|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.6.1|act_8.6|Verblijf volwassenen lang 1|Verblijf volwassenen lang 1||3|1|1870|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.6.1|act_8.6|Verblijf volwassenen lang 1|Verblijf volwassenen lang 1||3|1|1870|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.6.1|act_8.6|Verblijf volwassenen lang 1|Verblijf volwassenen lang 1||3|1|1870|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.6.2|act_8.6|Verblijf volwassenen lang 2|Verblijf volwassenen lang 2||3|1|1880|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.6.2|act_8.6|Verblijf volwassenen lang 2|Verblijf volwassenen lang 2||3|1|1880|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.6.2|act_8.6|Verblijf volwassenen lang 2|Verblijf volwassenen lang 2||3|1|1880|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.6.3|act_8.6|Verblijf volwassenen lang 3|Verblijf volwassenen lang 3||3|1|1890|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.6.3|act_8.6|Verblijf volwassenen lang 3|Verblijf volwassenen lang 3||3|1|1890|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.6.3|act_8.6|Verblijf volwassenen lang 3|Verblijf volwassenen lang 3||3|1|1890|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.6.4|act_8.6|Verblijf volwassenen lang 4|Verblijf volwassenen lang 4||3|1|1900|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.6.4|act_8.6|Verblijf volwassenen lang 4|Verblijf volwassenen lang 4||3|1|1900|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.6.4|act_8.6|Verblijf volwassenen lang 4|Verblijf volwassenen lang 4||3|1|1900|Verblijfsdag|N|N|N|N||1
+20000101|20061231|act_8.6.5|act_8.6|Verblijf volwassenen lang 5|Verblijf volwassenen lang 5||3|1|1910|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.6.5|act_8.6|Verblijf volwassenen lang 5|Verblijf volwassenen lang 5||3|1|1910|Verblijfsdag|N|N|N|N||0
+20090101|20111231|act_8.6.5|act_8.6|Verblijf volwassenen lang 5|Verblijf volwassenen lang 5||3|1|1910|Verblijfsdag|N|N|N|N||1
+20070101|20081231|act_8.6.6|act_8.6|Verblijf volwassenen lang 6|Verblijf volwassenen lang 6||3|1|1911|Verblijfsdag|N|N|N|N||0
+20090101|20131231|act_8.6.6|act_8.6|Verblijf volwassenen lang 6|Verblijf volwassenen lang 6||3|1|1911|Verblijfsdag|N|N|N|N||1
+20000101|20050401|act_8.7|act_8|Verblijf crisis|||2|1|1920|Verblijfsdag|N|N|N|J||1
+20070101|20081231|act_8.7|act_8|No show klinisch|No show klinisch||2|1|1920|Verblijfsdag|N|N|N|J||2
+20000101|20050401|act_8.7.1|act_8.7|Verblijf crisis 1|||3|1|1930|Verblijfsdag|N|N|N|J||1
+20000101|20050401|act_8.7.2|act_8.7|Verblijf crisis 2|||3|1|1940|Verblijfsdag|N|N|N|J||1
+20000101|20050401|act_8.7.3|act_8.7|Verblijf crisis 3|||3|1|1950|Verblijfsdag|N|N|N|J||1
+20000101|20050401|act_8.7.4|act_8.7|Verblijf crisis 4|||3|1|1960|Verblijfsdag|N|N|N|J||1
+20000101|20050401|act_8.7.5|act_8.7|Verblijf crisis 5|||3|1|1970|Verblijfsdag|N|N|N|J||1
+20120101|99991231|act_8.8|act_8|Deelprestaties verblijf GGZ (24 uurs verblijf)|Deelprestaties verblijf GGZ (24 uurs verblijf)||2|0|1971|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.01|act_8.8|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)||3|1|1972|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.01|act_8.8|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|D|3|1|1972|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.02|act_8.8|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)||3|1|1973|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.02|act_8.8|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|D|3|1|1973|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.03|act_8.8|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)||3|1|1974|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.03|act_8.8|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|D|3|1|1974|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.04|act_8.8|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)||3|1|1975|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.04|act_8.8|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|D|3|1|1975|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.05|act_8.8|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)||3|1|1976|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.05|act_8.8|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|D|3|1|1976|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.06|act_8.8|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)||3|1|1977|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.06|act_8.8|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|D|3|1|1977|Verblijfsdag|N|N|N|N||1
+20120101|20121231|act_8.8.07|act_8.8|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)||3|1|1978|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.8.07|act_8.8|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|D|3|1|1978|Verblijfsdag|N|N|N|N||1
+20170101|99991231|act_8.8.08|act_8.8|Deelprestatie verblijf GGZ H (High Intensive Care)|Deelprestatie verblijf GGZ H (High Intensive Care)||3|1|1988|Verblijfsdag|N|N|N|N||1
+20180101|99991231|act_8.8.09|act_8.8|Verblijf met rechtvaardigingsgrond|Verblijf met rechtvaardigingsgrond||3|1|1998|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.9|act_8|Verblijf zonder overnachting|Verblijf zonder overnachting||2|0|2044|Verblijfsdag|N|N|N|N||1
+20130101|99991231|act_8.9.01|act_8.9|Verblijf zonder overnachting|Verblijf zonder overnachting|D|3|1|2045|Verblijfsdag|N|N|N|N||1
+20000101|99991231|act_9||Dagbesteding (per uur)|Dagbesteding (per uur)||1|0|1980|Dagbesteding|N|N|N|N||0
+20000101|20061231|act_9.1|act_9|Dagbesteding sociaal (ontmoeting)|Dagbesteding sociaal (ontmoeting)||2|1|1990|Dagbesteding|N|N|N|J||1
+20070101|20121231|act_9.1|act_9|Dagbesteding sociaal (ontmoeting)|Dagbesteding sociaal (ontmoeting)||2|1|1990|Dagbesteding|N|N|N|N||0
+20130101|20141231|act_9.1|act_9|Dagbesteding sociaal (ontmoeting)|Dagbesteding sociaal (ontmoeting)|D|2|1|1990|Dagbesteding|N|N|N|N||0
+20150101|99991231|act_9.1|act_9|Dagbesteding sociaal (ontmoeting)|Dagbesteding sociaal (ontmoeting)||2|1|1990|Dagbesteding|N|N|N|N||1
+20150101|99991231|act_9.11|act_9|Dagbesteding sociaal (ontmoeting)(beveiligingsniveau laag)|Dagbesteding sociaal (ontmoeting)(beveiligingsniveau laag)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.12|act_9|Dagbesteding sociaal (ontmoeting)(beveiligingsniveau midden, hoog, zeer hoog)|Dagbesteding sociaal (ontmoeting)(beveiligingsniveau midden, hoog, zeer hoog)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.13|act_9|Dagbesteding activering (dagactiviteiten)(beveiligingsniveau laag)|Dagbesteding activering (dagactiviteiten)(beveiligingsniveau laag)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.14|act_9|Dagbesteding activering (dagactiviteiten)(beveiligingsniveau midden, hoog, zeer hoog)|Dagbesteding activering (dagactiviteiten)(beveiligingsniveau midden, hoog, zeer hoog)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.15|act_9|Dagbesteding educatie (beveiligingsniveau laag)|Dagbesteding educatie (beveiligingsniveau laag)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.16|act_9|Dagbesteding educatie (beveiligingsniveau midden, hoog, zeer hoog)|Dagbesteding educatie (beveiligingsniveau midden, hoog, zeer hoog)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.17|act_9|Dagbesteding arbeidsmatig (beveiligingsniveau laag)|Dagbesteding arbeidsmatig (beveiligingsniveau laag)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.18|act_9|Dagbesteding arbeidsmatig (beveiligingsniveau midden, hoog, zeer hoog)|Dagbesteding arbeidsmatig (beveiligingsniveau midden, hoog, zeer hoog)||2|1|2031|Dagbesteding|N|N|N|N||2
+20150101|99991231|act_9.19|act_9|Dagbesteding overig (beveiligingsniveau laag)|Dagbesteding overig (beveiligingsniveau laag)||2|1|2031|Dagbesteding|N|N|N|N||2
+20000101|20061231|act_9.2|act_9|Dagbesteding activering (dagactiviteiten)|Dagbesteding activering (dagactiviteiten)||2|1|2000|Dagbesteding|N|N|N|J||1
+20070101|20121231|act_9.2|act_9|Dagbesteding activering (dagactiviteiten)|Dagbesteding activering (dagactiviteiten)||2|1|2000|Dagbesteding|N|N|N|N||0
+20130101|20141231|act_9.2|act_9|Dagbesteding activering (dagactiviteiten)|Dagbesteding activering (dagactiviteiten)|D|2|1|2000|Dagbesteding|N|N|N|N||0
+20150101|99991231|act_9.2|act_9|Dagbesteding activering (dagactiviteiten)|Dagbesteding activering (dagactiviteiten)||2|1|2000|Dagbesteding|N|N|N|N||1
+20150101|99991231|act_9.20|act_9|Dagbesteding overig (beveiligingsniveau midden, hoog, zeer hoog)|Dagbesteding overig (beveiligingsniveau midden, hoog, zeer hoog)||2|1|2031|Dagbesteding|N|N|N|N||2
+20000101|20061231|act_9.3|act_9|Dagbesteding educatie|Dagbesteding educatie||2|1|2010|Dagbesteding|N|N|N|J||1
+20070101|20121231|act_9.3|act_9|Dagbesteding educatie|Dagbesteding educatie||2|1|2010|Dagbesteding|N|N|N|N||0
+20130101|20141231|act_9.3|act_9|Dagbesteding educatie|Dagbesteding educatie|D|2|1|2010|Dagbesteding|N|N|N|N||0
+20150101|99991231|act_9.3|act_9|Dagbesteding educatie|Dagbesteding educatie||2|1|2010|Dagbesteding|N|N|N|N||1
+20000101|20061231|act_9.4|act_9|Dagbesteding arbeidsmatig|Dagbesteding arbeidsmatig||2|1|2020|Dagbesteding|N|N|N|J||1
+20070101|20121231|act_9.4|act_9|Dagbesteding arbeidsmatig|Dagbesteding arbeidsmatig||2|1|2020|Dagbesteding|N|N|N|N||0
+20130101|20141231|act_9.4|act_9|Dagbesteding arbeidsmatig|Dagbesteding arbeidsmatig|D|2|1|2020|Dagbesteding|N|N|N|N||0
+20150101|99991231|act_9.4|act_9|Dagbesteding arbeidsmatig|Dagbesteding arbeidsmatig||2|1|2020|Dagbesteding|N|N|N|N||1
+20000101|20061231|act_9.5|act_9|Dagbesteding overig|Dagbesteding overig||2|1|2030|Dagbesteding|N|N|N|J||1
+20070101|20121231|act_9.5|act_9|Dagbesteding overig|Dagbesteding overig||2|1|2030|Dagbesteding|N|N|N|N||0
+20130101|20141231|act_9.5|act_9|Dagbesteding overig|Dagbesteding overig|D|2|1|2030|Dagbesteding|N|N|N|N||0
+20150101|99991231|act_9.5|act_9|Dagbesteding overig|Dagbesteding overig||2|1|2030|Dagbesteding|N|N|N|N||1

@@ -1,0 +1,874 @@
+cl_d5_diagnose_begindatum|cl_d5_diagnose_einddatum|cl_d5_diagnose_code|cl_d5_diagnose_groep_code|cl_d5_diagnose_beschrijving|cl_d5_diagnose_hierarchieniveau|cl_d5_diagnose_selecteerbaar|cl_d5_diagnose_refcode_icd9cm|cl_d5_diagnose_mutatie
+20170101|99991231|D5_1||Neurobiologische ontwikkelingsstoornissen|1|0||
+20170101|99991231|D5_1.01|D5_1|Verstandelijke beperkingen|2|0||
+20170101|99991231|D5_1.01.01|D5_1.01|Verstandelijke beperking: licht|3|1|317|
+20170101|99991231|D5_1.01.02|D5_1.01|Verstandelijke beperking: matig|3|1|318.0|
+20170101|99991231|D5_1.01.03|D5_1.01|Verstandelijke beperking: ernstig|3|1|318.1|
+20170101|99991231|D5_1.01.04|D5_1.01|Verstandelijke beperking: zeer ernstig|3|1|318.2|
+20170101|99991231|D5_1.01.05|D5_1.01|Globale ontwikkelingsachterstand|3|1|315.8|
+20170101|99991231|D5_1.01.06|D5_1.01|Ongespecificeerde verstandelijke beperking (verstandelijke ontwikkelingsstoornis)|3|1|319|
+20170101|99991231|D5_1.02|D5_1|Communicatiestoornissen|2|0||
+20170101|99991231|D5_1.02.01|D5_1.02|Taalstoornis|3|1|315.32|
+20170101|99991231|D5_1.02.02|D5_1.02|Spraakklankstoornis|3|1|315.39|
+20170101|99991231|D5_1.02.03|D5_1.02|Stoornis in spraakvloeiendheid|3|0||
+20170101|99991231|D5_1.02.03.01|D5_1.02.03|Stoornis in spraakvloeiendheid ontstaan in de volwassenheid|4|1|307.0|
+20170101|99991231|D5_1.02.03.02|D5_1.02.03|Stoornis in spraakvloeiendheid ontstaan in de kindertijd (ontwikkelingsstotteren)|4|1|315.35|
+20170101|99991231|D5_1.02.04|D5_1.02|Sociale (pragmatische) communicatiestoornis|3|1|315.39|
+20170101|99991231|D5_1.02.05|D5_1.02|Ongespecificeerde communicatiestoornis|3|1|307.9|
+20170101|99991231|D5_1.03|D5_1|Autismespectrumstoornis|2|0||
+20170101|99991231|D5_1.03.01|D5_1.03|Autismespectrumstoornis|3|1|299.00|
+20170101|99991231|D5_1.04|D5_1|Aandachtsdeficiëntie-/hyperactiviteitsstoornis|2|0||
+20170101|99991231|D5_1.04.01|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: gecombineerd beeld|3|1|314.01|
+20170101|99991231|D5_1.04.02|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: gecombineerd beeld - gedeeltelijk in remissie|3|1|314.01|
+20170101|99991231|D5_1.04.03|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: overwegend onoplettend beeld|3|1|314.00|
+20170101|99991231|D5_1.04.04|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: overwegend onoplettend beeld - gedeeltelijk in remissie|3|1|314.00|
+20170101|99991231|D5_1.04.05|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: overwegend hyperactief-impulsief beeld|3|1|314.01|
+20170101|99991231|D5_1.04.06|D5_1.04|Aandachtsdeficiëntie-/hyperactiviteitsstoornis: overwegend hyperactief-impulsief beeld - gedeeltelijk in remissie|3|1|314.01|
+20170101|99991231|D5_1.04.07|D5_1.04|Andere gespecificeerde aandachtsdeficiëntie-/hyperactiviteitsstoornis|3|1|314.01|
+20170101|99991231|D5_1.04.08|D5_1.04|Ongespecificeerde aandachtsdeficiëntie-/hyperactiviteitsstoornis|3|1|314.01|
+20170101|99991231|D5_1.05|D5_1|Specifieke leerstoornis|2|0||
+20170101|99991231|D5_1.05.01|D5_1.05|Specifieke leerstoornis: met beperkingen in het lezen|3|1|315.00|
+20170101|99991231|D5_1.05.02|D5_1.05|Specifieke leerstoornis: met beperkingen in de schriftelijke uitdrukkingsvaardigheid|3|1|315.2|
+20170101|99991231|D5_1.05.03|D5_1.05|Specifieke leerstoornis: met beperkingen in het rekenen|3|1|315.1|
+20170101|99991231|D5_1.06|D5_1|Motorische stoornissen|2|0||
+20170101|99991231|D5_1.06.01|D5_1.06|Coördinatieontwikkelingsstoornis|3|1|315.4|
+20170101|99991231|D5_1.06.02|D5_1.06|Stereotiepe-bewegingsstoornis|3|2|307.3|
+20170101|99991231|D5_1.06.02.01|D5_1.06.02|Stereotiepe-bewegingsstoornis: met zelfbeschadigende handelingen|4|1|307.3|
+20170101|99991231|D5_1.07|D5_1|Ticstoornissen|2|0||
+20170101|99991231|D5_1.07.01|D5_1.07|Stoornis van Gilles de la Tourette|3|1|307.23|
+20170101|99991231|D5_1.07.02|D5_1.07|Persisterende (chronische) motorische- of vocale-ticstoornis|3|1|307.22|
+20170101|99991231|D5_1.07.03|D5_1.07|Voorlopige ticstoornis|3|1|307.21|
+20170101|99991231|D5_1.07.04|D5_1.07|Andere gespecificeerde ticstoornis|3|1|307.20|
+20170101|99991231|D5_1.07.05|D5_1.07|Ongespecificeerde ticstoornis|3|1|307.20|
+20170101|99991231|D5_1.08|D5_1|Andere neurobiologische ontwikkelingsstoornissen|2|0||
+20170101|99991231|D5_1.08.01|D5_1.08|Andere gespecificeerde neurobiologische ontwikkelingsstoornis|3|1|315.8|
+20170101|99991231|D5_1.08.02|D5_1.08|Ongespecificeerde neurobiologische ontwikkelingsstoornis|3|1|315.9|
+20170101|99991231|D5_10||Voedings- en eetstoornissen|1|0||
+20170101|99991231|D5_10.01|D5_10|Pica|2|1|307.52|
+20170101|99991231|D5_10.02|D5_10|Ruminatiestoornis|2|1|307.53|
+20170101|99991231|D5_10.03|D5_10|Vermijdende/restrictieve voedselinnamestoornis|2|1|307.59|
+20170101|99991231|D5_10.04|D5_10|Anorexia nervosa|2|2|307.1|
+20170101|99991231|D5_10.04.01|D5_10.04 |Anorexia nervosa: restrictieve type|3|1|307.1|
+20170101|99991231|D5_10.04.02|D5_10.04 |Anorexia nervosa: eetbuien- /purgerende type|3|1|307.1|
+20170101|99991231|D5_10.05|D5_10|Bulimia nervosa|2|2|307.51|
+20170101|99991231|D5_10.05.01|D5_10.05|Eetbuistoornis: licht|3|1|307.51|
+20170101|99991231|D5_10.05.02|D5_10.05|Eetbuistoornis: matig, ernstig, zeer ernstig|3|1|307.51|
+20170101|99991231|D5_10.06|D5_10|Andere voedings- of eetstoornissen|2|0||
+20170101|99991231|D5_10.06.01|D5_10.06|Andere gespecificeerde voedings- of eetstoornis|3|1|307.59|
+20170101|99991231|D5_10.06.02|D5_10.06|Ongespecificeerde voedings- of eetstoornis|3|1|307.50|
+20170101|99991231|D5_11||Stoornissen in de zindelijkheid|1|0||
+20170101|99991231|D5_11.01|D5_11|Enuresis|2|2|307.6|
+20170101|99991231|D5_11.01.01|D5_11.01|Enuresis: alleen 's nachts|3|1|307.6|
+20170101|99991231|D5_11.01.02|D5_11.01|Enuresis: alleen overdag|3|1|307.6|
+20170101|99991231|D5_11.01.03|D5_11.01|Enuresis: s Nachts en overdag|3|1|307.6|
+20170101|99991231|D5_11.02|D5_11|Encopresis|2|0||
+20170101|99991231|D5_11.02.01|D5_11.02|Encopresis: met obstipatie en overloop incontinentie|3|1|307.7|
+20170101|99991231|D5_11.02.02|D5_11.02|Encopresis: zonder obstipatie en overloop incontinentie|3|1|307.7|
+20170101|99991231|D5_11.03|D5_11|Andere stoornissen in de zindelijkheid|2|0||
+20170101|99991231|D5_11.03.01|D5_11.03|Andere gespecificeerde stoornis in de zindelijkheid met urinaire symptomen|3|1|788.39|
+20170101|99991231|D5_11.03.02|D5_11.03|Andere gespecificeerde stoornis in de zindelijkheid: met fecale symptomen|3|1|787.60|
+20170101|99991231|D5_11.03.03|D5_11.03|Ongespecificeerde stoornis in de zindelijkheid met urinaire symptomen|3|1|788.30|
+20170101|99991231|D5_11.03.04|D5_11.03|Ongespecificeerde stoornis in de zindelijkheid: met fecale symptomen|3|1|787.60|
+20170101|99991231|D5_12||Slaap-waakstoornissen|1|0||
+20170101|99991231|D5_12.01|D5_12|Insomniastoornis|2|1|307.42|
+20170101|99991231|D5_12.02|D5_12|Hypersomnolentiestoornis|2|1|307.44|
+20170101|99991231|D5_12.03|D5_12|Narcolepsie|2|2|347.00|
+20170101|99991231|D5_12.03.01|D5_12.03|Narcolepsie: met kataplexie,zonder hypocretinedeficiëntie|3|1|347.01|
+20170101|99991231|D5_12.03.02|D5_12.03|Narcolepsie: secundair aan een andere somatische aandoening|3|1|347.10|
+20170101|99991231|D5_12.04|D5_12|Ademhalingsgerelateerde slaapstoornissen|2|2|327.23|
+20170101|99991231|D5_12.04.01|D5_12.04|Obstructieve-slaapapneu/hypopneusyndroom|3|1|327.23|
+20170101|99991231|D5_12.04.02|D5_12.04|Centrale slaapapneusyndroom|3|2|327.23|
+20170101|99991231|D5_12.04.02.01|D5_12.04.02|Idiopatische centrale-slaapapneusyndroom|4|1|327.21|
+20170101|99991231|D5_12.04.02.02|D5_12.04.02|Cheyne-Stokes-ademhaling|4|1|786.04|
+20170101|99991231|D5_12.04.02.03|D5_12.04.02|Centrale slaapapneusyndroom bij het gebruik van opioïden|4|1|780.57|
+20170101|99991231|D5_12.04.03|D5_12.04|Slaapgerelateerde hypoventilatie|3|2||
+20170101|99991231|D5_12.04.03.01|D5_12.04.03 |Idiopatische hypoventilatie|4|1|327.24|
+20170101|99991231|D5_12.04.03.02|D5_12.04.03 |Congenitale centrale alveolaire hypoventilatie|4|1|327.25|
+20170101|99991231|D5_12.04.03.03|D5_12.04.03 |Comorbide slaapgerelateerde hypoventilatie|4|1|327.26|
+20170101|99991231|D5_12.04.04|D5_12.04|Circadianeritme-slaap-waakstoornissen|3|2|307.45|
+20170101|99991231|D5_12.04.04.01|D5_12.04.04 |Circadianeritme-slaap-waakstoornissen: type verlate slaapfase|4|1|327.45|
+20170101|99991231|D5_12.04.04.02|D5_12.04.04 |Circadianeritme-slaap-waakstoornissen: type ploegendienst|4|1|327.45|
+20170101|99991231|D5_12.04.04.03|D5_12.04.04 |Circadianeritme-slaap-waakstoornissen: ongespecificeerde circadianeritme-slaap-waakstoornissen|4|1|327.45|
+20170101|99991231|D5_12.05|D5_12|Parasomnia's|2|0||
+20170101|99991231|D5_12.05.01|D5_12.05|Non-remslaap-arausalstoornissen|3|0||
+20170101|99991231|D5_12.05.01.01|D5_12.05.01|Non-remslaap-arausalstoornissen: type slaapwandelen|4|1|307.46|
+20170101|99991231|D5_12.05.01.02|D5_12.05.01|Non-remslaap-arausalstoornissen: type pavor nocturnus|4|1|307.46|
+20170101|99991231|D5_12.05.02|D5_12.05|Nachtmerriestoornis|3|1|307.47|
+20170101|99991231|D5_12.05.03|D5_12.05|Remslaapgedragstoornis|3|1|327.42|
+20170101|99991231|D5_12.05.04|D5_12.05|Rustelozebenensyndroom|3|1|333.94|
+20170101|99991231|D5_12.05.05|D5_12.05|Slaapstoornis door een middel / medicatie|3|0||
+20170101|99991231|D5_12.05.05.01|D5_12.05.05|Slaapstoornis door alcohol|4|2|291.82|
+20170101|99991231|D5_12.05.05.01.01|D5_12.05.05.01|Slaapstoornis door alcohol: met begin tijdens intoxicatie|5|1|291.82|
+20170101|99991231|D5_12.05.05.01.02|D5_12.05.05.01|Slaapstoornis door alcohol: met begin tijdens onttrekking|5|1|291.82|
+20170101|99991231|D5_12.05.05.01.03|D5_12.05.05.01|Slaapstoornis door alcohol: insomnia type|5|1|291.82|
+20170101|99991231|D5_12.05.05.01.04|D5_12.05.05.01|Slaapstoornis door alcohol: type met slaperigheid|5|1|291.82|
+20170101|99991231|D5_12.05.05.01.05|D5_12.05.05.01|Slaapstoornis door alcohol: parasomnia type|5|1|291.82|
+20170101|99991231|D5_12.05.05.01.06|D5_12.05.05.01|Slaapstoornis door alcohol: gemengd type|5|1|291.82|
+20170101|99991231|D5_12.05.05.02|D5_12.05.05|Slaapstoornis door cafeïne|4|2|292.85|
+20170101|99991231|D5_12.05.05.02.01|D5_12.05.05.02|Slaapstoornis door cafeïne: insomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.02.02|D5_12.05.05.02|Slaapstoornis door cafeïne: type met slaperigheid|5|1|292.85|
+20170101|99991231|D5_12.05.05.02.03|D5_12.05.05.02|Slaapstoornis door cafeïne: parasomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.02.04|D5_12.05.05.02|Slaapstoornis door cafeïne: gemengd type|5|1|292.85|
+20170101|99991231|D5_12.05.05.02.05|D5_12.05.05.02|Slaapstoornis door cannabis|5|1|292.85|
+20170101|99991231|D5_12.05.05.03|D5_12.05.05|Slaapstoornis door stimulantia|4|2|292.85|
+20170101|99991231|D5_12.05.05.03.01|D5_12.05.05.03|Slaapstoornis door stimulantia: insomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.03.02|D5_12.05.05.03|Slaapstoornis door stimulantia: type met slaperigheid|5|1|292.85|
+20170101|99991231|D5_12.05.05.03.03|D5_12.05.05.03|Slaapstoornis door stimulantia: parasomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.03.04|D5_12.05.05.03|Slaapstoornis door stimulantia: gemengd type|5|1|292.85|
+20170101|99991231|D5_12.05.05.04|D5_12.05.05|Slaapstoornis door opioïden|4|2|292.85|
+20170101|99991231|D5_12.05.05.04.01|D5_12.05.05.04|Slaapstoornis door opioïden: insomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.04.02|D5_12.05.05.04|Slaapstoornis door opioïden: type met slaperigheid|5|1|292.85|
+20170101|99991231|D5_12.05.05.04.03|D5_12.05.05.04|Slaapstoornis door opioïden: parasomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.04.04|D5_12.05.05.04|Slaapstoornis door opioïden: gemengd type|5|1|292.85|
+20170101|99991231|D5_12.05.05.05|D5_12.05.05|Slaapstoornis door hypnotica of anxiolytica|4|2|292.85|
+20170101|99991231|D5_12.05.05.05.01|D5_12.05.05.05|Slaapstoornis door hypnotica of anxiolytica: insomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.05.02|D5_12.05.05.05|Slaapstoornis door hypnotica of anxiolytica: type met slaperigheid|5|1|292.85|
+20170101|99991231|D5_12.05.05.05.03|D5_12.05.05.05|Slaapstoornis door hypnotica of anxiolytica: parasomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.05.04|D5_12.05.05.05|Slaapstoornis door hypnotica of anxiolytica: gemengd type|5|1|292.85|
+20170101|99991231|D5_12.05.05.05.05|D5_12.05.05.05|Slaapstoornis door tabak|5|1|292.85|
+20170101|99991231|D5_12.05.05.06|D5_12.05.05|Slaapstoornis door een ander (of onbekend) middel|4|2|292.85|
+20170101|99991231|D5_12.05.05.06.01|D5_12.05.05.06|Slaapstoornis door een ander (of onbekend) middel: insomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.06.02|D5_12.05.05.06|Slaapstoornis door een ander (of onbekend) middel: type met slaperigheid|5|1|292.85|
+20170101|99991231|D5_12.05.05.06.03|D5_12.05.05.06|Slaapstoornis door een ander (of onbekend) middel: parasomnia type|5|1|292.85|
+20170101|99991231|D5_12.05.05.06.04|D5_12.05.05.06|Slaapstoornis door een ander (of onbekend) middel: gemengd type|5|1|292.85|
+20170101|99991231|D5_12.06|D5_12|Andere slaap- waakstoornissen|2|0||
+20170101|99991231|D5_12.06.01|D5_12.06|Andere gespecificeerde insomniastoornis|3|1|780.52|
+20170101|99991231|D5_12.06.02|D5_12.06|Ongespecificeerde insomniastoornis|3|1|780.52|
+20170101|99991231|D5_12.06.03|D5_12.06|Andere gespecificeerde hypersomnolentiestoornis|3|1|780.54|
+20170101|99991231|D5_12.06.04|D5_12.06|Ongespecificeerde hypersomnolentiestoornis|3|1|780.54|
+20170101|99991231|D5_12.06.05|D5_12.06|Andere gespecificeerde slaap-waakstoornis|3|1|780.59|
+20170101|99991231|D5_12.06.06|D5_12.06|Ongespecificeerde slaap-waakstoornis|3|1|780.59|
+20170101|99991231|D5_13||Seksuele disfuncties|1|0||
+20170101|99991231|D5_13.01|D5_13|Vertraagde ejaculatie|2|1|302.74|
+20170101|99991231|D5_13.02|D5_13|Erectiestoornis|2|1|302.72|
+20170101|99991231|D5_13.03|D5_13|Orgasmestoornis bij de vrouw|2|1|302.73|
+20170101|99991231|D5_13.04|D5_13|Seksuele-interesse-/opwindingsstoornis bij de vrouw|2|1|302.72|
+20170101|99991231|D5_13.05|D5_13|Genitopelvienepijn-/penetratiestoornis|2|1|302.76|
+20170101|99991231|D5_13.06|D5_13|Hypoactief-seksueelverlangenstoornis bij de man|2|1|302.71|
+20170101|99991231|D5_13.07|D5_13|Voortijdige ejaculatie|2|1|302.75|
+20170101|99991231|D5_13.08|D5_13|Seksuele disfunctie door een middel / medicatie|2|0||
+20170101|99991231|D5_13.08.01|D5_13.08|Seksuele disfunctie door alcohol|3|2|291.89|
+20170101|99991231|D5_13.08.01.01|D5_13.08.01|Seksuele disfunctie door alcohol: met begin tijdens intoxicatie|4|1|291.89|
+20170101|99991231|D5_13.08.01.02|D5_13.08.01|Seksuele disfunctie door alcohol: met begin tijdens onttrekking|4|1|291.89|
+20170101|99991231|D5_13.08.02|D5_13.08|Seksuele disfunctie door een opioïde|3|2|292.89|
+20170101|99991231|D5_13.08.02.01|D5_13.08.02|Seksuele disfunctie door een opioïde: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_13.08.02.02|D5_13.08.02|Seksuele disfunctie door een opioïde: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_13.08.03|D5_13.08|Seksuele disfunctie door hypnotica of anxiolytica|3|2|292.89|
+20170101|99991231|D5_13.08.03.01|D5_13.08.03|Seksuele disfunctie door hypnotica of anxiolytica: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_13.08.03.02|D5_13.08.03|Seksuele disfunctie door hypnotica of anxiolytica: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_13.08.04|D5_13.08|Seksuele disfunctie door amfetamine (of andere stimulantia)|3|2|292.89|
+20170101|99991231|D5_13.08.04.01|D5_13.08.04|Seksuele disfunctie door amfetamine (of andere stimulantia): met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_13.08.04.02|D5_13.08.04|Seksuele disfunctie door amfetamine (of andere stimulantia): met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_13.08.05|D5_13.08|Seksuele disfunctie door cocaïne|3|2|292.89|
+20170101|99991231|D5_13.08.05.01|D5_13.08.05|Seksuele disfunctie door cocaïne: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_13.08.06|D5_13.08|Seksuele disfunctie door een ander (of onbekend) middel|3|2|292.89|
+20170101|99991231|D5_13.08.06.01|D5_13.08.06|Seksuele disfunctie door een ander (of onbekend) middel: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_13.08.06.02|D5_13.08.06|Seksuele disfunctie door een ander (of onbekend) middel: met begin tijdens ontrekking|4|1|292.89|
+20170101|99991231|D5_13.09|D5_13|Andere seksuele disfuncties|2|0||
+20170101|99991231|D5_13.09.01|D5_13.09|Andere gespecificeerde seksuele disfunctie|3|1|302.79|
+20170101|99991231|D5_13.09.02|D5_13.09|Ongespecificeerde seksuele disfunctie|3|1|302.70|
+20170101|99991231|D5_14||Genderdysforie|1|0||
+20170101|99991231|D5_14.01|D5_14|Genderdysforie bij adolescenten of volwassenen|2|1|302.85|
+20170101|99991231|D5_14.02|D5_14|Andere genderdysforie|2|0||
+20170101|99991231|D5_14.02.01|D5_14.02|Ongespecificeerde genderdysforie|3|1|302.6|
+20170101|99991231|D5_14.02.02|D5_14.02|Andere gespecificeerde genderdysforie|3|1|302.6|
+20170101|99991231|D5_15||Disruptieve, impulsbeheersings- en andere gedragsstoornissen|1|0||
+20170101|99991231|D5_15.01|D5_15|Oppositioneel-opstandige gedragsstoornis|2|1|313.81|
+20170101|99991231|D5_15.02|D5_15|Periodieke explosieve stoornis|2|1|312.34|
+20170101|99991231|D5_15.03|D5_15|Normoverschrijdend-gedragsstoornis|2|0||
+20170101|99991231|D5_15.03.01|D5_15.03|Normoverschrijdend-gedragsstoornis: met begin in de kindertijd|3|1|312.81|
+20170101|99991231|D5_15.03.02|D5_15.03|Normoverschrijdend-gedragsstoornis: met begin in de adolescentie|3|1|312.82|
+20170101|99991231|D5_15.03.03|D5_15.03|Normoverschrijdend-gedragsstoornis: begin ongespecificeerd|3|1|312.89|
+20170101|99991231|D5_15.04|D5_15|Antisociale persoonlijkheidsstoornis|2|1|301.7|
+20170101|99991231|D5_15.05|D5_15|Kleptomanie|2|1|312.32|
+20170101|99991231|D5_15.06|D5_15|Pyromanie|2|1|312.33|
+20170101|99991231|D5_15.07|D5_15|Andere disruptieve, impulsbeheersings- of andere gedragsstoornissen|2|0||
+20170101|99991231|D5_15.07.01|D5_15.07|Andere gespecificeerde disruptieve, impulsbeheersings- of andere gedragsstoornis|3|1|312.89|
+20170101|99991231|D5_15.07.02|D5_15.07|Ongespecificeerde disruptieve, impulsbeheersings- of andere gedragsstoornis|3|1|312.9|
+20170101|99991231|D5_16||Middelgerelateerde en verslavingsstoornissen|1|0||
+20170101|99991231|D5_16.01|D5_16|Middelgerelateerde stoornissen|2|0||
+20170101|99991231|D5_16.01.01|D5_16.01|Alcoholgerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.01.01|D5_16.01.01|Stoornis in alcoholgebruik|4|0||
+20170101|99991231|D5_16.01.01.01.01|D5_16.01.01.01|Stoornis in alcoholgebruik: licht|5|1|305.00|
+20170101|99991231|D5_16.01.01.01.02|D5_16.01.01.01|Stoornis in alcoholgebruik: matig|5|1|303.90|
+20170101|99991231|D5_16.01.01.01.03|D5_16.01.01.01|Stoornis in alcoholgebruik: ernstig|5|1|303.90|
+20170101|99991231|D5_16.01.01.02|D5_16.01.01|Alcoholintoxicatie|4|1|303.00|
+20170101|99991231|D5_16.01.01.03|D5_16.01.01|Alcoholonttrekkingssyndroom|4|0||
+20170101|99991231|D5_16.01.01.03.01|D5_16.01.01.03|Alcoholonttrekkingssyndroom: met perceptiestoornissen|5|1|291.81|
+20170101|99991231|D5_16.01.01.03.02|D5_16.01.01.03|Alcoholonttrekkingssyndroom|5|1|291.81|
+20170101|99991231|D5_16.01.01.04|D5_16.01.01|Ongespecificeerde alcoholgerelateerde stoornis|4|1|291.9|
+20170101|99991231|D5_16.01.02|D5_16.01|Cafeïnegerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.02.01|D5_16.01.02|Cafeïne-intoxicatie|4|1|305.90|
+20170101|99991231|D5_16.01.02.02|D5_16.01.02|Cafeïneonttrekkingssyndroom|4|1|292.0|
+20170101|99991231|D5_16.01.02.03|D5_16.01.02|Ongespecificeerde cafeïnegerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.03|D5_16.01|Cannabis gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.03.01|D5_16.01.03|Stoornis in cannabisgebruik|4|0||
+20170101|99991231|D5_16.01.03.01.01|D5_16.01.03.01|Stoornis in cannabisgebruik: licht|5|1|305.20|
+20170101|99991231|D5_16.01.03.01.02|D5_16.01.03.01|Stoornis in cannabisgebruik: matig, ernstig|5|1|304.30|
+20170101|99991231|D5_16.01.03.02|D5_16.01.03|Cannabisintoxicatie|4|1|292.89|
+20170101|99991231|D5_16.01.03.03|D5_16.01.03|Cannabisonttrekkingssyndroom|4|1|292.0|
+20170101|99991231|D5_16.01.03.04|D5_16.01.03|Ongespecificeerde cannabis gerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.04|D5_16.01|Hallucinogeen gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.04.01|D5_16.01.04|Stoornis in fencyclidinegebruik|4|0||
+20170101|99991231|D5_16.01.04.01.01|D5_16.01.04.01|Stoornis in fencyclidinegebruik: licht|5|1|305.90|
+20170101|20171231|D5_16.01.04.01.02|D5_16.01.04.01|Stoornis in fencyclidinegebruik: matig, ernstig|5|1|304.50|
+20180101|99991231|D5_16.01.04.01.02|D5_16.01.04.01|Stoornis in fencyclidinegebruik: matig, ernstig|5|1|304.60|
+20170101|99991231|D5_16.01.04.02|D5_16.01.04|Stoornis in het gebruik van een hallucinogeen|4|0||
+20170101|99991231|D5_16.01.04.02.01|D5_16.01.04.02|Stoornis in het gebruik van een hallucinogeen: licht|5|1|305.30|
+20170101|99991231|D5_16.01.04.02.02|D5_16.01.04.02|Stoornis in het gebruik van een hallucinogeen: matig, ernstig|5|1|304.50|
+20170101|99991231|D5_16.01.04.03|D5_16.01.04|Fencyclidine-intoxicatie|4|1|292.89|
+20170101|99991231|D5_16.01.04.04|D5_16.01.04|Intoxicatie door een hallucinogeen|4|1|292.89|
+20170101|99991231|D5_16.01.04.05|D5_16.01.04|Persisterende perceptiestoornis door een hallucinogeen|4|1|292.89|
+20170101|99991231|D5_16.01.04.06|D5_16.01.04|Ongespecificeerde fencyclidinegerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.04.07|D5_16.01.04|Ongespecificeerde hallucinogeengerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.05|D5_16.01|Inhalantium gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.05.01|D5_16.01.05|Stoornis in het gebruik van een inhalantium|4|0||
+20170101|99991231|D5_16.01.05.01.01|D5_16.01.05.01|Stoornis in het gebruik van een inhalantium: licht|5|1|305.90|
+20170101|99991231|D5_16.01.05.01.02|D5_16.01.05.01|Stoornis in het gebruik van een inhalantium: matig, ernstig|5|1|304.60|
+20170101|99991231|D5_16.01.05.02|D5_16.01.05|Intoxicatie door een inhalantium|4|1|292.89|
+20170101|99991231|D5_16.01.05.03|D5_16.01.05|Ongespecificeerde inhalantiumgerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.06|D5_16.01|Opioïde gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.06.01|D5_16.01.06|Stoornis in het gebruik van een opioïde|4|0||
+20170101|99991231|D5_16.01.06.01.01|D5_16.01.06.01|Stoornis in het gebruik van een opioïde: licht|5|1|305.50|
+20170101|99991231|D5_16.01.06.01.02|D5_16.01.06.01|Stoornis in het gebruik van een opioïde: matig, ernstig|5|1|304.00|
+20170101|99991231|D5_16.01.06.02|D5_16.01.06|Intoxicatie door een opioïde|4|1|292.89|
+20170101|99991231|D5_16.01.06.03|D5_16.01.06|Onttrekkingssyndroom van een opioïde|4|1|292.0|
+20170101|99991231|D5_16.01.06.04|D5_16.01.06|Ongespecificeerde opioïdegerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.07|D5_16.01|Hypnoticum- of anxiolyticum gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.07.01|D5_16.01.07|Stoornis in het gebruik van een hypnoticum of anxiolyticum|4|0||
+20170101|99991231|D5_16.01.07.01.01|D5_16.01.07.01|Stoornis in het gebruik van een hypnoticum of anxiolyticum: licht|5|1|305.40|
+20170101|99991231|D5_16.01.07.01.02|D5_16.01.07.01|Stoornis in het gebruik van een hypnoticum of anxiolyticum: matig, ernstig|5|1|304.10|
+20170101|20171231|D5_16.01.07.02|D5_16.01.07|Intoxicatie door een hypnoticum of anxiolyticum|4|1|289.92|
+20180101|99991231|D5_16.01.07.02|D5_16.01.07|Intoxicatie door een hypnoticum of anxiolyticum|4|1|292.89|
+20170101|99991231|D5_16.01.07.03|D5_16.01.07|Onttrekkingssyndroom van een hypnoticum of anxiolyticum|4|1|292.0|
+20170101|99991231|D5_16.01.07.04|D5_16.01.07|Ongespecificeerde hypnoticum- of anxiolyticumgerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.08|D5_16.01|Stimulantium gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.08.01|D5_16.01.08|Stoornis in het gebruik van een stimulantium|4|0||
+20170101|99991231|D5_16.01.08.01.01|D5_16.01.08.01|Stoornis in het gebruik van een stimulantium: amfetamineachtig middel|5|0||
+20170101|99991231|D5_16.01.08.01.01.01|D5_16.01.08.01.01|Stoornis in het gebruik van een amfetamineachtig middel: licht|6|1|305.70|
+20170101|99991231|D5_16.01.08.01.01.02|D5_16.01.08.01.01|Stoornis in het gebruik van een amfetamineachtig middel: matig, ernstig|6|1|304.40|
+20170101|99991231|D5_16.01.08.01.02|D5_16.01.08.01|Stoornis in het gebruik van cocaïne|5|0||
+20170101|99991231|D5_16.01.08.01.02.01|D5_16.01.08.01.02|Stoornis in het gebruik van cocaïne: licht|6|1|305.60|
+20170101|99991231|D5_16.01.08.01.02.02|D5_16.01.08.01.02|Stoornis in het gebruik van cocaïne: matig, ernstig|6|1|304.20|
+20170101|99991231|D5_16.01.08.01.03|D5_16.01.08.01|Stoornis in het gebruik van een ander of ongespecificeerd stimulantium|5|0||
+20170101|99991231|D5_16.01.08.01.03.01|D5_16.01.08.01.03|Stoornis in het gebruik van een ander of ongespecificeerd stimulantium: licht|6|1|305.70|
+20170101|99991231|D5_16.01.08.01.03.02|D5_16.01.08.01.03|Stoornis in het gebruik van een ander of ongespecificeerd stimulantium: matig, ernstig|6|1|304.40|
+20170101|99991231|D5_16.01.08.02|D5_16.01.08|Intoxicatie door een stimulantium|4|2|292.89|
+20170101|99991231|D5_16.01.08.02.01|D5_16.01.08.02|Intoxicatie door een amfetamine of een ander stimulantium|5|2|292.89|
+20170101|99991231|D5_16.01.08.02.01.01|D5_16.01.08.02.01|Intoxicatie door een amfetamine of een ander stimulantium: met perceptiestoornissen|6|1|292.89|
+20170101|99991231|D5_16.01.08.02.02|D5_16.01.08.02|Intoxicatie door cocaïne|5|1|292.89|
+20170101|99991231|D5_16.01.08.03|D5_16.01.08|Onttrekkingssyndroom van een stimulantium|4|2|292.0|
+20170101|99991231|D5_16.01.08.03.01|D5_16.01.08.03|Onttrekkingssyndroom van een amfetamineachtig middel|5|1|292.0|
+20170101|99991231|D5_16.01.08.03.02|D5_16.01.08.03|Onttrekkingssyndroom van cocaïne|5|1|292.0|
+20170101|99991231|D5_16.01.08.03.03|D5_16.01.08.03|Onttrekkingssyndroom van een ander of ongespecificeerd stimulantium|5|1|292.0|
+20170101|99991231|D5_16.01.08.04|D5_16.01.08|Ongespecificeerde stimulantiumgerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.09|D5_16.01|Tabak gerelateerde stoornissen|3|0||
+20170101|99991231|D5_16.01.09.01|D5_16.01.09|Stoornis in tabaksgebruik|4|0||
+20170101|99991231|D5_16.01.09.01.01|D5_16.01.09.01|Stoornis in tabaksgebruik: licht|5|1|305.1|
+20170101|99991231|D5_16.01.09.01.02|D5_16.01.09.01|Stoornis in tabaksgebruik: matig, ernstig|5|1|305.1|
+20170101|99991231|D5_16.01.09.02|D5_16.01.09|Tabaksonttrekkingssyndroom|4|1|292.0|
+20170101|99991231|D5_16.01.09.03|D5_16.01.09|Ongespecificeerde tabaksgerelateerde stoornis|4|1|292.9|
+20170101|99991231|D5_16.01.10|D5_16.01|Stoornissen gerelateerd aan een ander (of onbekend) middel|3|0||
+20170101|99991231|D5_16.01.10.01|D5_16.01.10|Stoornis in het gebruik van een ander (of onbekend) middel|4|0||
+20170101|99991231|D5_16.01.10.01.01|D5_16.01.10.01|Stoornis in het gebruik van een ander (of onbekend) middel: licht|5|1|305.90|
+20170101|99991231|D5_16.01.10.01.02|D5_16.01.10.01|Stoornis in het gebruik van een ander (of onbekend) middel: matig, ernstig|5|1|304.90|
+20170101|99991231|D5_16.01.10.02|D5_16.01.10|Intoxicatie door een ander (of onbekend) middel|4|1|292.89|
+20170101|99991231|D5_16.01.10.03|D5_16.01.10|Onttrekkingssyndroom van een ander (of onbekend) middel|4|1|292.0|
+20170101|20181231|D5_16.01.10.04|D5_16.01.10|Ongespecificeerde stoornis gereleateerd aan een ander (of onbekend) middel|4|1|292.9|2
+20190101|99991231|D5_16.01.10.04|D5_16.01.10|Ongespecificeerde stoornis gerelateerd aan een ander (of onbekend) middel|4|1|292.9|1
+20170101|99991231|D5_16.02|D5_16|Niet-middelgerelateerde stoornissen|2|0||
+20170101|99991231|D5_16.02.01|D5_16.02|Gokstoornis|3|1|312.31|
+20170101|99991231|D5_17||Neurocognitieve stoornissen|1|0||
+20170101|99991231|D5_17.01|D5_17|Delirium|2|0||
+20170101|99991231|D5_17.01.01|D5_17.01|Delirium door intoxicatie door een middel|3|0||
+20170101|99991231|D5_17.01.01.01|D5_17.01.01|Delirium door intoxicatie door alcohol|4|1|291.0|
+20170101|99991231|D5_17.01.01.02|D5_17.01.01|Delirium door intoxicatie door stimulantia|4|1|292.81|
+20170101|99991231|D5_17.01.01.03|D5_17.01.01|Delirium door intoxicatie door cannabis|4|1|292.81|
+20170101|99991231|D5_17.01.01.04|D5_17.01.01|Delirium door intoxicatie door cocaïne|4|1|292.81|
+20170101|99991231|D5_17.01.01.05|D5_17.01.01|Delirium door intoxicatie door andere hallucinogenen|4|1|292.81|
+20170101|99991231|D5_17.01.01.06|D5_17.01.01|Delirium door intoxicatie door inhalantia|4|1|292.81|
+20170101|99991231|D5_17.01.01.07|D5_17.01.01|Delirium door intoxicatie door opioïden|4|1|292.81|
+20170101|99991231|D5_17.01.01.08|D5_17.01.01|Delirium door intoxicatie door fencyclidine|4|1|292.81|
+20170101|99991231|D5_17.01.01.09|D5_17.01.01|Delirium door intoxicatie door hypnotica of anxiolytica|4|1|292.81|
+20170101|99991231|D5_17.01.01.10|D5_17.01.01|Delirium door intoxicatie door ander (of onbekend) middel|4|1|292.81|
+20170101|99991231|D5_17.01.02|D5_17.01|Delirium door onttrekking van een middel|3|0||
+20170101|99991231|D5_17.01.02.01|D5_17.01.02|Delirium door onttrekking van alcohol|4|1|292.81|
+20170101|99991231|D5_17.01.02.02|D5_17.01.02|Delirium door onttrekking van opioïden|4|1|292.81|
+20170101|99991231|D5_17.01.02.03|D5_17.01.02|Delirium door onttrekking van hypnotica of anxiolytica|4|1|292.81|
+20170101|99991231|D5_17.01.02.04|D5_17.01.02|Delirium door onttrekking van een ander (of onbekend) middel|4|1|292.81|
+20170101|99991231|D5_17.01.03|D5_17.01 |Delirium door medicatie|3|1|292.81|
+20170101|99991231|D5_17.01.04|D5_17.01 |Delirium door een somatische aandoening|3|1|293.0|
+20170101|99991231|D5_17.01.05|D5_17.01 |Delirium door multipele oorzaken|3|1|293.0|
+20170101|99991231|D5_17.01.06|D5_17.01|Andere delirium|3|0||
+20170101|99991231|D5_17.01.06.01|D5_17.01.06|Ander gespecificeerde delirium|4|1|780.09|
+20170101|99991231|D5_17.01.06.02|D5_17.01.06|Ongespecificeerde delirium|4|1|790.09|
+20170101|99991231|D5_17.02|D5_17|Uitgebreide of beperkte neurocognitieve stoornissen|2|0||
+20170101|99991231|D5_17.02.01|D5_17.02|Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer|3|0||
+20170101|99991231|D5_17.02.01.01|D5_17.02.01 |Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer: met gedragsstoornissen|4|1|294.11|
+20170101|99991231|D5_17.02.01.02|D5_17.02.01 |Uitgebreide neurocognitieve stoornis door de ziekte van Alzheimer: zonder gedragsstoornissen|4|1|294.10|
+20170101|99991231|D5_17.02.02|D5_17.02|Beperkte neurocognitieve stoornis door de ziekte van Alzheimer|3|0||
+20170101|99991231|D5_17.02.02.01|D5_17.02.02|Beperkte neurocognitieve stoornis door de ziekte van Alzheimer: met gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.02.02.02|D5_17.02.02|Beperkte neurocognitieve stoornis door de ziekte van Alzheimer: zonder gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.03|D5_17|Uitgebreide of beperkte frontotemporale neurocognitieve stoornis|2|0||
+20170101|99991231|D5_17.03.01|D5_17.03|Uitgebreide frontotemporale neurocognitieve stoornis|3|0||
+20170101|99991231|D5_17.03.01.01|D5_17.03.01|Uitgebreide neurocognitieve stoornis door frontotemporale lobaire degeneratie: zonder gedragsstoornissen|4|1|294.10|
+20170101|99991231|D5_17.03.01.02|D5_17.03.01|Uitgebreide neurocognitieve stoornis door frontotemporale lobaire degeneratie: met gedragsstoornissen|4|1|294.11|
+20170101|99991231|D5_17.03.02|D5_17.03|Beperkte frontotemporale neurocognitieve stoornis|3|0||
+20170101|99991231|D5_17.03.02.01|D5_17.03.02|Beperkte neurocognitieve stoornis door frontotemporale lobaire degeneratie: met gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.03.02.02|D5_17.03.02|Beperkte neurocognitieve stoornis door frontotemporale lobaire degeneratie: zonder gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.04|D5_17|Uitgebreide of beperkte neurocognitieve stoornis met lewylichaampjes|2|0||
+20170101|99991231|D5_17.04.01|D5_17.04 |Uitgebreide neurocognitieve stoornis met lewylichaampjes|3|0||
+20170101|99991231|D5_17.04.01.01|D5_17.04.01|Uitgebreide neurocognitieve stoornis met lewylichaampjes: met gedragsstoornissen|4|1|294.11|
+20170101|99991231|D5_17.04.01.02|D5_17.04.01|Uitgebreide neurocognitieve stoornis met lewylichaampjes: zonder gedragsstoornissen|4|1|294.10|
+20170101|99991231|D5_17.04.02|D5_17.04|Beperkte neurocognitieve stoornis met lewylichaampjes|3|0||
+20170101|99991231|D5_17.04.02.01|D5_17.04.02|Beperkte neurocognitieve stoornis met lewylichaampjes: met gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.04.02.02|D5_17.04.02|Beperkte neurocognitieve stoornis met lewylichaampjes: zonder gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.05|D5_17|Uitgebreide of beperkte vasculaire neurocognitieve stoornis|2|0||
+20170101|99991231|D5_17.05.01|D5_17.05|Uitgebreide vasculaire neurocognitieve stoornis|3|0||
+20170101|99991231|D5_17.05.01.01|D5_17.05.01|Uitgebreide vasculaire neurocognitieve stoornis: met gedragsstoornissen|4|1|290.40|
+20170101|99991231|D5_17.05.01.02|D5_17.05.01|Uitgebreide vasculaire neurocognitieve stoornis: zonder gedragsstoornissen|4|1|290.40|
+20170101|99991231|D5_17.05.02|D5_17.05 |Beperkte vasculaire neurocognitieve stoornis|3|0||
+20170101|99991231|D5_17.05.02.01|D5_17.05.02|Beperkte vasculaire neurocognitieve stoornis: met gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.05.02.02|D5_17.05.02|Beperkte vasculaire neurocognitieve stoornis: zonder gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.06|D5_17|Uitgebreide of beperkte neurocognitieve stoornis door traumatisch hersenletsel|2|0||
+20170101|99991231|D5_17.06.01|D5_17.06|Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel|3|0||
+20170101|99991231|D5_17.06.01.01|D5_17.06.01|Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel: met gedragsstoornissen|4|1|294.11|
+20170101|99991231|D5_17.06.01.02|D5_17.06.01|Uitgebreide neurocognitieve stoornis door traumatisch hersenletsel: zonder gedragsstoornissen|4|1|294.10|
+20170101|99991231|D5_17.06.02|D5_17.06|Uitgebreide of beperkte neurocognitieve stoornis door traumatisch hersenletsel|3|0||
+20170101|99991231|D5_17.06.02.01|D5_17.06.02|Beperkte neurocognitieve stoornis door traumatisch hersenletsel: met gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.06.02.02|D5_17.06.02|Beperkte neurocognitieve stoornis door traumatisch hersenletsel: zonder gedragsstoornissen|4|1|331.83|
+20170101|99991231|D5_17.07|D5_17|Uitgebreide of beperkte neurocognitieve stoornis door een middel / medicatie|2|0||
+20170101|99991231|D5_17.07.01|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door alcohol|3|0||
+20170101|99991231|D5_17.07.01.01|D5_17.07.01|Uitgebreide neurocognitieve stoornis door alcohol|4|0||
+20170101|99991231|D5_17.07.01.01.01|D5_17.07.01.01|Uitgebreide neurocognitieve stoornis door alcohol: niet-amnestisch-confabulerend type|5|1|291.2|
+20170101|99991231|D5_17.07.01.01.02|D5_17.07.01.01|Uitgebreide neurocognitieve stoornis door alcohol: amnestisch-confabulerend type|5|1|291.1|
+20170101|99991231|D5_17.07.01.02|D5_17.07.01|Beperkte neurocognitieve stoornis door alcohol|4|0||
+20170101|99991231|D5_17.07.01.02.01|D5_17.07.01.02|Beperkte  neurocognitieve stoornis door alcohol|5|1|291.89|
+20170101|99991231|D5_17.07.02|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door inhalantia|3|0||
+20170101|99991231|D5_17.07.02.01|D5_17.07.02|Uitgebreide neurocognitieve stoornis door inhalantia|4|0||
+20170101|99991231|D5_17.07.02.01.01|D5_17.07.02.01|Uitgebreide neurocognitieve stoornis door inhalantia|5|1|292.82|
+20170101|99991231|D5_17.07.02.02|D5_17.07.02|Beperkte neurocognitieve stoornis door inhalantia|4|0||
+20170101|99991231|D5_17.07.02.02.01|D5_17.07.02.02|Beperkte neurocognitieve stoornis door inhalantia|5|1|292.89|
+20170101|99991231|D5_17.07.03|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door hypnotica of anxiolytica|3|0||
+20170101|99991231|D5_17.07.03.01|D5_17.07.03|Uitgebreide neurocognitieve stoornis door hypnotica of anxiolytica|4|0||
+20170101|99991231|D5_17.07.03.01.01|D5_17.07.03.01|Uitgebreide neurocognitieve stoornis door hypnotica of anxiolytica|5|1|292.82|
+20170101|99991231|D5_17.07.03.02|D5_17.07.03|Beperkte neurocognitieve stoornis door hypnotica of anxiolytica|4|0||
+20170101|99991231|D5_17.07.03.02.01|D5_17.07.03.02|Beperkte neurocognitieve stoornis door hypnotica of anxiolytica|5|1|292.89|
+20170101|99991231|D5_17.07.04|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door een ander (of onbekend) middel|3|0||
+20170101|99991231|D5_17.07.04.01|D5_17.07.04|Uitgebreide neurocognitieve stoornis door een ander (of onbekend) middel|4|0||
+20170101|99991231|D5_17.07.04.01.01|D5_17.07.04.01|Uitgebreide neurocognitieve stoornis door een ander (of onbekend) middel|5|1|292.82|
+20170101|99991231|D5_17.07.04.02|D5_17.07.04|Beperkte neurocognitieve stoornis door een ander (of onbekend) middel|4|0||
+20170101|99991231|D5_17.07.04.02.01|D5_17.07.04.02|Beperkte neurocognitieve stoornis door een ander (of onbekend) middel|5|1|292.89|
+20170101|99991231|D5_17.07.05|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door hiv-infectie|3|0||
+20170101|99991231|D5_17.07.05.01|D5_17.07.05|Uitgebreide neurocognitieve stoornis door hiv-infectie|4|0||
+20170101|99991231|D5_17.07.05.01.01|D5_17.07.05.01|Uitgebreide neurocognitieve stoornis door hiv-infectie: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.05.01.02|D5_17.07.05.01|Uitgebreide neurocognitieve stoornis door hiv-infectie: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.05.02|D5_17.07.05|Beperkte neurocognitieve stoornis door hiv-infectie|4|0||
+20170101|99991231|D5_17.07.05.02.01|D5_17.07.05.02|Beperkte neurocognitieve stoornis door hiv-infectie: met gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.05.02.02|D5_17.07.05.02|Beperkte neurocognitieve stoornis door hiv-infectie: zonder gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.06|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door prionziekte|3|0||
+20170101|99991231|D5_17.07.06.01|D5_17.07.06|Uitgebreide neurocognitieve stoornis door prionziekte|4|0||
+20170101|99991231|D5_17.07.06.01.01|D5_17.07.06.01|Uitgebreide neurocognitieve stoornis door prionziekte: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.06.01.02|D5_17.07.06.01|Uitgebreide neurocognitieve stoornis door prionziekte: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.06.02|D5_17.07.06|Beperkte neurocognitieve stoornis door prionziekte|4|0||
+20170101|20171231|D5_17.07.06.02.01|D5_17.07.06.02|Beperkte neurocognitieve stoornis door prionziekte: met gedragsstoornissen|5|1|331.82|
+20180101|99991231|D5_17.07.06.02.01|D5_17.07.06.02|Beperkte neurocognitieve stoornis door prionziekte: met gedragsstoornissen|5|1|331.83|
+20170101|20171231|D5_17.07.06.02.02|D5_17.07.06.02|Beperkte neurocognitieve stoornis door prionziekte: zonder gedragsstoornissen|5|1|331.82|
+20180101|99991231|D5_17.07.06.02.02|D5_17.07.06.02|Beperkte neurocognitieve stoornis door prionziekte: zonder gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.07|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door de ziekte van Parkinson|3|0||
+20170101|99991231|D5_17.07.07.01|D5_17.07.07|Uitgebreide neurocognitieve stoornis door de ziekte van Parkinson|4|0||
+20170101|99991231|D5_17.07.07.01.01|D5_17.07.07.01|Uitgebreide neurocognitieve stoornis mogelijk of waarschijnlijk door de ziekte van Parkinson: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.07.01.02|D5_17.07.07.01|Uitgebreide neurocognitieve stoornis mogelijk of waarschijnlijk door de ziekte van Parkinson: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.07.02|D5_17.07.07|Beperkte neurocognitieve stoornis door de ziekte van Parkinson|4|0||
+20170101|99991231|D5_17.07.07.02.01|D5_17.07.07.02|Beperkte neurocognitieve stoornis door de ziekte van Parkinson: met gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.07.02.02|D5_17.07.07.02|Beperkte neurocognitieve stoornis door de ziekte van Parkinson: zonder gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.08|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door de ziekte van Huntington|3|0||
+20170101|99991231|D5_17.07.08.01|D5_17.07.08|Uitgebreide neurocognitieve stoornis door de ziekte van Huntington|4|0||
+20170101|99991231|D5_17.07.08.01.01|D5_17.07.08.01|Uitgebreide neurocognitieve stoornis door de ziekte van Huntington: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.08.01.02|D5_17.07.08.01|Uitgebreide neurocognitieve stoornis door de ziekte van Huntington: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.08.02|D5_17.07.08|Beperkte neurocognitieve stoornis door de ziekte van Huntington|4|0||
+20170101|99991231|D5_17.07.08.02.01|D5_17.07.08.02|Beperkte neurocognitieve stoornis door de ziekte van Huntington: met gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.08.02.02|D5_17.07.08.02|Beperkte neurocognitieve stoornis door de ziekte van Huntington: zonder gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.09|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door de ziekte een andere somatische aandoening|3|0||
+20170101|99991231|D5_17.07.09.01|D5_17.07.09|Uitgebreide neurocognitieve stoornis door de ziekte een andere somatische aandoening|4|0||
+20170101|99991231|D5_17.07.09.01.01|D5_17.07.09.01|Uitgebreide neurocognitieve stoornis door een andere somatische aandoening: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.09.01.02|D5_17.07.09.01|Uitgebreide neurocognitieve stoornis door een andere somatische aandoening: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.09.02|D5_17.07.09|Beperkte neurocognitieve stoornis door de ziekte een andere somatische aandoening|4|0||
+20170101|99991231|D5_17.07.09.02.01|D5_17.07.09.02|Beperkte neurocognitieve stoornis door een andere somatische aandoening: met gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.09.02.02|D5_17.07.09.02|Beperkte neurocognitieve stoornis door een andere somatische aandoening: zonder gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.10|D5_17.07|Uitgebreide of beperkte neurocognitieve stoornis door multipele oorzaken|3|0||
+20170101|99991231|D5_17.07.10.01|D5_17.07.10|Uitgebreide neurocognitieve stoornis door multipele oorzaken|4|0||
+20170101|99991231|D5_17.07.10.01.01|D5_17.07.10.01|Uitgebreide neurocognitieve stoornis door multipele oorzaken: met gedragsstoornissen|5|1|294.11|
+20170101|99991231|D5_17.07.10.01.02|D5_17.07.10.01|Uitgebreide neurocognitieve stoornis door multipele oorzaken: zonder gedragsstoornissen|5|1|294.10|
+20170101|99991231|D5_17.07.10.02|D5_17.07.10|Beperkte neurocognitieve stoornis door multipele oorzaken|4|0||
+20170101|99991231|D5_17.07.10.02.01|D5_17.07.10.02|Beperkte neurocognitieve stoornis door multipele oorzaken: met gedragsstoornissen|5|1|331.83|
+20170101|99991231|D5_17.07.10.02.02|D5_17.07.10.02|Beperkte neurocognitieve stoornis door multipele oorzaken: zonder gedragsstoornissen|5|1|331.83|
+20170101|20181231|D5_17.07.11|D5_17.07|Ongespecificeerde neurocognitieve stoornis|3|0||
+20190101|99991231|D5_17.07.11|D5_17.07|Ongespecificeerde neurocognitieve stoornis|3|1|799.59|
+20170101|20181231|D5_17.07.11.01|D5_17.07.11|Ongespecificeerde neurocognitieve stoornis: met gedragsstoornissen|4|1|799.59|
+20170101|20181231|D5_17.07.11.02|D5_17.07.11|Ongespecificeerde neurocognitieve stoornis: zonder gedragsstoornissen|4|1|799.59|
+20170101|99991231|D5_18||Persoonlijkheidsstoornissen|1|0||
+20170101|99991231|D5_18.01|D5_18|Cluster A-persoonlijkheidsstoornissen|2|0||
+20170101|99991231|D5_18.01.01|D5_18.01|Paranoïde-persoonlijkheidsstoornis|3|1|301.0|
+20170101|99991231|D5_18.01.02|D5_18.01|Schizoïde-persoonlijkheidsstoornis|3|1|301.20|
+20170101|99991231|D5_18.01.03|D5_18.01|Schizotypische-(persoonlijkheids)stoornis|3|1|301.22|
+20170101|99991231|D5_18.02|D5_18|Cluster B-persoonlijkheidsstoornissen|2|0||
+20170101|99991231|D5_18.02.01|D5_18.02|Antisociale persoonlijkheidsstoornis|3|1|301.7|
+20170101|99991231|D5_18.02.02|D5_18.02|Borderline persoonlijkheidsstoornis|3|1|301.83|
+20170101|99991231|D5_18.02.03|D5_18.02|Histrionische persoonlijkheidsstoornis|3|1|301.50|
+20170101|99991231|D5_18.02.04|D5_18.02|Narcistische persoonlijkheidsstoornis|3|1|301.81|
+20170101|99991231|D5_18.03|D5_18|Cluster C-persoonlijkheidsstoornissen|2|0||
+20170101|99991231|D5_18.03.01|D5_18.03|Vermijdende persoonlijkheidsstoornis|3|1|301.82|
+20170101|99991231|D5_18.03.02|D5_18.03|Afhankelijke persoonlijkheidsstoornis|3|1|301.6|
+20170101|99991231|D5_18.03.03|D5_18.03|Dwangmatige persoonlijkheidsstoornis|3|1|301.4|
+20170101|99991231|D5_18.04|D5_18|Andere persoonlijkheidsstoornissen|2|0||
+20170101|99991231|D5_18.04.01|D5_18.04|Persoonlijkheidsverandering door een somatische aandoening|3|0||
+20170101|99991231|D5_18.04.01.01|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening|4|1|310.1|
+20170101|99991231|D5_18.04.01.02|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: labiele type|4|1|310.1|
+20170101|99991231|D5_18.04.01.03|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: ontremde type|4|1|310.1|
+20170101|99991231|D5_18.04.01.04|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: agressieve type|4|1|310.1|
+20170101|99991231|D5_18.04.01.05|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: apatische type|4|1|310.1|
+20170101|99991231|D5_18.04.01.06|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: paranoïde type|4|1|310.1|
+20170101|99991231|D5_18.04.01.07|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: andere type|4|1|310.1|
+20170101|99991231|D5_18.04.01.08|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: gecombineerde type|4|1|310.1|
+20170101|99991231|D5_18.04.01.09|D5_18.04.01|Persoonlijkheidsverandering door een somatische aandoening: ongespecificeerde type|4|1|310.1|
+20170101|99991231|D5_18.04.01.10|D5_18.04.01|Andere persoonlijkheidsstoornissen|4|0||
+20170101|99991231|D5_18.04.01.10.01|D5_18.04.01.10|Andere gespecificeerde persoonlijkheidsstoornis|5|1|301.89|
+20170101|99991231|D5_18.04.01.10.02|D5_18.04.01.10|Ongespecificeerde persoonlijkheidsstoornis|5|1|301.9|
+20170101|99991231|D5_19||Parafiele stoornissen|1|0||
+20170101|99991231|D5_19.01|D5_19|Voyeurismestoornis|2|1|302.82|
+20170101|99991231|D5_19.02|D5_19|Exhibitionismestoornis|2|1|302.4|
+20170101|99991231|D5_19.03|D5_19|Frotteurismestoornis|2|1|302.89|
+20170101|99991231|D5_19.04|D5_19|Seksueel-masochismestoornis|2|1|302.83|
+20170101|99991231|D5_19.05|D5_19|Seksueel-sadismestoornis|2|1|302.84|
+20170101|99991231|D5_19.06|D5_19|Pedofiele stoornis|2|2|302.2|
+20170101|99991231|D5_19.06.01|D5_19.06|Pedofiele stoornis: exclusieve type|3|2|302.2|
+20170101|99991231|D5_19.06.01.01|D5_19.06.01|Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot jongens|4|2|302.2|
+20170101|99991231|D5_19.06.01.01.01|D5_19.06.01.01|Pedofiele stoornis: exclusieve type - seksueel aangetrokken tot jongens - beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.06.01.02|D5_19.06.01|Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot meisjes|4|2|302.2|
+20170101|99991231|D5_19.06.01.02.01|D5_19.06.01.02|Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot meisjes - Beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.06.01.03|D5_19.06.01|Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot beide seksen|4|2|302.2|
+20170101|99991231|D5_19.06.01.03.01|D5_19.06.01.03|Pedofiele stoornis: exclusieve type - Seksueel aangetrokken tot beide seksen - Beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.06.02|D5_19.06 |Pedofiele stoornis: niet-exclusieve type|3|2|302.2|
+20170101|99991231|D5_19.06.02.01|D5_19.06.02|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot jongens|4|2|302.2|
+20170101|99991231|D5_19.06.02.01.01|D5_19.06.02.01|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot jongens -Beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.06.02.02|D5_19.06.02|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot meisjes|4|2|302.2|
+20170101|99991231|D5_19.06.02.02.01|D5_19.06.02.02|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot meisjes - Beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.06.02.03|D5_19.06.02|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot beide seksen|4|2|302.2|
+20170101|99991231|D5_19.06.02.03.01|D5_19.06.02.03|Pedofiele stoornis: niet-exclusieve type - Seksueel aangetrokken tot beide seksen - Beperkt tot incest|5|1|302.2|
+20170101|99991231|D5_19.07|D5_19|Fetisjismestoornis|2|2|302.81|
+20170101|99991231|D5_19.07.01|D5_19.07|Transvestiestoornis|3|1|302.3|
+20170101|99991231|D5_19.08|D5_19|Andere parafiele stoornissen|2|0||
+20170101|99991231|D5_19.08.01|D5_19.08|Andere gespecificeerde parafiele stoornis|3|1|302.89|
+20170101|99991231|D5_19.08.02|D5_19.08|Ongespecificeerde parafiele stoornis|3|1|302.9|
+20170101|99991231|D5_2||Schizofreniespectrum- en andere psychotische stoornissen|1|0||
+20170101|99991231|D5_2.01|D5_2|Schizotypische-(persoonlijkheids)stoornis|2|1|301.22|
+20170101|99991231|D5_2.02|D5_2|Waanstoornis|2|2|297.1|
+20170101|99991231|D5_2.02.01|D5_2.02|Waanstoornis: eromane type|3|1|297.1|
+20170101|99991231|D5_2.02.02|D5_2.02|Waanstoornis: grootheidstype|3|1|297.1|
+20170101|99991231|D5_2.02.03|D5_2.02|Waanstoornis: jaloerse type|3|1|297.1|
+20170101|99991231|D5_2.02.04|D5_2.02|Waanstoornis: achtervolgingstype|3|1|297.1|
+20170101|99991231|D5_2.02.05|D5_2.02|Waanstoornis: somatische type|3|1|297.1|
+20170101|99991231|D5_2.02.06|D5_2.02|Waanstoornis: gemengde type|3|1|297.1|
+20170101|99991231|D5_2.02.07|D5_2.02|Waanstoornis: ongespecificeerde type|3|1|297.1|
+20170101|99991231|D5_2.03|D5_2|Kortdurende psychotische stoornis|2|2|298.8|
+20170101|99991231|D5_2.03.01|D5_2.03 |Kortdurende psychotische stoornis: met duidelijke stressor(en)|3|1|298.8|
+20170101|99991231|D5_2.03.02|D5_2.03 |Kortdurende psychotische stoornis: zonder duidelijke stressor(en)|3|1|298.8|
+20170101|99991231|D5_2.03.03|D5_2.03 |Kortdurende psychotische stoornis: met begin peri partum|3|1|298.8|
+20170101|99991231|D5_2.04|D5_2|Schizofreniforme stoornis|2|2|295.40|
+20170101|99991231|D5_2.04.01|D5_2.04|Schizofreniforme stoornis: met goede prognostische kenmerken|3|1|295.40|
+20170101|99991231|D5_2.04.02|D5_2.04|Schizofreniforme stoornis: zonder goede prognostische kenmerken|3|1|295.40|
+20170101|99991231|D5_2.04.03|D5_2.04|Schizofrenie|3|1|295.90|
+20170101|99991231|D5_2.05|D5_2|Schizoaffectieve stoornis|2|0||
+20170101|99991231|D5_2.05.01|D5_2.05|Schizoaffectieve stoornis: bipolaire type|3|1|295.70|
+20170101|99991231|D5_2.05.02|D5_2.05|Schizoaffectieve stoornis: depressieve type|3|1|295.70|
+20170101|99991231|D5_2.06|D5_2|Psychotische stoornis door een middel|2|0||
+20170101|99991231|D5_2.06.01|D5_2.06|Psychotische stoornis door alcohol|3|1|291.9|
+20170101|99991231|D5_2.06.02|D5_2.06|Psychotische stoornis door cannabis|3|1|292.9|
+20170101|99991231|D5_2.06.03|D5_2.06|Psychotische stoornis door fencyclidine|3|1|292.9|
+20170101|99991231|D5_2.06.04|D5_2.06|Psychotische stoornis door andere hallucinogenen|3|1|292.9|
+20170101|99991231|D5_2.06.05|D5_2.06|Psychotische stoornis door inhalantia|3|1|292.9|
+20170101|99991231|D5_2.06.06|D5_2.06|Psychotische stoornis door hypnotica of anxiolytica|3|1|292.9|
+20170101|99991231|D5_2.06.07|D5_2.06|Psychotische stoornis door amfetamine (of andere stimulantia)|3|1|292.9|
+20170101|99991231|D5_2.06.08|D5_2.06|Psychotische stoornis door cocaïne|3|1|292.9|
+20170101|99991231|D5_2.06.09|D5_2.06|Psychotische stoornis door een ander (of onbekend) middel|3|1|292.9|
+20170101|99991231|D5_2.07|D5_2|Psychotische stoornis door een somatische aandoening|2|0||
+20170101|99991231|D5_2.07.01|D5_2.07|Psychotische stoornis door een somatische aandoening: met wanen|3|1|293.81|
+20170101|99991231|D5_2.07.02|D5_2.07|Psychotische stoornis door een somatische aandoening: met hallucinaties|3|1|293.82|
+20170101|99991231|D5_2.08|D5_2|Katatonie|2|0||
+20170101|99991231|D5_2.08.01|D5_2.08|Katatonie bij een andere psychische stoornis (katatonie als specificatie)|3|1|293.89|
+20170101|99991231|D5_2.08.02|D5_2.08|Katatone stoornis door een somatische aandoening|3|1|293.89|
+20170101|99991231|D5_2.08.03|D5_2.08|Ongespecificeerde katatonie|3|1|293.89|
+20170101|99991231|D5_2.09|D5_2|Andere schizofreniespectrum- of andere psychotische stoornissen|2|0||
+20170101|99991231|D5_2.09.01|D5_2.09|Andere gespecificeerde schizofreniespectrum- of andere psychotische stoornis|3|1|298.8|
+20170101|20171231|D5_2.09.02|D5_2.09|Ongespecificeerde schizofreniespectrum- of andere psychotische stoornis|3|1|298.8|
+20180101|99991231|D5_2.09.02|D5_2.09|Ongespecificeerde schizofreniespectrum- of andere psychotische stoornis|3|1|298.9|
+20170101|99991231|D5_20||Overige psychische stoornissen|1|0||
+20170101|99991231|D5_20.01|D5_20|Andere psychische stoornissen door een somatische aandoening|2|0||
+20170101|99991231|D5_20.01.01|D5_20.01|Andere gespecificeerde psychische stoornis door een somatische aandoening|3|1|294.8|
+20170101|99991231|D5_20.01.02|D5_20.01|Ongespecificeerde psychische stoornis door een somatische aandoening|3|1|294.9|
+20170101|99991231|D5_20.02|D5_20|Andere psychische stoornissen|2|0||
+20170101|99991231|D5_20.02.01|D5_20.02|Andere gespecificeerde psychische stoornis|3|1|300.9|
+20170101|99991231|D5_20.02.02|D5_20.02|Ongespecificeerde psychische stoornis|3|1|300.9|
+20170101|99991231|D5_21||Bewegingsstoornissen en andere bijwerkingen van medicatie|1|0||
+20170101|99991231|D5_21.01|D5_21|Parkinsonisme door neuroleptica of andere medicatie|2|1|332.1|
+20170101|99991231|D5_21.02|D5_21|Maligne neurolepticasyndroom|2|1|333.92|
+20170101|99991231|D5_21.03|D5_21|Acute dystonie door medicatie|2|1|333.72|
+20170101|99991231|D5_21.04|D5_21|Acute acathisie door medicatie|2|1|333.99|
+20170101|99991231|D5_21.05|D5_21|Tardieve dyskinesie|2|1|333.85|
+20170101|99991231|D5_21.06|D5_21|Tardieve dystonie|2|1|333.72|
+20170101|99991231|D5_21.07|D5_21|Tardieve acathisie|2|1|333.99|
+20170101|99991231|D5_21.08|D5_21|Houdingstremor door medicatie|2|1|333.1|
+20170101|99991231|D5_21.09|D5_21|Andere bewegingsstoornis door medicatie|2|1|333.99|
+20170101|99991231|D5_21.10|D5_21|Antidepressiva-discontinueringssyndroom|2|1|995.29|
+20170101|99991231|D5_21.11|D5_21|Andere bijwerkingen van medicatie|2|1|995.20|
+20170101|99991231|D5_22||Andere problemen die een reden van zorg kunnen zijn|1|0||
+20170101|99991231|D5_22.01|D5_22|Relatieproblemen|2|0||
+20170101|99991231|D5_22.01.01|D5_22.01|Opvoedingsproblemen|3|0||
+20170101|99991231|D5_22.01.01.01|D5_22.01.01|Ouder-kindrelatieprobleem|4|1|V61.20|
+20170101|99991231|D5_22.01.01.02|D5_22.01.01|Relatieproblemen tussen brussen (siblings)|4|1|V61.8|
+20190101|99991231|D5_22.01.01.03|D5_22.01.01|Opvoedingsproblemen|4|0||
+20190101|99991231|D5_22.01.01.03.01|D5_22.01.01.03|Opvoeding in afwezigheid van ouders|5|1|V61.8|
+20190101|99991231|D5_22.01.01.03.02|D5_22.01.01.03|Negatieve invloed van ouderlijke relatieproblemen op een kind|5|1|V61.29|
+20170101|99991231|D5_22.01.02|D5_22.01|Andere problemen verband houdend met de naaste kring van verwanten|3|0||
+20170101|99991231|D5_22.01.02.01|D5_22.01.02|Partner-relatieprobleem|4|1|V61.10|
+20170101|99991231|D5_22.01.02.02|D5_22.01.02|Uiteenvallen van gezin door scheiding of echtscheiding|4|1|V61.03|
+20170101|99991231|D5_22.01.02.03|D5_22.01.02|Hoog niveau van gevoelsuitingen binnen een gezin|4|1|V61.8|
+20170101|99991231|D5_22.01.02.04|D5_22.01.02|Ongecompliceerde rouw|4|1|V62.82|
+20170101|99991231|D5_22.02|D5_22|Misbruik en verwaarlozing|2|0||
+20170101|99991231|D5_22.02.01|D5_22.02|Problemen door mishandeling en verwaarlozing van een kind|3|0||
+20170101|99991231|D5_22.02.01.01|D5_22.02.01|Lichamelijke mishandeling van een kind|4|1|995.54|
+20170101|99991231|D5_22.02.01.02|D5_22.02.01|Consult voor slachtoffer van mishandeling, kind|4|1|V61.21|
+20170101|99991231|D5_22.02.01.03|D5_22.02.01|Persoonlijke anamnese met lichamelijke mishandeling als kind ( in het verleden)|4|1|V15.41|
+20170101|99991231|D5_22.02.01.04|D5_22.02.01|Consult voor pleger van mishandeling van eigen kind|4|1|V61.22|
+20170101|99991231|D5_22.02.01.05|D5_22.02.01|Consult voor pleger van mishandeling van een kind waarvan de betrokkene niet de ouder is|4|1|V62.83|
+20170101|99991231|D5_22.02.01.06|D5_22.02.01|Seksueel misbruik van een kind|4|1|995.53|
+20170101|99991231|D5_22.02.01.07|D5_22.02.01|Consult voor slachtoffer van seksueel misbruik, kind|4|1|V61.21|
+20170101|99991231|D5_22.02.01.08|D5_22.02.01|Persoonlijke anamnese met seksueel misbruik als kind ( in het verleden)|4|1|V15.41|
+20170101|99991231|D5_22.02.01.09|D5_22.02.01|Consult voor pleger van seksueel misbruik van eigen kind|4|1|V61.22|
+20170101|99991231|D5_22.02.01.10|D5_22.02.01|Consult voor pleger van seksueel misbruik van een kind waarvan de betrokkene niet de ouder is|4|1|V62.83|
+20170101|99991231|D5_22.02.01.11|D5_22.02.01|Verwaarlozing van een kind|4|1|995.52|
+20170101|99991231|D5_22.02.01.12|D5_22.02.01|Consult voor slachtoffer van verwaarlozing, kind|4|1|V61.21|
+20170101|99991231|D5_22.02.01.13|D5_22.02.01|Persoonlijke anamnese met verwaarlozing als kind ( in het verleden)|4|1|V15.42|
+20170101|99991231|D5_22.02.01.14|D5_22.02.01|Consult voor pleger van verwaarlozing van eigen kind|4|1|V61.22|
+20170101|99991231|D5_22.02.01.15|D5_22.02.01|Consult voor pleger van verwaarlozing ven een kind waarvan de betrokkene niet de ouder is|4|1|V62.83|
+20170101|99991231|D5_22.02.01.16|D5_22.02.01|Psychische mishandeling van een kind|4|1|995.51|
+20170101|99991231|D5_22.02.01.17|D5_22.02.01|Consult voor slachtoffer van psychische mishandeling, kind|4|1|V61.21|
+20170101|99991231|D5_22.02.01.18|D5_22.02.01|Persoonlijke anamnese met psychische mishandeling als kind (in het verleden)|4|1|V15.42|
+20170101|99991231|D5_22.02.01.19|D5_22.02.01|Consult voor pleger van psychische mishandeling van eigen kind|4|1|V61.22|
+20170101|99991231|D5_22.02.01.20|D5_22.02.01|Consult voor pleger van psychische mishandeling van een kind waarvan de betrokkene niet de ouder is.|4|1|V62.83|
+20170101|99991231|D5_22.02.02|D5_22.02|Problemen door mishandeling en verwaarlozing van een volwassene|3|0||
+20170101|99991231|D5_22.02.02.01|D5_22.02.02|Lichamelijk geweld door een levenspartner|4|1|995.81|
+20170101|99991231|D5_22.02.02.02|D5_22.02.02|Consult voor slachtoffer van lichamelijk geweld door een levenspartner|4|1|V61.11|
+20170101|99991231|D5_22.02.02.03|D5_22.02.02|Persoonlijke anamnese met lichamelijk geweld door een levenspartner (in het verleden)|4|1|V15.41|
+20170101|99991231|D5_22.02.02.04|D5_22.02.02|Consult voor pleger van lichamelijk geweld door een levenspartner|4|1|V61.12|
+20170101|99991231|D5_22.02.02.05|D5_22.02.02|Seksueel geweld door een levenspartner|4|1|995.83|
+20170101|99991231|D5_22.02.02.06|D5_22.02.02|Consult voor slachtoffer van seksueel geweld door een levenspartner|4|1|V61.11|
+20170101|99991231|D5_22.02.02.07|D5_22.02.02|Persoonlijke anamnese met seksueel geweld door een levenspartner (in het verleden)|4|1|V15.41|
+20170101|99991231|D5_22.02.02.08|D5_22.02.02|Consult voor pleger van seksueel geweld door een levenspartner|4|1|V61.12|
+20170101|20171231|D5_22.02.02.09|D5_22.02.02|Verwaarlozing door een levenspartner|4|1|V995.85|
+20180101|99991231|D5_22.02.02.09|D5_22.02.02|Verwaarlozing door een levenspartner|4|1|995.85  |
+20170101|99991231|D5_22.02.02.10|D5_22.02.02|Consult voor slachtoffer van verwaarlozing door een levenspartner|4|1|V61.11|
+20170101|99991231|D5_22.02.02.11|D5_22.02.02|Persoonlijke anamnese met verwaarlozing door een levenspartner (in het verleden)|4|1|V15.42|
+20170101|99991231|D5_22.02.02.12|D5_22.02.02|Consult voor pleger van verwaarlozing door een levenspartner|4|1|V61.12|
+20170101|99991231|D5_22.02.02.13|D5_22.02.02|Psychische mishandeling door een levenspartner|4|1|995.82|
+20170101|99991231|D5_22.02.02.14|D5_22.02.02|Consult voor slachtoffer van psychische mishandeling door een levenspartner|4|1|V61.11|
+20170101|99991231|D5_22.02.02.15|D5_22.02.02|Persoonlijke anamnese met psychische mishandeling door een levenspartner (in het verleden)|4|1|V15.42|
+20170101|99991231|D5_22.02.02.16|D5_22.02.02|Consult voor pleger van psychische mishandeling door een levenspartner|4|1|V61.12|
+20170101|99991231|D5_22.02.02.17|D5_22.02.02|Lichamelijke mishandeling van een volwassene door iemand die niet de levenspartner is|4|1|995.81|
+20170101|99991231|D5_22.02.02.18|D5_22.02.02|Seksueel misbruik van een volwassene door iemand die niet de levenspartner is|4|1|995.83|
+20170101|99991231|D5_22.02.02.19|D5_22.02.02|Psychische mishandeling van een volwassene door iemand die niet de levenspartner is|4|1|995.82|
+20170101|99991231|D5_22.02.02.20|D5_22.02.02|Consult voor slachtoffer van mishandeling van een volwassene door iemand die niet de levenspartner is|4|1|V65.49|
+20170101|99991231|D5_22.02.02.21|D5_22.02.02|Consult voor pleger van mishandeling van een volwassene door iemand die niet de levenspartner is|4|1|V62.83|
+20170101|99991231|D5_22.03|D5_22 |Problemen met onderwijs en arbeid|2|0||
+20170101|99991231|D5_22.03.01|D5_22.03|Problemen met onderwijs|3|0||
+20170101|99991231|D5_22.03.01.01|D5_22.03.01|Leer- of onderwijsprobleem|4|1|V62.3|
+20170101|99991231|D5_22.03.01.02|D5_22.03.01|Leer- of onderwijsprobleem (psychosociale en omgevingsproblemen)|4|1|V62.3|
+20170101|99991231|D5_22.03.02|D5_22.03|Problemen met arbeid|3|0||
+20170101|99991231|D5_22.03.02.01|D5_22.03.02|Probleem verband houdend met actuele militaire uitzending|4|1|V62.21|
+20170101|99991231|D5_22.03.02.02|D5_22.03.02|Probleem verband houdend met actuele militaire uitzending (psychosociale en omgevingsproblemen)|4|1|V62.21|
+20170101|99991231|D5_22.03.02.03|D5_22.03.02|Ander probleem verband houdend met werk of werkeloosheid|4|1|V62.29|
+20170101|99991231|D5_22.03.02.04|D5_22.03.02|Ander probleem verband houdend met werk of werkeloosheid (psychosociale en omgevingsproblemen)|4|1|V62.29|
+20170101|99991231|D5_22.04|D5_22 |Huisvestings- en economische problemen|2|0||
+20170101|99991231|D5_22.04.01|D5_22.04 |Huisvestingsproblemen|3|0||
+20170101|99991231|D5_22.04.01.01|D5_22.04.01|Dakloosheid|4|1|V60.0|
+20170101|99991231|D5_22.04.01.02|D5_22.04.01|Inadequate behuizing|4|1|V60.1|
+20170101|99991231|D5_22.04.01.03|D5_22.04.01|Onenigheid met buur, huurder of verhuurder|4|1|V60.89|
+20170101|99991231|D5_22.04.01.04|D5_22.04.01|Problemen verband houdend met wonen in een instelling|4|1|V60.6|
+20170101|99991231|D5_22.04.02|D5_22.04 |Economische problemen|3|0||
+20170101|99991231|D5_22.04.02.01|D5_22.04.02|Ontbreken van adequaat voedsel of veilig drinkwater|4|1|V60.2|
+20170101|99991231|D5_22.04.02.02|D5_22.04.02|Extreme armoede|4|1|V60.2|
+20170101|99991231|D5_22.04.02.03|D5_22.04.02|Laag inkomen|4|1|V60.2|
+20170101|99991231|D5_22.04.02.04|D5_22.04.02|Ontoereikende sociale verzekering of welzijnsvoorzieningen|4|1|V60.2|
+20170101|99991231|D5_22.04.02.05|D5_22.04.02|Ongespecificeerde huisvestings- of economisch probleem|4|1|V60.9|
+20170101|99991231|D5_22.05|D5_22 |Andere problemen verband houdend met de sociale omgeving|2|0||
+20170101|99991231|D5_22.05.01|D5_22.05|Levensfaseprobleem|3|1|V62.89|
+20170101|99991231|D5_22.05.02|D5_22.05|Probleem verband houdend met alleen wonen|3|1|V60.3|
+20170101|99991231|D5_22.05.03|D5_22.05|Acculturatieprobleem|3|1|V62.4|
+20170101|99991231|D5_22.05.04|D5_22.05|Sociale uitsluiting of uitstoting|3|1|V62.4|
+20170101|99991231|D5_22.05.05|D5_22.05|Doelwit van (vermeende) discriminatie of vervolging|3|1|V62.4|
+20170101|99991231|D5_22.05.06|D5_22.05|Ongespecificeerd probleemverband houdend met de sociale omgeving|3|1|V62.9|
+20170101|99991231|D5_22.06|D5_22 |Andere problemen die verband houden met misdaad of aanraking met justitie|2|0||
+20170101|99991231|D5_22.06.01|D5_22.06|Slachtoffer van misdaad|3|1|V62.89|
+20170101|99991231|D5_22.06.02|D5_22.06|Problemen verband houdend met justitiële maatregelen|3|1|V62.5|
+20170101|99991231|D5_22.07|D5_22|Ander consult voor voorlichting en medisch advies|2|0||
+20170101|99991231|D5_22.07.01|D5_22.07|Seksuele voorlichting en advies|3|1|V65.49|
+20170101|99991231|D5_22.07.02|D5_22.07|Andere voorlichting of advies|3|1|V65.40|
+20170101|99991231|D5_22.08|D5_22|Problemen die verband houden met andere psychosociale, persoonlijke en omgevingsomstandigheden|2|0||
+20170101|99991231|D5_22.08.01|D5_22.08|Religieus of spiritueel probleem|3|1|V62.89|
+20170101|99991231|D5_22.08.02|D5_22.08|Problemen verband houdend met ongewenste zwangerschap|3|1|V61.7|
+20170101|99991231|D5_22.08.03|D5_22.08|Problemen verband houdend met multipariteit|3|1|V61.5|
+20170101|99991231|D5_22.08.04|D5_22.08|Onenigheid met medewerker van sociale voorziening of reclassering, casemanager of maatschappelijk werkende|3|1|V62.89|
+20170101|99991231|D5_22.08.05|D5_22.08|Slachtoffer van terrorisme of marteling|3|1|V62.89|
+20170101|99991231|D5_22.08.06|D5_22.08|Blootstelling aan ramp, oorlog of andere vijandigheden|3|1|V62.22|
+20170101|99991231|D5_22.08.07|D5_22.08|Andere problemen verband houdend met psychosociale omstandigheden|3|1|V62.89|
+20170101|99991231|D5_22.08.08|D5_22.08|Ongespecificeerd probleem verband houdend met niet gespecificeerde psychosociale omstandigheden|3|1|V62.9|
+20170101|99991231|D5_22.09|D5_22|Andere omstandigheden in de persoonlijke voorgeschiedenis|2|0||
+20170101|99991231|D5_22.09.01|D5_22.09|Andere voorgeschiedenis van psychotrauma|3|1|V15.49|
+20170101|99991231|D5_22.09.02|D5_22.09|Voorgeschiedenis van zelfbeschadiging|3|1|V15.59|
+20170101|99991231|D5_22.09.03|D5_22.09|Voorgeschiedenis van militaire uitzending|3|1|V62.22|
+20170101|99991231|D5_22.09.04|D5_22.09|Andere persoonlijke risicofactoren|3|1|V15.89|
+20170101|99991231|D5_22.09.05|D5_22.09|Probleem verband houdend met levensstijl|3|1|V69.9|
+20170101|99991231|D5_22.09.06|D5_22.09|Antisociaal gedrag van volwassene|3|1|V71.01|
+20170101|99991231|D5_22.09.07|D5_22.09|Antisociaal gedrag van kind of adolescent|3|1|V71.02|
+20170101|99991231|D5_22.10|D5_22|Problemen verband houdend met de toegankelijkheid van medische en andere vormen van zorg|2|0||
+20170101|99991231|D5_22.10.01|D5_22.10|Gezondheidsvoorzieningen niet beschikbaar of niet toegankelijk|3|1|V63.9|
+20170101|99991231|D5_22.10.02|D5_22.10|Andere hulpverlenende instanties niet beschikbaar of niet toegankelijk|3|1|V63.8|
+20170101|99991231|D5_22.11|D5_22|Niet opvolgen van medische behandeling|2|0||
+20170101|99991231|D5_22.11.01|D5_22.11|Niet opvolgen van medische behandeling|3|1|V15.81|
+20170101|99991231|D5_22.11.02|D5_22.11|Overgewicht of obesitas|3|1|278.00|
+20170101|99991231|D5_22.11.03|D5_22.11|Simuleren|3|1|V65.2|
+20170101|99991231|D5_22.11.04|D5_22.11|Rondzwerven samenhangend met een psychische stoornis|3|1|V40.31|
+20170101|99991231|D5_22.11.05|D5_22.11|Zwakbegaafdheid|3|1|V62.89|
+20170101|99991231|D5_3||Bipolaire-stemmingsstoornissen|1|0||
+20170101|99991231|D5_3.01|D5_3|Bipolaire-I-stoornis|2|0||
+20170101|99991231|D5_3.01.01|D5_3.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch|3|0||
+20170101|99991231|D5_3.01.01.01|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - licht|4|1|296.41|
+20170101|99991231|D5_3.01.01.02|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - matig|4|1|296.42|
+20170101|99991231|D5_3.01.01.03|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - ernstig|4|1|296.43|
+20170101|99991231|D5_3.01.01.04|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - met psychotische kenmerken|4|1|296.44|
+20170101|99991231|D5_3.01.01.05|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - Gedeeltelijk in remissie|4|1|296.45|
+20170101|99991231|D5_3.01.01.06|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - Volledig in remissie|4|1|296.46|
+20170101|99991231|D5_3.01.01.07|D5_3.01.01|Bipolaire-I-stoornis: actuele of meest recente episode manisch - Ongespecificeerd|4|1|296.40|
+20170101|99991231|D5_3.01.02|D5_3.01|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch|3|2|296.40|
+20170101|20171231|D5_3.01.02.01|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Gedeeltelijk in remissie|4|1|296.55|
+20180101|99991231|D5_3.01.02.01|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Gedeeltelijk in remissie|4|1|296.45|
+20170101|20171231|D5_3.01.02.02|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Volledig in remissie|4|1|296.56|
+20180101|99991231|D5_3.01.02.02|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Volledig in remissie|4|1|296.46|
+20170101|20171231|D5_3.01.02.03|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Ongespecificeerd|4|1|296.50|
+20180101|99991231|D5_3.01.02.03|D5_3.01.02|Bipolaire-I-stoornis: actuele of meest recente episode hypomanisch - Ongespecificeerd|4|1|296.40|
+20170101|99991231|D5_3.01.03|D5_3.01|Bipolaire-I-stoornis: actuele of meest recente episode depressief|3|0||
+20170101|99991231|D5_3.01.03.01|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - licht|4|1|296.51|
+20170101|99991231|D5_3.01.03.02|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - matig|4|1|296.52|
+20170101|99991231|D5_3.01.03.03|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - ernstig|4|1|296.53|
+20170101|99991231|D5_3.01.03.04|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - Met psychotische kenmerken|4|1|296.54|
+20170101|99991231|D5_3.01.03.05|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - Gedeeltelijk in remissie|4|1|296.55|
+20170101|99991231|D5_3.01.03.06|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - Volledig in remissie|4|1|296.56|
+20170101|99991231|D5_3.01.03.07|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode depressief - Ongespecificeerd|4|1|296.50|
+20170101|99991231|D5_3.01.03.08|D5_3.01.03|Bipolaire-I-stoornis: actuele of meest recente episode Ongespecificeerd|4|1|296.7|
+20170101|99991231|D5_3.02|D5_3|Bipolaire II stoornis|2|2|296.89|
+20170101|99991231|D5_3.02.01|D5_3.02 |Bipolaire II stoornis: hypomanisch|3|1|296.89|
+20170101|99991231|D5_3.02.02|D5_3.02 |Bipolaire II stoornis: depressief|3|1|296.89|
+20170101|99991231|D5_3.03|D5_3 |Cyclothyme stoornis|2|1|301.13|
+20170101|99991231|D5_3.04|D5_3|Bipolaire-stemmingsstoornis door een middel|2|0||
+20170101|99991231|D5_3.04.01|D5_3.04|Bipolaire-stemmingsstoornis door alcohol|3|2|291.89|
+20170101|99991231|D5_3.04.01.01|D5_3.04.01|Bipolaire-stemmingsstoornis door alcohol: met begin tijdens intoxicatie|4|1|291.89|
+20170101|99991231|D5_3.04.01.02|D5_3.04.01|Bipolaire-stemmingsstoornis door alcohol: met begin tijdens onttrekking|4|1|291.89|
+20170101|99991231|D5_3.04.02|D5_3.04|Bipolaire-stemmingsstoornis door fencyclidine|3|2|292.84|
+20170101|99991231|D5_3.04.02.01|D5_3.04.02|Bipolaire-stemmingsstoornis door fencyclidine: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.03|D5_3.04|Bipolaire-stemmingsstoornis door andere hallucinogenen|3|2|292.84|
+20170101|99991231|D5_3.04.03.01|D5_3.04.03 |Bipolaire-stemmingsstoornis door andere hallucinogenen: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.04|D5_3.04|Bipolaire-stemmingsstoornis door hypnotica of anxiolytica|3|2|292.84|
+20170101|99991231|D5_3.04.04.01|D5_3.04.04 |Bipolaire-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.04.02|D5_3.04.04 |Bipolaire-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_3.04.05|D5_3.04|Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia)|3|2|292.84|
+20170101|99991231|D5_3.04.05.01|D5_3.04.05 |Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.05.02|D5_3.04.05 |Bipolaire-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_3.04.06|D5_3.04|Bipolaire-stemmingsstoornis door cocaïne|3|2|292.84|
+20170101|99991231|D5_3.04.06.01|D5_3.04.06 |Bipolaire-stemmingsstoornis door cocaïne: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.06.02|D5_3.04.06 |Bipolaire-stemmingsstoornis door cocaïne: met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_3.04.07|D5_3.04|Bipolaire-stemmingsstoornis door een ander (of onbekend middel)|3|2|292.84|
+20170101|99991231|D5_3.04.07.01|D5_3.04.07 |Bipolaire-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_3.04.07.02|D5_3.04.07 |Bipolaire-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_3.05|D5_3|Bipolaire-stemminsstoornis door een somatische aandoening|2|2|293.83|
+20170101|99991231|D5_3.05.01|D5_3.05 |Bipolaire-stemminsstoornis door een somatische aandoening: met manische kenmerken|3|1|293.83|
+20170101|99991231|D5_3.05.02|D5_3.05 |Bipolaire-stemminsstoornis door een somatische aandoening: met maniforme of hypomaniforme episode|3|1|293.83|
+20170101|99991231|D5_3.05.03|D5_3.05 |Bipolaire-stemminsstoornis door een somatische aandoening: met gemengde kenmerken|3|1|293.83|
+20170101|99991231|D5_3.06|D5_3|Andere bipolaire stemmingsstoornissen|2|0||
+20170101|99991231|D5_3.06.01|D5_3.06 |Andere gespecificeerde bipolaire-stemmingsstoornis|3|1|296.89|
+20170101|99991231|D5_3.06.02|D5_3.06 |Ongespecificeerde bipolaire-stemmingsstoornis|3|1|296.80|
+20170101|99991231|D5_4||Depressieve-stemmingsstoornissen|1|0||
+20170101|99991231|D5_4.01|D5_4|Disruptieve stemmingsdisregulatiestoornis|2|1|296.99|
+20170101|99991231|D5_4.02|D5_4|Depressieve stoornis|2|0||
+20170101|99991231|D5_4.02.01|D5_4.02|Depressieve stoornis: eenmalige episode|3|0||
+20170101|99991231|D5_4.02.01.01|D5_4.02.01|Depressieve stoornis: eenmalige episode - licht|4|1|296.21|
+20170101|99991231|D5_4.02.01.02|D5_4.02.01|Depressieve stoornis: eenmalige episode - matig|4|1|296.22|
+20170101|99991231|D5_4.02.01.03|D5_4.02.01|Depressieve stoornis: eenmalige episode - ernstig|4|1|296.23|
+20170101|99991231|D5_4.02.01.04|D5_4.02.01|Depressieve stoornis: eenmalige episode - Met psychotische kenmerken|4|1|296.24|
+20170101|99991231|D5_4.02.01.05|D5_4.02.01|Depressieve stoornis: eenmalige episode - Gedeeltelijk in remissie|4|1|296.25|
+20170101|99991231|D5_4.02.01.06|D5_4.02.01|Depressieve stoornis: eenmalige episode - Volledig in remissie|4|1|296.26|
+20170101|99991231|D5_4.02.01.07|D5_4.02.01|Depressieve stoornis: eenmalige episode - Ongespecificeerd|4|1|296.20|
+20170101|99991231|D5_4.02.02|D5_4.02|Depressieve stoornis: recidiverende episode|3|0||
+20170101|99991231|D5_4.02.02.01|D5_4.02.02|Depressieve stoornis: recidiverende episode - licht|4|1|296.31|
+20170101|99991231|D5_4.02.02.02|D5_4.02.02|Depressieve stoornis: recidiverende episode - matig|4|1|296.32|
+20170101|99991231|D5_4.02.02.03|D5_4.02.02|Depressieve stoornis: recidiverende episode - ernstig|4|1|296.33|
+20170101|99991231|D5_4.02.02.04|D5_4.02.02|Depressieve stoornis: recidiverende episode - Met psychotische kenmerken|4|1|296.34|
+20170101|99991231|D5_4.02.02.05|D5_4.02.02|Depressieve stoornis: recidiverende episode - Gedeeltelijk in remissie|4|1|296.35|
+20170101|99991231|D5_4.02.02.06|D5_4.02.02|Depressieve stoornis: recidiverende episode - Volledig in remissie|4|1|296.36|
+20170101|99991231|D5_4.02.02.07|D5_4.02.02|Depressieve stoornis: recidiverende episode - Ongespecificeerd|4|1|296.30|
+20170101|99991231|D5_4.03|D5_4|Persisterende depressieve stoornis (dysthymie)|2|2|300.4|
+20170101|99991231|D5_4.03.01|D5_4.03|Persisterende depressieve stoornis (dysthymie): vroeg begin|3|1|300.4|
+20170101|99991231|D5_4.03.02|D5_4.03|Persisterende depressieve stoornis (dysthymie): laat begin|3|1|300.4|
+20170101|99991231|D5_4.03.03|D5_4.03|Persisterende depressieve stoornis (dysthymie): met atypische kenmerken|3|1|300.4|
+20170101|99991231|D5_4.04|D5_4|Premenstruele stemmingsstoornis|2|1|625.4|
+20170101|99991231|D5_4.05|D5_4|Depressieve stemmingsstoornis door een middel|2|0||
+20170101|99991231|D5_4.05.01|D5_4.05|Depressieve-stemmingsstoornis door alcohol|3|2|291.89|
+20170101|99991231|D5_4.05.01.01|D5_4.05.01|Depressieve-stemmingsstoornis door alcohol: met begin tijdens intoxicatie|4|1|291.89|
+20170101|99991231|D5_4.05.01.02|D5_4.05.01|Depressieve-stemmingsstoornis door alcohol: met begin tijdens onttrekking|4|1|291.89|
+20170101|99991231|D5_4.05.02|D5_4.05|Depressieve-stemmingsstoornis door fencyclidine|3|2|292.84|
+20170101|99991231|D5_4.05.02.01|D5_4.05.02|Depressieve-stemmingsstoornis door fencyclidine: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.03|D5_4.05|Depressieve-stemmingsstoornis door andere hallucinogenen|3|2|292.84|
+20170101|99991231|D5_4.05.03.01|D5_4.05.03|Depressieve-stemmingsstoornis door andere hallucinogenen: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.04|D5_4.05|Depressieve-stemmingsstoornis door hypnotica of anxiolytica|3|2|292.84|
+20170101|99991231|D5_4.05.04.01|D5_4.05.04|Depressieve-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.04.02|D5_4.05.04|Depressieve-stemmingsstoornis door hypnotica of anxiolytica: met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_4.05.05|D5_4.05|Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia)|3|2|292.84|
+20170101|99991231|D5_4.05.05.01|D5_4.05.05|Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.05.02|D5_4.05.05|Depressieve-stemmingsstoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_4.05.06|D5_4.05|Depressieve-stemmingsstoornis door cocaïne|3|2|292.84|
+20170101|99991231|D5_4.05.06.01|D5_4.05.06|Depressieve-stemmingsstoornis door cocaïne: met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.06.02|D5_4.05.06|Depressieve-stemmingsstoornis door cocaïne: met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_4.05.07|D5_4.05|Depressieve-stemmingsstoornis door een ander (of onbekend middel)|3|2|292.84|
+20170101|99991231|D5_4.05.07.01|D5_4.05.07|Depressieve-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens intoxicatie|4|1|292.84|
+20170101|99991231|D5_4.05.07.02|D5_4.05.07|Depressieve-stemmingsstoornis door een ander (of onbekend middel): met begin tijdens onttrekking|4|1|292.84|
+20170101|99991231|D5_4.06|D5_4|Depressieve-stemmingsstoornis door een somatische aandoening|2|2|293.83|
+20170101|99991231|D5_4.06.01|D5_4.06|Depressieve-stemmingsstoornis door een somatische aandoening: met depressieve kenmerken|3|1|293.83|
+20170101|99991231|D5_4.06.02|D5_4.06|Depressieve-stemmingsstoornis door een somatische aandoening: met depressieve episode|3|1|293.83|
+20170101|99991231|D5_4.06.03|D5_4.06|Depressieve-stemmingsstoornis door een somatische aandoening: met gemengde kenmerken|3|1|293.83|
+20170101|99991231|D5_4.07|D5_4|Andere depressieve stemmingsstoornissen|2|0||
+20170101|99991231|D5_4.07.01|D5_4.07|Andere gespecificeerde depressieve-stemmingsstoornis|3|1|311|
+20170101|99991231|D5_4.07.02|D5_4.07|Ongespecificeerde depressieve-stemmingsstoornis|3|1|311|
+20170101|99991231|D5_5||Angststoornissen|1|0||
+20170101|99991231|D5_5.01|D5_5|Specifieke fobie|2|2|300.29|
+20170101|99991231|D5_5.01.01|D5_5.01|Specifieke fobie: dier|3|1|300.29|
+20170101|99991231|D5_5.01.02|D5_5.01|Specifieke fobie: natuurlijke omgeving|3|1|300.29|
+20170101|99991231|D5_5.01.03|D5_5.01|Specifieke fobie: bloed-injecties-verwonding|3|1|300.29|
+20170101|99991231|D5_5.01.04|D5_5.01|Specifieke fobie: situationeel|3|1|300.29|
+20170101|99991231|D5_5.01.05|D5_5.01|Specifieke fobie: overige|3|1|300.29|
+20170101|99991231|D5_5.02|D5_5|Sociale angststoornis (sociale fobie)|2|1|300.23|
+20170101|99991231|D5_5.03|D5_5|Paniekstoornis|2|1|300.01|
+20170101|99991231|D5_5.04|D5_5|Agorafobie|2|1|300.22|
+20170101|99991231|D5_5.05|D5_5|Gegeneraliseerde-angststoornis|2|1|300.02|
+20170101|99991231|D5_5.06|D5_5|Angststoornis door een middel|2|0||
+20170101|99991231|D5_5.06.01|D5_5.06|Angststoornis door alcohol|3|2|291.89|
+20170101|99991231|D5_5.06.01.01|D5_5.06.01|Angststoornis door alcohol: met begin tijdens intoxicatie|4|1|291.89|
+20170101|99991231|D5_5.06.01.02|D5_5.06.01|Angststoornis door alcohol: met begin tijdens onttrekking|4|1|291.89|
+20170101|99991231|D5_5.06.02|D5_5.06|Angststoornis door cafeïne|3|2|292.89|
+20170101|99991231|D5_5.06.02.01|D5_5.06.02|Angststoornis door cafeïne: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.03|D5_5.06|Angststoornis door cannabis|3|2|292.89|
+20170101|99991231|D5_5.06.03.01|D5_5.06.03|Angststoornis door cannabis: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.04|D5_5.06|Angststoornis door fencyclidine|3|2|292.89|
+20170101|99991231|D5_5.06.04.01|D5_5.06.04|Angststoornis door fencyclidine: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.05|D5_5.06|Angststoornis door andere hallucinogenen|3|2|292.89|
+20170101|99991231|D5_5.06.05.01|D5_5.06.05|Angststoornis door andere hallucinogenen: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.06|D5_5.06|Angststoornis door inhalantia|3|2|292.89|
+20170101|99991231|D5_5.06.06.01|D5_5.06.06|Angststoornis door inhalantia: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.07|D5_5.06|Angststoornis door opioïden|3|2|292.89|
+20170101|99991231|D5_5.06.07.01|D5_5.06.07|Angststoornis door opioïden: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.07.02|D5_5.06.07|Angststoornis door opioïden: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_5.06.08|D5_5.06|Angststoornis door hypnotica of anxiolytica|3|2|292.89|
+20170101|99991231|D5_5.06.08.01|D5_5.06.08|Angststoornis door hypnotica of anxiolytica: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_5.06.09|D5_5.06|Angststoornis door amfetamine (of andere stimulantia)|3|2|292.89|
+20170101|99991231|D5_5.06.09.01|D5_5.06.09|Angststoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.09.02|D5_5.06.09|Angststoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_5.06.10|D5_5.06|Angststoornis door cocaïne|3|2|292.89|
+20170101|99991231|D5_5.06.10.01|D5_5.06.10|Angststoornis door cocaïne: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.10.02|D5_5.06.10|Angststoornis door cocaïne: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_5.06.11|D5_5.06|Angststoornis door een ander (of onbekend) middel|3|2|292.89|
+20170101|99991231|D5_5.06.11.01|D5_5.06.11|Angststoornis door een ander (of onbekend) middel: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_5.06.11.02|D5_5.06.11|Angststoornis door een ander (of onbekend) middel: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_5.07|D5_5|Angststoornis door een somatische aandoening|2|1|293.84|
+20170101|99991231|D5_5.08|D5_5|Andere angststoornissen|2|0||
+20170101|99991231|D5_5.08.01|D5_5.08|Andere gespecificeerde angststoornis|3|1|300.09|
+20170101|99991231|D5_5.08.02|D5_5.08|Ongespecificeerde angststoornis|3|1|300.00|
+20190101|99991231|D5_5.09|D5_5|Angststoornissen|2|0||
+20190101|99991231|D5_5.09.01|D5_5.09|Separatieangststoornis|3|1|309.21|
+20190101|99991231|D5_5.09.02|D5_5.09|Selectief mutisme|3|1|313.23|
+20170101|99991231|D5_6||Obsessieve-compulsieve en verwante stoornissen|1|0||
+20170101|99991231|D5_6.01|D5_6|Obsessieve-compulsieve stoornis|2|2|300.3|
+20170101|99991231|D5_6.01.01|D5_6.01 |Obsessieve-compulsieve stoornis: met gering realiteitsbesef|3|1|300.3|
+20170101|99991231|D5_6.02|D5_6|Verzamelstoornis|2|2|300.3|
+20170101|99991231|D5_6.02.01|D5_6.02 |Verzamelstoornis: met excessief verwerven en/of Gering of ontbrekend realiteitsbesef|3|1|300.3|
+20170101|99991231|D5_6.03|D5_6 |Morfodysfore stoornis|2|1|300.7|
+20170101|99991231|D5_6.04|D5_6 |Trichotillomanie (haaruittrekstoornis)|2|1|312.39|
+20170101|99991231|D5_6.05|D5_6|Excoriatiestoornis (huidpulkstoornis)|2|2|698.4|
+20170101|99991231|D5_6.05.01|D5_6.05 |Excoriatiestoornis (huidpulkstoornis): ernstige lichamelijke complicaties|3|1|698.4|
+20170101|99991231|D5_6.06|D5_6|Obsessieve-compulsieve of verwante stoornis door een middel|2|0||
+20170101|99991231|D5_6.06.01|D5_6.06 |Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia)|3|2|292.89|
+20170101|99991231|D5_6.06.01.01|D5_6.06.01|Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia): met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_6.06.01.02|D5_6.06.01|Obsessieve-compulsieve of verwante stoornis door amfetamine (of andere stimulantia): met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_6.06.02|D5_6.06|Obsessieve-compulsieve of verwante stoornis door cocaïne|3|2|292.89|
+20170101|99991231|D5_6.06.02.01|D5_6.06.02|Obsessieve-compulsieve of verwante stoornis door cocaïne: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_6.06.02.02|D5_6.06.02|Obsessieve-compulsieve of verwante stoornis door cocaïne: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_6.06.03|D5_6.06|Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel|3|2|292.89|
+20170101|99991231|D5_6.06.03.01|D5_6.06.03|Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel: met begin tijdens intoxicatie|4|1|292.89|
+20170101|99991231|D5_6.06.03.02|D5_6.06.03|Obsessieve-compulsieve of verwante stoornis door een ander (of onbekend) middel: met begin tijdens onttrekking|4|1|292.89|
+20170101|99991231|D5_6.07|D5_6|Obsessieve-compulsieve of verwante stoornis door een somatische aandoening|2|1|294.8|
+20170101|99991231|D5_6.08|D5_6|Andere obsessieve-compulsieve of verwante stoornissen|2|0||
+20170101|99991231|D5_6.08.01|D5_6.08 |Andere gespecificeerde obsessieve-compulsieve of verwante stoornis|3|1|300.3|
+20170101|99991231|D5_6.08.02|D5_6.08 |Ongespecificeerde obsessieve-compulsieve of verwante stoornis|3|1|300.3|
+20170101|99991231|D5_7||Trauma- en stressorgerelateerde stoornissen|1|0||
+20170101|99991231|D5_7.01|D5_7|Posttraumatische-stressstoornis|2|0||
+20170101|99991231|D5_7.01.01|D5_7.01|Posttraumatische stressstoornis (incl. de posttraumatische-stressstoornis bij kinderen van 6 jaar en jonger)|3|1|309.81|
+20170101|99991231|D5_7.01.02|D5_7.01|Posttraumatische stressstoornis (incl. de posttraumatische-stressstoornis bij kinderen van 6 jaar en jonger): met uitgestelde expressie|3|1|309.81|
+20170101|99991231|D5_7.02|D5_7|Acute stressstoornis|2|1|308.3|
+20170101|99991231|D5_7.03|D5_7|Aanpassingsstoornissen|2|0||
+20170101|99991231|D5_7.03.01|D5_7.03|Aanpassingsstoornissen - met een sombere stemming|3|2|309.0|
+20170101|99991231|D5_7.03.01.01|D5_7.03.01|Aanpassingsstoornissen - met een sombere stemming: acuut|4|1|309.0|
+20170101|99991231|D5_7.03.01.02|D5_7.03.01|Aanpassingsstoornissen - met een sombere stemming: persisterend (chronisch)|4|1|309.0|
+20170101|99991231|D5_7.03.02|D5_7.03|Aanpassingsstoornissen - met angst|3|2|309.24|
+20170101|99991231|D5_7.03.02.01|D5_7.03.02|Aanpassingsstoornissen - met angst: acuut|4|1|309.24|
+20170101|99991231|D5_7.03.02.02|D5_7.03.02|Aanpassingsstoornissen - met angst: persisterend (chronisch)|4|1|309.24|
+20170101|99991231|D5_7.03.03|D5_7.03|Aanpassingsstoornissen - met gemengd angstige en sombere stemming|3|2|309.28|
+20170101|99991231|D5_7.03.03.01|D5_7.03.03|Aanpassingsstoornissen - met gemengd angstige en sombere stemming: acuut|4|1|309.28|
+20170101|99991231|D5_7.03.03.02|D5_7.03.03|Aanpassingsstoornissen - met gemengd angstige en sombere stemming: persisterend (chronisch)|4|1|309.28|
+20170101|99991231|D5_7.03.04|D5_7.03|Aanpassingsstoornissen - met een stoornis in het gedrag|3|2|309.3|
+20170101|99991231|D5_7.03.04.01|D5_7.03.04|Aanpassingsstoornissen - met een stoornis in het gedrag: acuut|4|1|309.3|
+20170101|99991231|D5_7.03.04.02|D5_7.03.04|Aanpassingsstoornissen - met een stoornis in het gedrag: persisterend (chronisch)|4|1|309.3|
+20170101|99991231|D5_7.03.05|D5_7.03|Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag|3|2|309.4|
+20170101|99991231|D5_7.03.05.01|D5_7.03.05|Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag: acuut|4|1|309.4|
+20170101|99991231|D5_7.03.05.02|D5_7.03.05|Aanpassingsstoornissen - met een gemengde stoornis van emoties en gedrag: persisterend (chronisch)|4|1|309.4|
+20170101|99991231|D5_7.03.06|D5_7.03|Aanpassingsstoornissen - Ongespecificeerd|3|2|309.9|
+20170101|99991231|D5_7.03.06.01|D5_7.03.06|Aanpassingsstoornissen - Ongespecificeerd: acuut|4|1|309.9|
+20170101|99991231|D5_7.03.06.02|D5_7.03.06|Aanpassingsstoornissen - Ongespecificeerd: persisterend (chronisch)|4|1|309.9|
+20170101|99991231|D5_7.03.07|D5_7.03|Andere trauma- of stressor-gerelateerde stoornissen|3|0||
+20170101|99991231|D5_7.03.07.01|D5_7.03.07|Andere gespecificeerde trauma- of stressorgerelateerde stoornis|4|1|309.89|
+20170101|99991231|D5_7.03.07.02|D5_7.03.07|Ongespecificeerde trauma- of stressor-gerelateerde stoornis|4|1|309.9|
+20190101|99991231|D5_7.03.08|D5_7.03|Trauma- of stressor-gerelateerde stoornissen|3|0||
+20190101|99991231|D5_7.03.08.01|D5_7.03.08|Reactieve hechtingsstoornis|4|1|313.89|
+20190101|99991231|D5_7.03.08.02|D5_7.03.08|Ontremd sociaalcontactstoornis|4|1|313.89|
+20170101|99991231|D5_8||Dissociatieve stoornissen|1|0||
+20170101|99991231|D5_8.01|D5_8|Dissociatieve identiteitsstoornis|2|1|300.14|
+20170101|99991231|D5_8.02|D5_8|Dissociatieve amnesie|2|2|300.12|
+20170101|99991231|D5_8.02.01|D5_8.02|Dissociatieve amnesie: met dissociatieve fugue|3|1|300.13|
+20170101|99991231|D5_8.03|D5_8 |Depersonalisatie- / derealisatiestoornis|2|1|300.6|
+20170101|99991231|D5_8.04|D5_8|Andere dissociatieve stoornissen|2|0||
+20170101|99991231|D5_8.04.01|D5_8.04|Andere gespecificeerde dissociatieve stoornis|3|1|300.15|
+20170101|99991231|D5_8.04.02|D5_8.04|Ongespecificeerde dissociatieve stoornis|3|1|300.15|
+20170101|99991231|D5_9||Somatisch-symptoomstoornis en verwante stoornissen|1|0||
+20170101|99991231|D5_9.01|D5_9|Somatisch-symptoomstoornis|2|1|300.82|
+20170101|99991231|D5_9.02|D5_9|Ziekteangststoornis|2|1|300.7|
+20170101|99991231|D5_9.03|D5_9|Conversiestoornis (functioneel-neurologisch-symptoomstoornis)|2|0||
+20170101|99991231|D5_9.03.01|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met zwakte of paralyse|3|1|300.11|
+20170101|99991231|D5_9.03.02|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met abnormale bewegingen|3|1|300.11|
+20170101|99991231|D5_9.03.03|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met sliksymptomen|3|1|300.11|
+20170101|99991231|D5_9.03.04|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met spraaksymptomen|3|1|300.11|
+20170101|99991231|D5_9.03.05|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met aanvullen of convulsies|3|1|300.11|
+20170101|99991231|D5_9.03.06|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met anesthesie of sensibiliteitsverlies|3|1|300.11|
+20170101|99991231|D5_9.03.07|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met speciale zintuigelijke symptomen|3|1|300.11|
+20170101|99991231|D5_9.03.08|D5_9.03|Conversiestoornis (functioneel-neurologisch-symptoomstoornis): met gemengde symptomen|3|1|300.11|
+20170101|99991231|D5_9.04|D5_9|Psychische factoren die somatische aandoeningen beïnvloeden|2|1|316|
+20170101|99991231|D5_9.05|D5_9|Nagebootste stoornis (pathomimie)|2|1|300.19|
+20170101|99991231|D5_9.06|D5_9|Andere somatisch-symptoomstoornis of verwante stoornissen|2|0||
+20170101|99991231|D5_9.06.01|D5_9.06 |Andere gespecificeerde somatisch-symptoomstoornis of verwante stoornis|3|1|300.89|
+20170101|99991231|D5_9.06.02|D5_9.06 |Ongespecificeerde somatisch-symptoomstoornis of verwante stoornis|3|1|300.82|

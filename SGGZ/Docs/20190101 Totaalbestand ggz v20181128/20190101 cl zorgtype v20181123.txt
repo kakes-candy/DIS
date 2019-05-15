@@ -1,0 +1,125 @@
+cl_zorgtype_begindatum|cl_zorgtype_einddatum|cl_zorgtype_code|cl_zorgtype_groepcode|cl_zorgtype_element|cl_zorgtype_beschrijving|cl_zorgtype_hierarchieniveau|cl_zorgtype_selecteerbaar|cl_zorgtype_sorteervolgorde|cl_zorgtype_prestatiecodedeel|cl_zorgtype_mutatie|cl_zorgtype_branche_indicatie
+20010101|99991231|100||Initieel zorgtype|Initieel zorgtype|0|0|30|100||0
+20000101|99991231|101|100|Reguliere zorg|Reguliere zorg|2|1|40|101||1
+20000101|20121231|102|100|Eenmalig spoedeisend consult/crisisinterventie|Eenmalig spoedeisend consult/crisisinterventie|2|1|50|102||1
+20000101|20121231|103|100|Acute opname|Acute opname|2|1|60|103||1
+20000101|20111231|104|100|Intercollegiaal consult|Intercollegiaal consult|2|1|70|104||1
+20000101|20111231|105|100|Medebehandeling|Medebehandeling|2|1|80|105||1
+20000101|99991231|106|100|Second opinion|Second opinion|2|1|90|106||1
+20000101|99991231|107|100|Zorg op basis van tertiaire verwijzing|Zorg op basis van tertiaire verwijzing|2|1|100|107||1
+20000101|99991231|108|100|Langdurig periodieke controle (bij overname)|Langdurig periodieke controle (bij overname)|2|1|110|108||1
+20000101|20111231|109|100|Bemoeizorg|Bemoeizorg|2|1|120|109||1
+20120101|99991231|109|100|Bemoeizorg|Bemoeizorg|2|1|120|199||1
+20000101|20111231|110|100|Rechterlijke machtiging|Rechterlijke machtiging|2|1|130|101||1
+20120101|99991231|110|100|Rechterlijke machtiging|Rechterlijke machtiging|2|1|130|199||1
+20000101|20111231|111|100|Inbewaringstelling|Inbewaringstelling|2|1|140|101||1
+20120101|99991231|111|100|Inbewaringstelling|Inbewaringstelling|2|1|140|199||1
+20000101|20071231|112|100|Terbeschikkingstelling|Terbeschikkingstelling|2|1|150|112||1
+20080101|20081231|112|100|Terbeschikkingstelling|Terbeschikkingstelling|2|1|150|112||2
+20000101|20061231|113|100|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|160|113||1
+20070101|20071231|113|100|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|160|113||0
+20080101|20081231|113|100|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|160|113||2
+20000101|20071231|114|100|Strafrechterlijke machtiging|Strafrechterlijke machtiging|2|1|170|114||1
+20000101|20161231|115|100|Ondertoezichtstelling|Ondertoezichtstelling|2|1|180|101||1
+20080101|20111231|116|100|Rechterlijke machtiging met voorwaarden|Rechterlijke machtiging met voorwaarden|2|1|181|101||1
+20120101|99991231|116|100|Rechterlijke machtiging met voorwaarden|Rechterlijke machtiging met voorwaarden|2|1|181|199||1
+20080101|20171231|117|100|Jeugdstrafrecht|Jeugdstrafrecht|2|1|182|101||1
+20070101|20081231|118|100|Detentie bijzondere zorg in gevangeniswezen|Detentie bijzondere zorg in gevangeniswezen|2|1|161|118||2
+20070101|20081231|119|100|Detentie bijzondere zorg buiten gevangeniswezen|Detentie bijzondere zorg buiten gevangeniswezen|2|1|162|119||2
+20070101|20081231|120|100|Titels met voorwaarden + artikel 37 Sr|Titels met voorwaarden + artikel 37 Sr|2|1|163|120||2
+20090101|99991231|121|100|Strafrechtelijke machtiging (art. 37 jo 39 Sr)|Strafrechtelijke machtiging (art. 37 jo 39 Sr)|2|1|164|121||2
+20090101|99991231|122|100|TBS met dwangverpleging (art. 37a jo 37b Sr)|TBS met dwangverpleging (art. 37a jo 37b Sr)|2|1|165|122||2
+20090101|99991231|123|100|Overplaatsing naar een psychiatrisch ziekenhuis (14 Bvt)|Overplaatsing naar een psychiatrisch ziekenhuis (14 Bvt)|2|1|166|123||2
+20090101|99991231|124|100|Tijdelijke plaatsing ter observatie in psychiatrisch ziekenhuis  (13 Bvt)|Tijdelijke plaatsing ter observatie in psychiatrisch ziekenhuis  (13 Bvt)|2|1|167|124||2
+20090101|99991231|125|100|TBS met proefverlof (art. 51 Bvt)|TBS met proefverlof (art. 51 Bvt)|2|1|168|125||2
+20090101|99991231|126|100|Voorwaardelijke beëindiging van de verpleging van overheidswege (art. 38 g Sr)|Voorwaardelijke beëindiging van de verpleging van overheidswege (art. 38 g Sr)|2|1|169|126||2
+20090101|99991231|127|100|TBS met voorwaarden (art. 38a Sr)|TBS met voorwaarden (art. 38a Sr)|2|1|170|127||2
+20090101|99991231|128|100|Voorwaardelijke veroordeling (art. 14a Sr)|Voorwaardelijke veroordeling (art. 14a Sr)|2|1|171|128||2
+20090101|20161231|129|100|Sepot met voorwaarden (art. 167/ 244 Sv)|Sepot met voorwaarden (art. 167/ 244 Sv)|2|1|172|129||2
+20170101|99991231|129|100|Sepot met voorwaarden (art. 167)|Sepot met voorwaarden (art. 167)|2|1|172|129||2
+20090101|99991231|130|100|Schorsing voorlopige hechtenis met voorwaarden (art. 80 Sv)|Schorsing voorlopige hechtenis met voorwaarden (art. 80 Sv)|2|1|173|130||2
+20090101|99991231|131|100|Voorwaardelijke gratieverlening (art. 13 Gratiewet jo. 558 Sv)|Voorwaardelijke gratieverlening (art. 13 Gratiewet jo. 558 Sv)|2|1|174|131||2
+20090101|99991231|132|100|Plaatsing ten behoeve van pro-justitia rapportage (art. 196/ 317 Sv)|Plaatsing ten behoeve van pro-justitia rapportage (art. 196/ 317 Sv)|2|1|175|132||2
+20090101|99991231|133|100|Plaatsing in een psychiatrisch ziekenhuis van een gedetineerde met toepassing van art. 15 lid 5 van de Pbw|Plaatsing in een psychiatrisch ziekenhuis van een gedetineerde met toepassing van art. 15 lid 5 van de Pbw|2|1|176|133||2
+20090101|99991231|134|100|Overbrenging van een gedetineerde op basis van artikel 43 lid 3 van de Pbw|Overbrenging van een gedetineerde op basis van artikel 43 lid 3 van de Pbw|2|1|177|134||2
+20090101|99991231|135|100|ISD met voorwaarden (artikel 38p lid 5 Sr)|ISD met voorwaarden (artikel 38p lid 5 Sr)|2|1|178|135||2
+20090101|99991231|136|100|ISD (art. 38 m Sr)|ISD (art. 38 m Sr)|2|1|179|136||2
+20090101|99991231|137|100|Penitentiair programma met zorg (art. 15 lid 2 Pbw)|Penitentiair programma met zorg (art. 15 lid 2 Pbw)|2|1|180|137||2
+20090101|99991231|138|100|Interne overplaatsing op zorgafdeling in het gevangeniswezen (art. 15 Pbw)|Interne overplaatsing op zorgafdeling in het gevangeniswezen (art. 15 Pbw)|2|1|181|138||2
+20090101|20091231|139|100|pré klinische interventie bij tbs-gestelden in het gevangeniswezen|pré klinische interventie bij tbs-gestelden in het gevangeniswezen|2|1|182|139||2
+20090101|99991231|140|100|Poliklinische verrichtingen door GGZ in het gevangeniswezen|Poliklinische verrichtingen door GGZ in het gevangeniswezen|2|1|183|140||2
+20090101|99991231|141|100|Voorwaardelijke Invrijheidsstelling met bijzondere voorwaarden (art. 15a Sr)|Voorwaardelijke Invrijheidsstelling met bijzondere voorwaarden (art. 15a Sr)|2|1|184|141||2
+20100101|99991231|142|100|Strafbeschikking met aanwijzingen (art. 257A Sv lid 3)|Strafbeschikking met aanwijzingen (art. 257 lid 3 Sv)|2|1|185|142||2
+20100101|99991231|143|100|Voorgenomen indicatiestelling|Voorgenomen indicatiestelling|2|1|186|143||2
+20130101|99991231|144|100|FPT proefverlof|FPT proefverlof|2|1|144|144||2
+20130101|99991231|145|100|FPT voorwaardelijke beeindiging|FPT voorwaardelijke beeindiging|2|1|145|145||2
+20140101|99991231|146|100|Verdiepingsdiagnostiek|Verdiepingsdiagnostiek|2|1|146|146||2
+20160101|99991231|147|100|Overgang vanuit de Jeugdwet|Overgang vanuit de Jeugdwet|2|1|147|147||1
+20170101|99991231|148|100|Bevel voorlopige verpleging (art. 509i Sv)|Bevel voorlopige verpleging (art. 509i Sv)|2|1|148|148||2
+20170101|99991231|149|100|Bevel aanhouding (art. 509h Sv)|Bevel aanhouding (art. 509h Sv)|2|1|149|149||2
+20170101|20171231|150|100|Overgang naar DSM-5|Overgang naar DSM-5|2|1|150|150||0
+20180101|20181231|150|100|Overgang naar DSM-5|Overgang naar DSM-5|2|1|150|150||1
+20180101|99991231|151|100|Zelfstandige gedragsbeïnvloedende en vrijheidsbeperkende maatregel (art. 38z Sr jo. Art. 38ab Sr)|Zelfstandige gedragsbeïnvloedende en vrijheidsbeperkende maatregel (art. 38z Sr jo. Art. 38ab Sr)|2|1|151|151||2
+20180101|99991231|152|100|Uitzondering parallelliteit ECT|Uitzondering parallelliteit ECT|2|1|152|152||1
+20180101|99991231|153|100|Uitzondering parallelliteit farmacotherapie|Uitzondering parallelliteit farmacotherapie|2|1|153|153||1
+20180101|99991231|154|100|Uitzondering parallelliteit tijdelijk verblijf|Uitzondering parallelliteit tijdelijk verblijf|2|1|154|154||1
+20010101|99991231|200||Vervolgzorgtype|Vervolgzorgtype|0|0|190|200||0
+20000101|99991231|201|200|(Langdurige periodieke) controle|(Langdurige periodieke) controle|2|1|200|201||1
+20000101|99991231|202|200|Voortgezette behandeling|Voortgezette behandeling|2|1|210|202||1
+20000101|99991231|203|200|Uitloop|Uitloop|2|1|220|203||1
+20000101|99991231|204|200|Exacerbatie/recidive|Exacerbatie/recidive|2|1|230|204||1
+20000101|20111231|205|200|Bemoeizorg|Bemoeizorg|2|1|240|205||1
+20120101|99991231|205|200|Bemoeizorg|Bemoeizorg|2|1|240|299||1
+20000101|20111231|206|200|Rechterlijke machtiging|Rechterlijke machtiging|2|1|250|202||1
+20120101|99991231|206|200|Rechterlijke machtiging|Rechterlijke machtiging|2|1|250|299||1
+20000101|20061231|207|200|Terbeschikkingstelling|Terbeschikkingstelling|2|1|260|207||1
+20070101|20071231|207|200|Terbeschikkingstelling|Terbeschikkingstelling|2|1|260|207||0
+20080101|20081231|207|200|Terbeschikkingstelling|Terbeschikkingstelling|2|1|260|207||2
+20000101|20061231|208|200|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|270|208||1
+20070101|20071231|208|200|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|270|208||0
+20080101|20081231|208|200|Terbeschikkingstelling met voorwaarden|Terbeschikkingstelling met voorwaarden|2|1|270|208||2
+20000101|20071231|209|200|Strafrechterlijke machtiging|Strafrechterlijke machtiging|2|1|280|209||1
+20000101|20161231|210|200|Ondertoezichtstelling|Ondertoezichtstelling|2|1|290|202||1
+20080101|20111231|211|200|Rechterlijke machtiging met voorwaarden|Rechterlijke machtiging met voorwaarden|2|1|300|202||1
+20120101|99991231|211|200|Rechterlijke machtiging met voorwaarden|Rechterlijke machtiging met voorwaarden|2|1|300|299||1
+20080101|20171231|212|200|Jeugdstrafrecht|Jeugdstrafrecht|2|1|310|202||1
+20070101|20081231|213|200|Detentie bijzondere zorg in gevangeniswezen|Detentie bijzondere zorg in gevangeniswezen|2|1|271|213||2
+20070101|20081231|214|200|Detentie bijzondere zorg buiten gevangeniswezen|Detentie bijzondere zorg buiten gevangeniswezen|2|1|272|214||2
+20070101|20081231|215|200|Titels met voorwaarden + artikel 37 Sr|Titels met voorwaarden + artikel 37 Sr|2|1|273|215||2
+20150101|20151231|216|200|Voortgezette behandeling jeugd-ggz|Voortgezette behandeling jeugd-ggz|2|1|269|216||1
+20090101|99991231|221|200|Strafrechtelijke machtiging (art. 37 jo 39 Sr)|Strafrechtelijke machtiging (art. 37 jo 39 Sr)|2|1|274|221||2
+20090101|99991231|222|200|TBS met dwangverpleging (art. 37a jo 37b Sr)|TBS met dwangverpleging (art. 37a jo 37b Sr)|2|1|275|222||2
+20090101|99991231|223|200|Overplaatsing naar een psychiatrisch ziekenhuis (14 Bvt)|Overplaatsing naar een psychiatrisch ziekenhuis (14 Bvt)|2|1|276|223||2
+20090101|99991231|224|200|Tijdelijke plaatsing ter observatie in psychiatrisch ziekenhuis  (13 Bvt)|Tijdelijke plaatsing ter observatie in psychiatrisch ziekenhuis  (13 Bvt)|2|1|277|224||2
+20090101|99991231|225|200|TBS met proefverlof (art. 51 Bvt)|TBS met proefverlof (art. 51 Bvt)|2|1|278|225||2
+20090101|99991231|226|200|Voorwaardelijke beëindiging van de verpleging van overheidswege (art. 38 g Sr)|Voorwaardelijke beëindiging van de verpleging van overheidswege (art. 38 g Sr)|2|1|279|226||2
+20090101|99991231|227|200|TBS met voorwaarden (art. 38a Sr)|TBS met voorwaarden (art. 38a Sr)|2|1|280|227||2
+20090101|99991231|228|200|Voorwaardelijke veroordeling (art. 14a Sr)|Voorwaardelijke veroordeling (art. 14a Sr)|2|1|281|228||2
+20090101|20161231|229|200|Sepot met voorwaarden (art. 167/ 244 Sv)|Sepot met voorwaarden (art. 167/ 244 Sv)|2|1|282|229||2
+20170101|99991231|229|200|Sepot met voorwaarden (art. 167)|Sepot met voorwaarden (art. 167)|2|1|282|229||2
+20090101|99991231|230|200|Schorsing voorlopige hechtenis met voorwaarden (art. 80 Sv)|Schorsing voorlopige hechtenis met voorwaarden (art. 80 Sv)|2|1|283|230||2
+20090101|99991231|231|200|Voorwaardelijke gratieverlening (art. 13 Gratiewet jo. 558 Sv)|Voorwaardelijke gratieverlening (art. 13 Gratiewet jo. 558 Sv)|2|1|284|231||2
+20090101|99991231|232|200|Plaatsing ten behoeve van pro-justitia rapportage (art. 196/ 317 Sv)|Plaatsing ten behoeve van pro-justitia rapportage (art. 196/ 317 Sv)|2|1|285|232||2
+20090101|99991231|233|200|Plaatsing in een psychiatrisch ziekenhuis van een gedetineerde met toepassing van art. 15 lid 5 van de Pbw|Plaatsing in een psychiatrisch ziekenhuis van een gedetineerde met toepassing van art. 15 lid 5 van de Pbw|2|1|286|233||2
+20090101|99991231|234|200|Overbrenging van een gedetineerde op basis van artikel 43 lid 3 van de Pbw|Overbrenging van een gedetineerde op basis van artikel 43 lid 3 van de Pbw|2|1|287|234||2
+20090101|99991231|235|200|ISD met voorwaarden (artikel 38p lid 5 Sr)|ISD met voorwaarden (artikel 38p lid 5 Sr)|2|1|288|235||2
+20090101|99991231|236|200|ISD (art. 38 m Sr)|ISD (art. 38 m Sr)|2|1|289|236||2
+20090101|99991231|237|200|Penitentiair programma met zorg (art. 15 lid 2 Pbw)|Penitentiair programma met zorg (art. 15 lid 2 Pbw)|2|1|290|237||2
+20090101|99991231|238|200|Interne overplaatsing op zorgafdeling in het gevangeniswezen (art. 15 Pbw)|Interne overplaatsing op zorgafdeling in het gevangeniswezen (art. 15 Pbw)|2|1|291|238||2
+20090101|20091231|239|200|pré klinische interventie bij tbs-gestelden in het gevangeniswezen|pré klinische interventie bij tbs-gestelden in het gevangeniswezen|2|1|292|239||2
+20090101|99991231|240|200|Poliklinische verrichtingen door GGZ in het gevangeniswezen|Poliklinische verrichtingen door GGZ in het gevangeniswezen|2|1|293|240||2
+20090101|99991231|241|200|Voorwaardelijke Invrijheidsstelling met bijzondere voorwaarden (art. 15a Sr)|Voorwaardelijke Invrijheidsstelling met bijzondere voorwaarden (art. 15a Sr)|2|1|294|241||2
+20100101|99991231|242|200|Strafbeschikking met aanwijzingen (art. 257A Sv lid 3)|Strafbeschikking met aanwijzingen (art. 257 lid 3 Sv)|2|1|295|242||2
+20100101|99991231|243|200|Voorgenomen indicatiestelling|Voorgenomen indicatiestelling|2|1|296|243||2
+20130101|99991231|244|200|FPT proefverlof|FPT proefverlof|2|1|244|244||2
+20130101|99991231|245|200|FPT voorwaardelijke beeindiging|FPT voorwaardelijke beeindiging|2|1|245|245||2
+20170101|99991231|248|200|Bevel voorlopige verpleging (art. 509i Sv)|Bevel voorlopige verpleging (art. 509i Sv)|2|1|248|248||2
+20170101|99991231|249|200|Bevel aanhouding (art. 509h Sv)|Bevel aanhouding (art. 509h Sv)|2|1|249|249||2
+20180101|99991231|251|200|Zelfstandige gedragsbeïnvloedende en vrijheidsbeperkende maatregel (art. 38z Sr jo. Art. 38ab Sr)|Zelfstandige gedragsbeïnvloedende en vrijheidsbeperkende maatregel (art. 38z Sr jo. Art. 38ab Sr)|2|1|251|251||2
+20180101|99991231|252|200|Uitzondering parallelliteit ECT|Uitzondering parallelliteit ECT|2|1|252|252||1
+20180101|99991231|253|200|Uitzondering parallelliteit farmacotherapie|Uitzondering parallelliteit farmacotherapie|2|1|253|253||1
+20130101|99991231|300||Crisisinterventie|Crisisinterventie|0|0|300|300||1
+20130101|99991231|301|300|Crisisinterventie zonder opname|Crisisinterventie zonder opname|2|1|301|301|2|1
+20130101|99991231|302|300|Crisisinterventie met opname|Crisisinterventie met opname|2|1|302|302|2|1
+20190101|99991231|303|300|Acute psychiatrische hulpverlening binnen budget|Acute psychiatrische hulpverlening binnen budget|2|1|303|303|3|1
+20190101|99991231|304|300|Acute psychiatrische hulpverlening buiten budget|Acute psychiatrische hulpverlening buiten budget|2|1|304|304|3|1

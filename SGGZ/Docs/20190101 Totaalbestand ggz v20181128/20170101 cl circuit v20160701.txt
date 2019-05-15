@@ -1,0 +1,10 @@
+cl_circuit_begindatum|cl_circuit_einddatum|cl_circuit_code|cl_circuit_beschrijving|cl_circuit_sorteervolgorde|cl_circuit_mutatie|cl_circuit_branche_indicatie
+20000101|99991231|1|Volwassenen lang|20||1
+20000101|99991231|2|Volwassenen kort|30||1
+20000101|99991231|3|Ouderen|40||1
+20000101|20161231|4|Kinder & Jeugd|50|2|1
+20000101|99991231|5|Verslavingszorg|60||1
+20000101|20071231|6|Forensisch|70||1
+20080101|20161231|7|Forensisch Jeugd|71|2|1
+20070101|99991231|8|Forensisch Volwassenen in strafrechtelijk kader (SK) |72||2
+20080101|99991231|9|Forensisch Volwassenen niet in strafrechtelijk kader (SK) |73||1

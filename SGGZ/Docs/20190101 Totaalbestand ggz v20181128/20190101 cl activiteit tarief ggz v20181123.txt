@@ -1,0 +1,124 @@
+cl_activiteit_tarief_begindatum|cl_activiteit_tarief_einddatum|cl_activiteit_code|cl_activiteit_tarief_omschrijving|cl_declaratiecode|cl_declaratiecode_kleur|cl_activiteit_tarief_basis|cl_activiteit_tarief_max|cl_activiteit_tarief_nhc|cl_activiteit_tarief_mutatie
+20120101|20121231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25A048|groen|16710|0|0|
+20130101|20131231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25A048|groen|18243|0|0|
+20140101|20141231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25A048|groen|14172|0|0|
+20120101|20121231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25A049|groen|21012|0|0|
+20130101|20131231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25A049|groen|21966|0|0|
+20140101|20141231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25A049|groen|18668|0|0|
+20120101|20121231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25A050|groen|23729|0|0|
+20130101|20131231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25A050|groen|24389|0|0|
+20140101|20141231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25A050|groen|25989|0|0|
+20120101|20121231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25A051|groen|24429|0|0|
+20130101|20131231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25A051|groen|24832|0|0|
+20140101|20141231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25A051|groen|27164|0|0|
+20120101|20121231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25A052|groen|31871|0|0|
+20130101|20131231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25A052|groen|31690|0|0|
+20140101|20141231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25A052|groen|34086|0|0|
+20120101|20121231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25A053|groen|38646|0|0|
+20130101|20131231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25A053|groen|37580|0|0|
+20140101|20141231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25A053|groen|38154|0|0|
+20120101|20121231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25A054|groen|77088|0|0|
+20130101|20131231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25A054|groen|72457|0|0|
+20140101|20141231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25A054|groen|53419|0|0|
+20130101|20131231|act_10.1|Verrichting - Electroconvulsietherapie|25A060|groen|18571|0|0|
+20140101|20141231|act_10.1|Verrichting - Electroconvulsietherapie|25A060|groen|32940|0|0|
+20130101|20131231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|25A061|groen|1864|0|0|
+20140101|20141231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|25A061|groen|1923|0|0|
+20130101|20131231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|25A062|groen|43566|0|0|
+20140101|20141231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|25A062|groen|36689|0|0|
+20130101|20131231|act_8.9.01|Verblijf zonder overnachting|25A063|groen|6273|0|0|
+20140101|20141231|act_8.9.01|Verblijf zonder overnachting|25A063|groen|11603|0|0|
+20150101|20151231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25B048|groen|14221|0|3389|
+20160101|20161231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25B048|groen|14336|0|3474|
+20170101|20171231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|25B048|groen|15603|0|3561|
+20180101|20181231|act_8.8.01|Verblijfsdag ggz, klasse A  (lichte verzorging)|25B048|groen|15907|0|0|
+20190101|99991231|act_8.8.01|Verblijfsdag ggz, klasse A  (lichte verzorging)|25B048|groen|16626|0|0|
+20150101|20151231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25B049|groen|18802|0|3311|
+20160101|20161231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25B049|groen|18926|0|3394|
+20170101|20171231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|25B049|groen|22409|0|3479|
+20180101|20181231|act_8.8.02|Verblijfsdag ggz, klasse B (beperkte verzorging)|25B049|groen|22925|0|0|
+20190101|99991231|act_8.8.02|Verblijfsdag ggz, klasse B (beperkte verzorging)|25B049|groen|23929|0|0|
+20150101|20151231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25B050|groen|26215|0|3320|
+20160101|20161231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25B050|groen|26361|0|3403|
+20170101|20171231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|25B050|groen|25683|0|3488|
+20180101|20181231|act_8.8.03|Verblijfsdag ggz, klasse C (matige verzorging)|25B050|groen|26298|0|0|
+20190101|99991231|act_8.8.03|Verblijfsdag ggz, klasse C (matige verzorging)|25B050|groen|27440|0|0|
+20150101|20151231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25B051|groen|27568|0|3298|
+20160101|20161231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25B051|groen|27717|0|3380|
+20170101|20171231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|25B051|groen|29822|0|3465|
+20180101|20181231|act_8.8.04|Verblijfsdag ggz, klasse D (gemiddelde verzorging)|25B051|groen|30564|0|0|
+20190101|99991231|act_8.8.04|Verblijfsdag ggz, klasse D (gemiddelde verzorging)|25B051|groen|31880|0|0|
+20150101|20151231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25B052|groen|34511|0|3484|
+20160101|20161231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25B052|groen|34682|0|3571|
+20170101|20171231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|25B052|groen|36805|0|3660|
+20180101|20181231|act_8.8.05|Verblijfsdag ggz, klasse E (intensieve verzorging)|25B052|groen|37751|0|0|
+20190101|99991231|act_8.8.05|Verblijfsdag ggz, klasse E (intensieve verzorging)|25B052|groen|39365|0|0|
+20150101|20151231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25B053|groen|38691|0|3408|
+20160101|20161231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25B053|groen|38873|0|3493|
+20170101|20171231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|25B053|groen|40529|0|3581|
+20180101|20181231|act_8.8.06|Verblijfsdag ggz, klasse F (extra intensieve verzorging)|25B053|groen|41592|0|0|
+20190101|99991231|act_8.8.06|Verblijfsdag ggz, klasse F (extra intensieve verzorging)|25B053|groen|43362|0|0|
+20150101|20151231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25B054|groen|53878|0|3871|
+20160101|20161231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25B054|groen|54112|0|3968|
+20170101|20171231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|25B054|groen|53434|0|4067|
+20180101|20181231|act_8.8.07|Verblijfsdag ggz, klasse G (zeer intensieve verzorging)|25B054|groen|54866|0|0|
+20190101|99991231|act_8.8.07|Verblijfsdag ggz, klasse G (zeer intensieve verzorging)|25B054|groen|57189|0|0|
+20150101|20151231|act_10.1|Verrichting - Electroconvulsietherapie|25B060|groen|33354|0|0|
+20160101|20161231|act_10.1|Verrichting - Electroconvulsietherapie|25B060|groen|33445|0|0|
+20170101|20171231|act_10.1|Verrichting - Electroconvulsietherapie|25B060|groen|34180|0|0|
+20180101|20181231|act_10.1|Electroconvulsietherapie|25B060|groen|35220|0|0|
+20190101|99991231|act_10.1|Electroconvulsietherapie|25B060|groen|36659|0|0|
+20150101|20151231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|25B061|groen|1947|0|0|
+20160101|20161231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|25B061|groen|1952|0|0|
+20170101|20171231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|25B061|groen|1995|0|0|
+20180101|20181231|act_10.2|Methadonverstrekking gedurende 1 maand, patiënt niet opgenomen|25B061|groen|2056|0|0|
+20190101|99991231|act_10.2|Methadonverstrekking gedurende 1 maand, patiënt niet opgenomen|25B061|groen|2140|0|0|
+20150101|20151231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|25B062|groen|37150|0|0|
+20160101|20161231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|25B062|groen|37251|0|0|
+20170101|20171231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|25B062|groen|70817|0|0|
+20180101|20181231|act_10.3|Vergoeding voor 24-uurs beschikbaarheid van de zorginstelling bij inzet van de crisisdienst|25B062|groen|72972|0|0|
+20190101|99991231|act_10.3|Vergoeding voor 24-uurs beschikbaarheid van de zorginstelling bij inzet van de crisisdienst|25B062|groen|75953|0|0|1
+20150101|20151231|act_8.9.01|Verblijf zonder overnachting|25B063|groen|11748|0|0|
+20160101|20161231|act_8.9.01|Verblijf zonder overnachting|25B063|groen|11781|0|0|
+20170101|20171231|act_8.9.01|Verblijf zonder overnachting|25B063|groen|12039|0|0|
+20180101|20181231|act_8.9.01|Verblijf zonder overnachting|25B063|groen|12405|0|0|
+20190101|99991231|act_8.9.01|Verblijf zonder overnachting|25B063|groen|12912|0|0|
+20170101|20171231|act_8.8.08|Deelprestatie verblijf GGZ H (High Intensive Care)|25B064|groen|48030|0|4587|
+20180101|20181231|act_8.8.08|Verblijfsdag ggz, klasse H (hoog intensieve verzorging)|25B064|groen|49272|0|0|
+20190101|99991231|act_8.8.08|Verblijfsdag ggz, klasse H (hoog intensieve verzorging)|25B064|groen|51377|0|0|
+20180101|20181231|act_8.8.09|Verblijf in verband met afwezigheid vervolgvoorziening, medisch gezien niet meer nodig voor de behandeling (Verblijf met rechtvaardigheidsgrond - VMR)|25B068|groen|32843|0|0|
+20190101|99991231|act_8.8.09|Verblijf in verband met afwezigheid vervolgvoorziening, medisch gezien niet meer nodig voor de behandeling (Verblijf met rechtvaardigheidsgrond - VMR)|25B068|groen|34256|0|0|
+20190101|99991231|act_8.11.1|Deelprestatie verblijf GGZ A2 (Lichte verzorgingsgraad, beveiligingsniveau 2)|25B069|groen|17454|0|0|
+20190101|99991231|act_8.11.2|Deelprestatie verblijf GGZ B2 (Beperkte verzorgingsgraad, beveiligingsniveau 2)|25B070|groen|24842|0|0|
+20190101|99991231|act_8.11.3|Deelprestatie verblijf GGZ C2 (Matige verzorgingsgraad, beveiligingsniveau 2)|25B071|groen|28343|0|0|
+20190101|99991231|act_8.11.4|Deelprestatie verblijf GGZ D2 (Gemiddelde verzorgingsgraad, beveiligingsniveau 2)|25B072|groen|32806|0|0|
+20190101|99991231|act_8.11.5|Deelprestatie verblijf GGZ E2 (Intensieve verzorgingsgraad, beveiligingsniveau 2)|25B073|groen|40087|0|0|
+20190101|99991231|act_8.11.6|Deelprestatie verblijf GGZ F2 (Extra intensieve verzorgingsgraad, beveiligingsniveau 2)|25B074|groen|44166|0|0|
+20190101|99991231|act_8.11.7|Deelprestatie verblijf GGZ G2 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 2)|25B075|groen|57486|0|0|
+20190101|99991231|act_8.12.1|Deelprestatie verblijf GGZ A3 (Lichte verzorgingsgraad, beveiligingsniveau 3)|25B076|groen|18929|0|0|
+20190101|99991231|act_8.12.2|Deelprestatie verblijf GGZ B3 (Beperkte verzorgingsgraad, beveiligingsniveau 3)|25B077|groen|26317|0|0|
+20190101|99991231|act_8.12.3|Deelprestatie verblijf GGZ C3 (Matige verzorgingsgraad, beveiligingsniveau 3)|25B078|groen|29818|0|0|
+20190101|99991231|act_8.12.4|Deelprestatie verblijf GGZ D3 (Gemiddelde verzorgingsgraad, beveiligingsniveau 3)|25B079|groen|34282|0|0|
+20190101|99991231|act_8.12.5|Deelprestatie verblijf GGZ E3 (Intensieve verzorgingsgraad, beveiligingsniveau 3)|25B080|groen|41563|0|0|
+20190101|99991231|act_8.12.6|Deelprestatie verblijf GGZ F3 (Extra intensieve verzorgingsgraad, beveiligingsniveau 3)|25B081|groen|45642|0|0|
+20190101|99991231|act_8.12.7|Deelprestatie verblijf GGZ G3 (Zeer intensieve verzorgingsgraad, beveiligingsniveau 3)|25B082|groen|58961|0|0|
+20190101|99991231|act_10.7|Toeslag - Oorlogsgerelateerd psychotrauma|25B083|groen|4476|0|0|2
+20190101|99991231|act_8.10.4|Verblijf crisis binnen budget D (gemiddelde verzorgingsgraad)|25B090|groen|31880|0|0|3
+20190101|99991231|act_8.10.5|Verblijf crisis binnen budget E (intensieve verzorgingsgraad)|25B091|groen|39365|0|0|3
+20190101|99991231|act_8.10.6|Verblijf crisis binnen budget F (extra intensieve verzorgingsgraad)|25B092|groen|43362|0|0|3
+20190101|99991231|act_8.10.7|Verblijf crisis binnen budget G (zeer intensieve verzorgingsgraad)|25B093|groen|57189|0|0|3
+20190101|99991231|act_8.10.8|Verblijf crisis binnen budget H (high intensieve care)|25B094|groen|51377|0|0|3
+20130101|20131231|act_10.1|Verrichting - Electroconvulsietherapie|26A133|rood|18571|0|0|
+20130101|20131231|act_10.2|Verrichting - Ambulante methadon (medicijn, registratie per maand)|26A134|rood|1864|0|0|
+20130101|20131231|act_10.3|Beschikbaarheidscomponent voor 24-uurs crisiszorg|26A135|rood|43566|0|0|
+20130101|20131231|act_8.8.01|Deelprestatie verblijf GGZ A (Lichte verzorgingsgraad)|26A136|rood|18243|0|0|
+20130101|20131231|act_8.8.02|Deelprestatie verblijf GGZ B (Beperkte verzorgingsgraad)|26A137|rood|21966|0|0|
+20130101|20131231|act_8.8.03|Deelprestatie verblijf GGZ C (Matige verzorgingsgraad)|26A138|rood|24389|0|0|
+20130101|20131231|act_8.8.04|Deelprestatie verblijf GGZ D (Gemiddelde verzorgingsgraad)|26A139|rood|24832|0|0|
+20130101|20131231|act_8.8.05|Deelprestatie verblijf GGZ E (Intensieve verzorgingsgraad)|26A140|rood|31690|0|0|
+20130101|20131231|act_8.8.06|Deelprestatie verblijf GGZ F (Extra intensieve verzorgingsgraad)|26A141|rood|37580|0|0|
+20130101|20131231|act_8.8.07|Deelprestatie verblijf GGZ G (Zeer intensieve verzorgingsgraad)|26A142|rood|72457|0|0|
+20130101|20131231|act_8.9.01|Verblijf zonder overnachting|26A143|rood|6273|0|0|
+20170101|20171231|act_10.6|Toeslag tolk gebarentaal/communicatiespecialist|26A144|groen|65397|0|0|
+20180101|20181231|act_10.6|Toeslag tolk gebarentaal/communicatiespecialist|26A144|groen|67387|0|0|
+20190101|99991231|act_10.6|Toeslag tolk gebarentaal/communicatiespecialist|26A144|groen|70140|0|0|
