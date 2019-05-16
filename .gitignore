@@ -2,3 +2,4 @@ SGGZ/Test_rapportages
 BGGZ/Test_rapportages
 *.pyc
 .vscode
+.~lock*
