@@ -629,18 +629,7 @@ format_zorgprofiel = [{'Begin': '1',
   'Patroon': '',
   'Sleutel': '',
   'Type': 'AN',
-  'Verplicht': 'O'},
- {'Begin': '',
-  'Codeorg': '',
-  'Codetabel': '',
-  'DDID': '36',
-  'Eind': '',
-  'Lengte': '',
-  'Naam': '',
-  'Patroon': '',
-  'Sleutel': '',
-  'Type': '',
-  'Verplicht': ''}]
+  'Verplicht': 'O'}]
 
 
 format_pakbon = [{'Begin': '1',
