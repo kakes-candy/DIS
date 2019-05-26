@@ -1,6 +1,7 @@
 from classes import Patient, Pakbon, Behandeltraject, GeleverdZorgprofiel
 from collections import OrderedDict
 import csv, os
+from pathlib import Path as plib_path
 
 
 bronmap = "BGGZ/Test_rapportages/Bggz-201412-Created-20190509_135234/DIS_GBG_TRJ_TEST_020_73730802_01_20190509_01"
@@ -9,7 +10,7 @@ print(os.getcwd())
 
 # Submap voor ingelezen bestanden aanmaken in bronmap
 try:
-    os.mkdir(os.path.join(bronmap, "ingelezen"))
+    os.mkdir(os.path.join(plib_path(bronmap).parent, "uitgelezen"))
 except FileExistsError:
     print("Directory not created")
 
