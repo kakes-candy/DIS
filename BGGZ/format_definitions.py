@@ -796,6 +796,17 @@ format_pakbon = [{'Begin': '1',
   'Patroon': '',
   'Sleutel': '',
   'Type': 'AN',
+  'Verplicht': 'O'},
+  {'Begin': '168',
+  'Code org': 'Vestigingsnummer',
+  'Codetabel': 'KvK registratie',
+  'DDID': '4160',
+  'Eind': '179',
+  'Lengte': '12',
+  'Naam': 'Kamer van Koophandelnummer',
+  'Patroon': '',
+  'Sleutel': '',
+  'Type': 'AN',
   'Verplicht': 'O'}]
 
 
