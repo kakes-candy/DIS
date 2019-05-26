@@ -525,3 +525,21 @@ class Aanlevering_BGGZ:
         #  als laatste het behandeltraject zelf verwijderen
         del self.zorgprofielen[tijd_key]
 
+    def validate(self):
+        '''
+        Valideert alle elementen in de aanlevering
+        ''' 
+        results = []
+        for patient in self.patienten.values():
+            res = patient.validate()
+            if res:
+                results.append(res)
+        for traject in self.behandeltrajecten.values():
+            res = traject.validate()
+            if res:
+                results.append(res)        
+        for profiel in self.zorgprofielen.values():
+            res = profiel.validate()
+            if res:
+                results.append(res)  
+
