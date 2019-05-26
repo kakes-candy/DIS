@@ -23,8 +23,6 @@ class DISdataObject(object):
         self.children = {child_type: dict() for child_type in self.child_types}
         self.parent = None
 
-        self.pakbon = []
-
     def write_to_string(self):
         result = ""
         for definition in self.format_definitions:
@@ -69,9 +67,9 @@ class DISdataObject(object):
         # Ook bij het kind self de parent maken
         obj.add_parent(self)
 
-    def delete_child(self, to, obj):
+    def delete_child(self, to, object_key):
         try:
-            del self.children.get(to)[obj.__str__()]
+            del self.children.get(to)[object_key]
         except:
             pass
 
@@ -143,8 +141,9 @@ class Patient(DISdataObject):
         for key, value in kwargs.items():
             setattr(self, key, value)
 
+    # Koppelnummer tonen
     def show_link(self):
-        return self._1432
+        return self._3340
 
     # Methode om object te valideren
     def validate(self):
@@ -412,35 +411,23 @@ class PakbonTekst(DISdataObject):
 
 
 # klas om alle Disobjecten vast te houden
-class Pakbon(DISdataObject):
-
-    format_definitions = format_pakbon
-    meldingen = []
+class Aanlevering_BGGZ:
 
     def __init__(self, **kwargs):
-        super(Pakbon, self).__init__()
-        # deze eigenschappen zijn constant
-        self._3362 = "73730802"  # agb instelling
-        self._3371 = "1"  # dis volgnummer
-        self._3337 = "2"  # versie dis aanleverstandaard
-        self._3233 = datetime.date.today().strftime("%Y%m%d")  # Creatiedatum
-        self._3234 = "1"
-        self._3344 = "zipfilenaam.zip"
-        self._3339 = "TJIPBV"  # Softwareleverancier
-        self._3334 = "WECARE"  # Softwarepakket
-        self._3342 = "2.0.3"  # Softwareversie
-        self._3239 = 0  # aantal patient
-        self._3345 = 0  # aantal behandeltraject
-        self._3245 = 0  # aantal geleverd zorgprofiel
-        self._3346 = 0  # aantal verrichting
-        self._1548 = 0  # aantal verblijf
-        self._1549 = 0  # aantal verrichtingen
-        self._1551 = 0  # dis gebruikersnaam
-        self._1551 = 0  # kvk nummer
 
+        self.meldingen = []
+        self.pakbon = None
         self.patienten = dict()
         self.behandeltrajecten = dict()
         self.zorgprofielen = dict()
+
+
+    def add_pakbon(self, obj=None, **kwargs):
+        if not obj:
+            pb = PakbonTekst(**kwargs)
+            self.pakbon = pb
+        else: 
+            self.pakbon = obj
 
     def add_patient(self, obj=None, **kwargs):
         if not obj:
@@ -449,20 +436,23 @@ class Pakbon(DISdataObject):
             pt = obj
         # Als de patient al bestaat, bestaande object teruggeven
         if pt.__str__() in self.patienten:
-            meldingen.append("PATIENT: {} is niet uniek".format(pt.__str__()))
+            self.meldingen.append("PATIENT: {} is niet uniek".format(pt.__str__()))
             return self.patienten[pt.__str__()]
         # Als de patient nog niet is ingelezen
         else:
             self.patienten[pt.__str__()] = pt
-            self._3239 += 1
             return pt
 
-    def del_patient(self, patient):
-        try:
-            del self.patienten[patient.__str__()]
-            self._3239 -= 1
-        except:
-            pass
+    # Patient instantie verwijderen uit aanlevering
+    def del_patient(self, patient_key):
+            # De kinderen (behandeltrajecten) van de patient instantie moeten worden verwijderd
+            kinderen = self.patienten[patient_key].children.get('Behandeltraject')
+            if kinderen:
+                for kind in list(kinderen.values()):
+                    kind.parent = None
+                    self.del_behandeltraject(kind.__str__())
+            # dan de patient verwijderen 
+            del self.patienten[patient_key]
 
     def add_behandeltraject(self, obj=None, **kwargs):
         if not obj:
@@ -471,25 +461,36 @@ class Pakbon(DISdataObject):
             dbc = obj
         # Als het dbctraject al bestaat, bestaande object teruggeven
         if dbc.__str__() in self.behandeltrajecten:
-            meldingen.append("BEHANDELTRAJECT: {} is niet uniek".format(dbc.__str__()))
+            self.meldingen.append("BEHANDELTRAJECT: {} is niet uniek".format(dbc.__str__()))
             return self.behandeltrajecten[dbc.__str__()]
         # Als het dbctraject nog niet is ingelezen dan toevoegen aan pakbon lijst
-        if dbc.__str__() not in self.behandeltrajecten:
+        else:
             # parent zoeken, eerste uit lijst (lijst zou 1 lang moeten zijn)
             for key, value in self.patienten.items():
                 if value.show_link() == dbc.foreign_key():
                     value.add_child("Behandeltraject", dbc)
                     break
             self.behandeltrajecten[dbc.__str__()] = dbc
-            self._3345 += 1
             return dbc
 
-    def del_behandeltraject(self, traject):
-        try:
-            del self.behandeltrajecten[traject.__str__()]
-            self._3345 -= 1
-        except:
-            pass
+    def del_behandeltraject(self, traject_key):
+            traject = self.behandeltrajecten[traject_key]
+            # De kinderen (behandeltrajecten) van de patient instantie moeten worden verwijderd
+            kinderen = traject.children.get('GeleverdZorgprofiel')
+            if kinderen:
+                for kind in list(kinderen.values()):
+                    kind.parent = None
+                    self.del_zorgprofiel(kind.__str__())
+            # Heeft het behandeltraject nog ouders?
+            if traject.parent:
+                # Als dit het enige kind is van de ouder, dan verwijderen
+                if len(traject.parent.children.get('Behandeltraject', {})) == 1:
+                    # voorkomen dat verwijderen patient ook weer gaat proberen dit behandeltraject te verwijderen
+                    traject.parent.delete_child('Behandeltraject', traject_key)
+                    self.del_patient(traject.parent.__str__())
+            #  als laatste het behandeltraject zelf verwijderen
+            del self.behandeltrajecten[traject_key]
+
 
     def add_zorgprofiel(self, obj=None, **kwargs):
         if not obj:
@@ -498,24 +499,29 @@ class Pakbon(DISdataObject):
             ts = obj
         # Als de tijdrecord al bestaat, bestaande object teruggeven
         if ts.__str__() in self.zorgprofielen:
-            meldingen.append(
+            self.meldingen.append(
                 "GELEVERD ZORGPROFIEL: {} is niet uniek".format(ts.__str__())
             )
             return self.zorgprofielen[ts.__str__()]
         # Als het tijdschrijven nog niet is ingelezen
-        if ts.__str__() not in self.zorgprofielen:
+        else:
             # parent zoeken, eerste uit lijst (lijst zou 1 lang moeten zijn)
             for key, value in self.behandeltrajecten.items():
                 if value.show_link() == ts.foreign_key():
                     value.add_child("GeleverdZorgprofiel", ts)
                     break
             self.zorgprofielen[ts.__str__()] = ts
-            self._3245 += 1
         return ts
 
-    def del_tijd(self, tijd):
-        try:
-            del self.zorgprofielen[tijd.__str__()]
-            self._3245 -= 1
-        except:
-            pass
+    def del_zorgprofiel(self, tijd_key):
+        zorgprofiel = self.zorgprofielen[tijd_key]
+        # Heeft het zorgprofiel nog een ouder?
+        if zorgprofiel.parent:
+        # Als dit het laatste kind is van een ouder, dan verwijderen
+            if len(zorgprofiel.parent.children.get('GeleverdZorgprofiel', {})) == 1:
+                # voorkomen dat verwijderen patient ook weer gaat proberen dit behandeltraject te verwijderen
+                zorgprofiel.parent.delete_child('GeleverdZorgprofiel', tijd_key)
+                self.del_behandeltraject(zorgprofiel.parent.__str__())
+        #  als laatste het behandeltraject zelf verwijderen
+        del self.zorgprofielen[tijd_key]
+
