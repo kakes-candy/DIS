@@ -1,6 +1,6 @@
 from format_definitions import *
 import datetime, re
-
+import shutil, tempfile, os
 
 """
 Klassen voor het opslaan en verwerken van DIS data
@@ -543,3 +543,62 @@ class Aanlevering_BGGZ:
             if res:
                 results.append(res)  
 
+    def aanlevering_exporteren(self, doelmap, volgnummer = None):
+        """   
+        exporteert een aanlevering naar een DIS geformatteerd zip bestand
+
+        :param doelmap: map waar het zipbestand wordt opgeslagen
+        :type doelmap: str
+        :param volgnummer: volgnummer dat gewenst is voor de aanlevering
+        :type volgnummer: str
+        """
+
+        bestandsnaam = self.pakbon._3344
+        bestandsnaam_algemeen = bestandsnaam[:32]
+        creatiedatum = self.pakbon._3233
+        volgnummer_origineel = self.pakbon._3234
+        extensie = ".zip"
+
+        # volgnummer ophogen
+        if volgnummer:
+            self.pakbon._3234 = str(volgnummer).zfill(2)
+
+        # bestandsnaam aanpassen met opgehoogd volgnummer
+        nieuwe_bestandsnaam = "_".join([bestandsnaam_algemeen, creatiedatum, self.pakbon._3234])
+        self.pakbon._3344 = nieuwe_bestandsnaam + extensie
+
+
+        # Aantal clienten, behandeltrajecten etc bijwerken
+        self.pakbon._3239 = str(len(self.patienten))
+        self.pakbon._3345 = str(len(self.behandeltrajecten))
+        self.pakbon._3245 = str(len(self.zorgprofielen))
+
+
+        with tempfile.TemporaryDirectory() as tijdelijk:
+            # patientgegevens wegschrijven
+            with open(os.path.join(tijdelijk, 'PATIENT.txt'), 'w') as f_pat:
+                for patient in self.patienten.values():
+                    f_pat.write(patient.write_to_string() + '\n')
+            
+            # Behandeltraject wegschrijven
+            with open(os.path.join(tijdelijk, 'BEHANDELTRAJECT.txt'), 'w') as f_beh:
+                for behandel in self.behandeltrajecten.values():
+                    f_beh.write(behandel.write_to_string() + '\n')            
+
+            # Zorgprofiel wegschrijven
+            with open(os.path.join(tijdelijk, 'GELEVERD_ZORGPROFIEL.txt'), 'w') as f_profiel:
+                for profiel in self.zorgprofielen.values():
+                    f_profiel.write(profiel.write_to_string() + '\n')     
+
+            # Zorgprofiel wegschrijven
+            with open(os.path.join(tijdelijk, 'PAKBON.txt'), 'w') as f_pakbon:
+                f_pakbon.write(self.pakbon.write_to_string() + '\n')
+
+            # Zorgprofiel wegschrijven
+            with open(os.path.join(tijdelijk, 'OVERIGE_VERRICHTING.txt'), 'w') as f_profiel:
+                pass         
+
+            # Nieuw zipbestand maken met de juiste naam
+            shutil.make_archive(os.path.join(doelmap, nieuwe_bestandsnaam),
+                "zip",
+                tijdelijk)
