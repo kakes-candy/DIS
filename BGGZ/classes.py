@@ -98,7 +98,7 @@ class DISdataObject(object):
         ]
         values = []
         for key in keys:
-            value = getattr(self, key)
+            value = getattr(self, key).strip(' ')
             if value:
                 values.append(value)
             else:
@@ -532,6 +532,30 @@ class Aanlevering_BGGZ:
                 self.del_behandeltraject(zorgprofiel.parent.__str__())
         #  als laatste het behandeltraject zelf verwijderen
         del self.zorgprofielen[tijd_key]
+
+    def inlezen_vanuit_map(self, pad): 
+        ''' 
+        Aanlevering inlezen vanuit map
+        :param map: map waar de bestanden van de aanleverin staan
+        :type map: str
+        ''' 
+                
+        with open(os.path.join(pad, "PAKBON.txt"), "r") as f_pakbon:
+            p = f_pakbon.readline()
+            self.add_pakbon(PakbonTekst.from_string(p))
+
+        with open(os.path.join(pad, "PATIENT.txt"), "r") as f_patient:
+            for line in f_patient:
+                self.add_patient(Patient.from_string(line))
+
+        with open(os.path.join(pad, "BEHANDELTRAJECT.txt"), "r") as f_behandeltraject:
+            for line in f_behandeltraject:
+                self.add_behandeltraject(Behandeltraject.from_string(line))
+
+        with open(os.path.join(pad, "GELEVERD_ZORGPROFIEL.txt"), "r") as f_zorgprofiel:
+            for line in f_zorgprofiel:
+                self.add_zorgprofiel(GeleverdZorgprofiel.from_string(line))
+
 
     def validate(self):
         '''
