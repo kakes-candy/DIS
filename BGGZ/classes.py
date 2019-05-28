@@ -11,7 +11,7 @@ Klassen voor het opslaan en verwerken van DIS data
 class DISdataObject(object):
 
     # format_definitions is een lijst met DIS data specificaties
-    format_definitions = None
+    format_definitions = {}
     # attributen voor links met andere objecten
     child_types, parent_types = list(), list()
 
@@ -218,7 +218,7 @@ class Behandeltraject(DISdataObject):
         valid = True
         meldingen = []
 
-        # Een zorgtraject hoort alleen in de export als er verwante dbctrajecten zijn.
+        # Een behandeltraject hoort alleen in de export als er verwante activiteiten zijn zijn.
         for type in self.child_types:
             if len(self.children[type]) < 1:
                 valid = False
@@ -227,9 +227,18 @@ class Behandeltraject(DISdataObject):
                         self.__str__(), type
                     )
                 )
-        # # En er moet een patient als parent zijn
-        # if not self.parent:
-        #     meldingen.append('BEHANDELTRAJECT: {} heeft geen ouder'.format(self.__str__()))
+        # En er moet een patient als parent zijn
+        if not self.parent:
+            meldingen.append('BEHANDELTRAJECT: {} heeft geen ouder'.format(self.__str__()))
+
+        # Validatie 2227: 3272 Reden sluiten code bevat een andere code dan 12,13,15,17,21 
+        # bij 3333 Prestatiecode geleverd = 180005
+
+        # print(self.__str__() +  ' ' + self._3333 == '180005' and self._3272.strip(' ') not in ('12', '13', '15', '17', '21') )
+        if self._3333 == '180005' and self._3272.strip(' ') not in ('12', '13', '15', '17', '21'): 
+            meldingen.append('BEHANDELTRAJECT: {traject} val 2227 verkeerde reden sluiten bij onvolledig behandeltraject {sluitreden}'
+            .format(traject = self.__str__(), sluitreden = self._3272.strip(' ') ))
+
 
         # # validatie 566, begindatum zorgtraject > Einddatum
         # if datetime.datetime.strptime(self._1451, '%Y%m%d') > datetime.datetime.strptime(self._1452, '%Y%m%d'):
@@ -250,7 +259,6 @@ class Behandeltraject(DISdataObject):
         # # validatie 2067, primaire diagnose is niet as_1 of as_2 en niet leeg
         # if self._1456[:4] not in ('as1_', 'as2_', ) and self._1456.strip(' ') != '':
         #     meldingen.append('ZORGTRAJECT: {} diagnosecode niet as_1 of as_2 (val 2067)'.format(self.__str__()))
-
         if len(meldingen) > 0:
             return "   ###   ".join(meldingen)
         else:
@@ -395,7 +403,7 @@ class GeleverdZorgprofiel(DISdataObject):
         #     meldingen.append('TIJDSCHRIJVEN: {} activiteitdatum ligt niet tussen begin en einddatum dbc'.format(self.__str__()))
 
         if len(meldingen) > 0:
-            return "   ###   ".join(meldingen)
+            return(meldingen)
         else:
             return ()
 
@@ -527,21 +535,23 @@ class Aanlevering_BGGZ:
 
     def validate(self):
         '''
-        Valideert alle elementen in de aanlevering
+        Valideert alle elementen in de aanlevering en 
+        voegt resultaten toe aan aanlevering.meldingen
         ''' 
         results = []
         for patient in self.patienten.values():
             res = patient.validate()
             if res:
-                results.append(res)
+                self.meldingen.append(res)
         for traject in self.behandeltrajecten.values():
             res = traject.validate()
             if res:
-                results.append(res)        
+                self.meldingen.append(res)        
         for profiel in self.zorgprofielen.values():
             res = profiel.validate()
             if res:
-                results.append(res)  
+                self.meldingen.append(res)
+        
 
     def aanlevering_exporteren(self, doelmap, volgnummer = None):
         """   
