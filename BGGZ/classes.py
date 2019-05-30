@@ -1,6 +1,7 @@
 from format_definitions import *
 import datetime, re
 import shutil, tempfile, os
+from csv import DictWriter
 
 """
 Klassen voor het opslaan en verwerken van DIS data
@@ -596,7 +597,7 @@ class Aanlevering_BGGZ:
             self.bewerkingen.extend(res['bewerkingen'])
             self.meldingen.extend(res['meldingen'])
 
-    def aanlevering_exporteren(self, doelmap, volgnummer = None):
+    def exporteren_zip(self, doelmap, volgnummer = None):
         """   
         exporteert een aanlevering naar een DIS geformatteerd zip bestand
 
@@ -659,3 +660,27 @@ class Aanlevering_BGGZ:
             f_meldingen.writelines([x + '\n' for x in self.meldingen])
         with open(os.path.join(doelmap, 'bewerkingen.txt'), 'w') as f_bewerkingen: 
             f_bewerkingen.writelines([x + '\n' for x in self.bewerkingen])
+
+    def exporteren_csv(self, doelmap):
+
+        def write_objects_csv(pad, objects, headers):
+            with open(pad, 'w', newline = "") as outfile:
+                writer = DictWriter(outfile, delimiter=";", fieldnames=headers)
+                writer.writeheader()
+                for obj in objects:
+                    writer.writerow(obj.write_to_dict())
+  
+        # Pakbon
+        headers_pakbon = [x["Naam"] for x in PakbonTekst.format_definitions]
+        write_objects_csv(os.path.join(doelmap, 'pakbon.csv'), [self.pakbon], headers_pakbon)
+            
+        # Patient
+        headers_patient = [x["Naam"] for x in Patient().format_definitions]
+        write_objects_csv(os.path.join(doelmap, 'patient.csv'), self.patienten.values(), headers_patient)
+
+        # Behandeltraject
+        headers_behandeltraject = [x["Naam"] for x in Behandeltraject().format_definitions]
+        write_objects_csv(os.path.join(doelmap, 'behandeltrajecten.csv'), self.behandeltrajecten.values(), headers_behandeltraject)
+
+        headers_zorgprofiel = [x["Naam"] for x in GeleverdZorgprofiel().format_definitions]
+        write_objects_csv(os.path.join(doelmap, 'zorgprofielen.csv'), self.zorgprofielen.values(), headers_zorgprofiel)    
