@@ -146,15 +146,14 @@ class Patient(DISdataObject):
         return self._3340
 
     # Methode om object te valideren
-    def validate(self):
-        # start assuming object is valid
-        valid = True
+    def validate(self, autocorrect):
+
         meldingen = []
+        bewerkingen = []
 
         # Een patient hoort alleen in de export als er verwante zorgtrajecten zijn.
         for type in self.child_types:
             if len(self.children[type]) < 1:
-                valid = False
                 meldingen.append(
                     "PATIENT: {} heeft geen kinderen van het type {}".format(
                         self.__str__(), type
@@ -172,25 +171,37 @@ class Patient(DISdataObject):
                 )
 
         # postcode controleren
-        pattern = pattern = "^[1-9][0-9]{3}[A-Z][A-Z]$"
+        pattern_NL = "^[1-9][0-9]{3}[A-Z][A-Z]$"
+        pattern_DE = "^[1-9][0-9]{4}$"
+        pattern_BE = "^[1-9][0-9]{3}$"
         landcode = self._3338
-        postcode = self._3242
+        postcode = self._3242.replace(' ', '')
 
         if (
             landcode.replace(" ", "") == "NL"
-            and len(re.findall(pattern, postcode)) == 0
+            and len(re.findall(pattern_NL, postcode)) == 0
         ):
-            meldingen.append(
-                "PATIENT: {} geen geldige postcode {} bij landcode NL".format(
-                    self.__str__(), postcode
-                )
-            )
+            melding = "PATIENT: {} geen geldige postcode {} bij landcode NL".format(self.__str__(), postcode)
+            
+            # Kijken of we het patroon van Duitse of Belgische postcodes herkennen en eventueel 
+            # automatisch de landcode corrigeren
+            if autocorrect == True:
+                if len(re.findall(pattern_DE, postcode)) == 1:
+                    self._3338 = 'DE'
+                    bewerkingen.append("PATIENT: {} landcode naar DE gezet voor postcode {}".format(
+                    self.__str__(), postcode))
+                elif len(re.findall(pattern_BE, postcode)) == 1:
+                    self._3338 = 'BE'
+                    bewerkingen.append("PATIENT: {} landcode naar BE gezet voor postcode {}".format(
+                    self.__str__(), postcode))
+                else:
+                    meldingen.append(melding)
+            else:
+                meldingen.append(melding)
 
-        if len(meldingen) > 0:
-            return "   ###   ".join(meldingen)
-        else:
-            return ()
-
+        # Gevonden meldingen en bewerkingen teruggeven
+        return({'bewerkingen': bewerkingen, 'meldingen': meldingen})
+        
 
 class Behandeltraject(DISdataObject):
 
@@ -213,15 +224,13 @@ class Behandeltraject(DISdataObject):
             self._3258 = parent._3340
 
     # Methode om object te valideren
-    def validate(self):
-        # start assuming object is valid
-        valid = True
+    def validate(self, autocorrect):
         meldingen = []
+        bewerkingen = []
 
         # Een behandeltraject hoort alleen in de export als er verwante activiteiten zijn zijn.
         for type in self.child_types:
             if len(self.children[type]) < 1:
-                valid = False
                 meldingen.append(
                     "BEHANDELTRAJECT: {} heeft geen kinderen van het type {}".format(
                         self.__str__(), type
@@ -233,8 +242,6 @@ class Behandeltraject(DISdataObject):
 
         # Validatie 2227: 3272 Reden sluiten code bevat een andere code dan 12,13,15,17,21 
         # bij 3333 Prestatiecode geleverd = 180005
-
-        # print(self.__str__() +  ' ' + self._3333 == '180005' and self._3272.strip(' ') not in ('12', '13', '15', '17', '21') )
         if self._3333 == '180005' and self._3272.strip(' ') not in ('12', '13', '15', '17', '21'): 
             meldingen.append('BEHANDELTRAJECT: {traject} val 2227 verkeerde reden sluiten bij onvolledig behandeltraject {sluitreden}'
             .format(traject = self.__str__(), sluitreden = self._3272.strip(' ') ))
@@ -259,10 +266,8 @@ class Behandeltraject(DISdataObject):
         # # validatie 2067, primaire diagnose is niet as_1 of as_2 en niet leeg
         # if self._1456[:4] not in ('as1_', 'as2_', ) and self._1456.strip(' ') != '':
         #     meldingen.append('ZORGTRAJECT: {} diagnosecode niet as_1 of as_2 (val 2067)'.format(self.__str__()))
-        if len(meldingen) > 0:
-            return "   ###   ".join(meldingen)
-        else:
-            return ()
+        # Gevonden meldingen en bewerkingen teruggeven
+        return({'bewerkingen': bewerkingen, 'meldingen': meldingen})
 
 
 # class DBCTraject(DISdataObject):
@@ -384,10 +389,10 @@ class GeleverdZorgprofiel(DISdataObject):
             self._3309 = parent._3257
 
     # Methode om object te valideren
-    def validate(self):
-        # start assuming object is valid
-        valid = True
+    def validate(self, autocorrect):
+
         meldingen = []
+        bewerkingen = []
 
         # En er moet een patient als parent zijn
         if not self.parent:
@@ -401,11 +406,9 @@ class GeleverdZorgprofiel(DISdataObject):
         # activiteitendatum = datetime.datetime.strptime(self._1491, '%Y%m%d')
         # if activiteitendatum < start_dbc or activiteitendatum > eind_dbc:
         #     meldingen.append('TIJDSCHRIJVEN: {} activiteitdatum ligt niet tussen begin en einddatum dbc'.format(self.__str__()))
-
-        if len(meldingen) > 0:
-            return(meldingen)
-        else:
-            return ()
+        
+        # Gevonden meldingen en bewerkingen teruggeven
+        return({'bewerkingen': bewerkingen, 'meldingen': meldingen})
 
 
 class PakbonTekst(DISdataObject):
@@ -424,6 +427,7 @@ class Aanlevering_BGGZ:
     def __init__(self, **kwargs):
 
         self.meldingen = []
+        self.bewerkingen = []
         self.pakbon = None
         self.patienten = dict()
         self.behandeltrajecten = dict()
@@ -445,6 +449,7 @@ class Aanlevering_BGGZ:
         # Als de patient al bestaat, bestaande object teruggeven
         if pt.__str__() in self.patienten:
             self.meldingen.append("PATIENT: {} is niet uniek".format(pt.__str__()))
+            self.bewerkingen.append("PATIENT: {} niet uniek, niet geimporteerd".format(pt.__str__()))
             return self.patienten[pt.__str__()]
         # Als de patient nog niet is ingelezen
         else:
@@ -461,6 +466,7 @@ class Aanlevering_BGGZ:
                     self.del_behandeltraject(kind.__str__())
             # dan de patient verwijderen 
             del self.patienten[patient_key]
+            self.bewerkingen.append("PATIENT: {} verwijderd".format(patient_key))
 
     def add_behandeltraject(self, obj=None, **kwargs):
         if not obj:
@@ -470,11 +476,12 @@ class Aanlevering_BGGZ:
         # Als het dbctraject al bestaat, bestaande object teruggeven
         if dbc.__str__() in self.behandeltrajecten:
             self.meldingen.append("BEHANDELTRAJECT: {} is niet uniek".format(dbc.__str__()))
+            self.bewerkingen.append("BEHANDELTRAJECT: {} niet uniek, niet geimporteerd".format(dbc.__str__()))
             return self.behandeltrajecten[dbc.__str__()]
         # Als het dbctraject nog niet is ingelezen dan toevoegen aan pakbon lijst
         else:
             # parent zoeken, eerste uit lijst (lijst zou 1 lang moeten zijn)
-            for key, value in self.patienten.items():
+            for value in self.patienten.values():
                 if value.show_link() == dbc.foreign_key():
                     value.add_child("Behandeltraject", dbc)
                     break
@@ -498,6 +505,7 @@ class Aanlevering_BGGZ:
                     self.del_patient(traject.parent.__str__())
             #  als laatste het behandeltraject zelf verwijderen
             del self.behandeltrajecten[traject_key]
+            self.bewerkingen.append("BEHANDELTRAJECT: {} verwijderd".format(traject_key))
 
 
     def add_zorgprofiel(self, obj=None, **kwargs):
@@ -510,11 +518,14 @@ class Aanlevering_BGGZ:
             self.meldingen.append(
                 "GELEVERD ZORGPROFIEL: {} is niet uniek".format(ts.__str__())
             )
+            self.bewerkingen.append(
+                "GELEVERD ZORGPROFIEL: {}niet uniek, niet geimporteerd".format(ts.__str__())
+            )
             return self.zorgprofielen[ts.__str__()]
         # Als het tijdschrijven nog niet is ingelezen
         else:
             # parent zoeken, eerste uit lijst (lijst zou 1 lang moeten zijn)
-            for key, value in self.behandeltrajecten.items():
+            for value in self.behandeltrajecten.values():
                 if value.show_link() == ts.foreign_key():
                     value.add_child("GeleverdZorgprofiel", ts)
                     break
@@ -532,6 +543,7 @@ class Aanlevering_BGGZ:
                 self.del_behandeltraject(zorgprofiel.parent.__str__())
         #  als laatste het behandeltraject zelf verwijderen
         del self.zorgprofielen[tijd_key]
+        self.bewerkingen.append("GELEVERD ZORGPROFIEL: {} verwijderd".format(tijd_key))
 
     def inlezen_vanuit_map(self, pad): 
         ''' 
@@ -556,26 +568,33 @@ class Aanlevering_BGGZ:
             for line in f_zorgprofiel:
                 self.add_zorgprofiel(GeleverdZorgprofiel.from_string(line))
 
+    def inlezen_vanuit_zip(self, bestand):
+        '''
+        Zip bestand met DIS aanlevering inlezen in aanlevering
+        '''
 
-    def validate(self):
+        with tempfile.TemporaryDirectory() as tijdelijk:
+            shutil.unpack_archive(bestand, tijdelijk)
+            self.inlezen_vanuit_map(tijdelijk)
+
+
+    def validate(self, autocorrect):
         '''
         Valideert alle elementen in de aanlevering en 
         voegt resultaten toe aan aanlevering.meldingen
         ''' 
-        results = []
         for patient in self.patienten.values():
-            res = patient.validate()
-            if res:
-                self.meldingen.append(res)
+            res = patient.validate(autocorrect = autocorrect)
+            self.bewerkingen.extend(res['bewerkingen'])
+            self.meldingen.extend(res['meldingen'])
         for traject in self.behandeltrajecten.values():
-            res = traject.validate()
-            if res:
-                self.meldingen.append(res)        
+            res = traject.validate(autocorrect = autocorrect)
+            self.bewerkingen.extend(res['bewerkingen'])
+            self.meldingen.extend(res['meldingen'])      
         for profiel in self.zorgprofielen.values():
-            res = profiel.validate()
-            if res:
-                self.meldingen.append(res)
-        
+            res = profiel.validate(autocorrect = autocorrect)
+            self.bewerkingen.extend(res['bewerkingen'])
+            self.meldingen.extend(res['meldingen'])
 
     def aanlevering_exporteren(self, doelmap, volgnummer = None):
         """   
@@ -590,7 +609,6 @@ class Aanlevering_BGGZ:
         bestandsnaam = self.pakbon._3344
         bestandsnaam_algemeen = bestandsnaam[:32]
         creatiedatum = self.pakbon._3233
-        volgnummer_origineel = self.pakbon._3234
         extensie = ".zip"
 
         # volgnummer ophogen
@@ -636,3 +654,8 @@ class Aanlevering_BGGZ:
             shutil.make_archive(os.path.join(doelmap, nieuwe_bestandsnaam),
                 "zip",
                 tijdelijk)
+        
+        with open(os.path.join(doelmap, 'meldingen.txt'), 'w') as f_meldingen: 
+            f_meldingen.writelines([x + '\n' for x in self.meldingen])
+        with open(os.path.join(doelmap, 'bewerkingen.txt'), 'w') as f_bewerkingen: 
+            f_bewerkingen.writelines([x + '\n' for x in self.bewerkingen])
