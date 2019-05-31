@@ -3,3 +3,4 @@ BGGZ/Test_rapportages
 *.pyc
 .vscode
 .~lock*
+driver_bggz.py

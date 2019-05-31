@@ -1,4 +1,4 @@
-from format_definitions import *
+from definitions import *
 import datetime, re
 import shutil, tempfile, os
 from csv import DictWriter
