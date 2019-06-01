@@ -12,6 +12,7 @@ class Patient(DISdataObject):
         super().__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
+        self.valid = True
 
     # Koppelnummer tonen
     def show_link(self):
@@ -31,6 +32,7 @@ class Patient(DISdataObject):
                         self.__str__(), type
                     )
                 )
+                self.valid = False
 
         # Zijn alle verpichte velden gevuld:
         velden = self.verplichte_velden()
@@ -41,6 +43,7 @@ class Patient(DISdataObject):
                         self.__str__(), key
                     )
                 )
+                self.valid = False
 
         # postcode controleren
         pattern_NL = "^[1-9][0-9]{3}[A-Z][A-Z]$"
@@ -56,6 +59,7 @@ class Patient(DISdataObject):
             melding = "PATIENT: {} geen geldige postcode {} bij landcode NL".format(
                 self.__str__(), postcode
             )
+            self.valid = False
 
             # Kijken of we het patroon van Duitse of Belgische postcodes herkennen en eventueel
             # automatisch de landcode corrigeren
@@ -67,6 +71,7 @@ class Patient(DISdataObject):
                             self.__str__(), postcode
                         )
                     )
+                    self.valid = True
                 elif len(re.findall(pattern_BE, postcode)) == 1:
                     self._3338 = "BE"
                     bewerkingen.append(
@@ -74,6 +79,7 @@ class Patient(DISdataObject):
                             self.__str__(), postcode
                         )
                     )
+                    self.valid = True
                 else:
                     meldingen.append(melding)
             else:

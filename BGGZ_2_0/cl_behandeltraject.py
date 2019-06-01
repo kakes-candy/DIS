@@ -11,6 +11,7 @@ class Behandeltraject(DISdataObject):
         super().__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
+        self.valid = True
 
     # Nummer van behandeltraject tonen
     def show_link(self):
@@ -30,6 +31,7 @@ class Behandeltraject(DISdataObject):
         # Een behandeltraject hoort alleen in de export als er verwante activiteiten zijn zijn.
         for type in self.child_types:
             if len(self.children[type]) < 1:
+                self.valid = False
                 meldingen.append(
                     "BEHANDELTRAJECT: {} heeft geen kinderen van het type {}".format(
                         self.__str__(), type
@@ -37,6 +39,7 @@ class Behandeltraject(DISdataObject):
                 )
         # En er moet een patient als parent zijn
         if not self.parent:
+            self.valid = False
             meldingen.append(
                 "BEHANDELTRAJECT: {} heeft geen ouder".format(self.__str__())
             )
@@ -50,9 +53,18 @@ class Behandeltraject(DISdataObject):
             "17",
             "21",
         ):
+            self.valid = False
             meldingen.append(
                 "BEHANDELTRAJECT: {traject} val 2227 verkeerde reden sluiten bij onvolledig behandeltraject {sluitreden}".format(
                     traject=self.__str__(), sluitreden=self._3272.strip(" ")
+                )
+            )
+
+        if self._3272.strip(" ") == "14" and int(self._3262[:4]) > 2014:
+            self.valid = False
+            meldingen.append(
+                "BEHANDELTRAJECT: {} sluitreden {} is niet geldig op startdatum ".format(
+                    self.__str__(), self._3272.strip(" ")
                 )
             )
 

@@ -11,6 +11,7 @@ class GeleverdZorgprofiel(DISdataObject):
         super().__init__()
         for key, value in kwargs.items():
             setattr(self, key, value)
+        self.valid = True
 
     def add_parent(self, parent):
         if not self.parent:
@@ -28,6 +29,7 @@ class GeleverdZorgprofiel(DISdataObject):
             meldingen.append(
                 "TIJDSCHRIJVEN: {} heeft geen ouder".format(self.__str__())
             )
+            self.valid = False
 
         # # Validatie 2126: 1491 Activiteitdatum ligt niet tussen 1465 Begindatum DBC-traject en 1466 Einddatum DBC-traject
         # start_dbc = datetime.datetime.strptime(self.parent._1465, '%Y%m%d')
