@@ -70,21 +70,32 @@ class Behandeltraject(DISdataObject):
 
         # BGGZ zorgvraagzwaarte umami (initele zvz, of actuele zvz)
         # mag niet in de export terecht komen
-        prestaties_toegestaan = ["180001", "180002", "180003", "180004", "180005",
-                                "194073", "194074",  "198300",  "198301"]
-        if self._3269.strip(' ') not in (prestaties_toegestaan): 
+        prestaties_toegestaan = [
+            "180001",
+            "180002",
+            "180003",
+            "180004",
+            "180005",
+            "194073",
+            "194074",
+            "198300",
+            "198301",
+        ]
+        if self._3269.strip(" ") not in (prestaties_toegestaan):
             self.valid = False
             meldingen.append(
                 "BEHANDELTRAJECT: {traject} val 1628 Prestatiecode verwacht niet geldig {code}".format(
-                    traject=self.__str__(), code=self._3269.strip(' ')
+                    traject=self.__str__(), code=self._3269.strip(" ")
                 )
+            )
 
-        if self._3333.strip(' ') not in (prestaties_toegestaan): 
+        if self._3333.strip(" ") not in (prestaties_toegestaan):
             self.valid = False
             meldingen.append(
                 "BEHANDELTRAJECT: {traject} val 1655 Prestatiecode geleverd niet geldig {code}".format(
-                    traject=self.__str__(), code=self._3269.strip(' ')
+                    traject=self.__str__(), code=self._3269.strip(" ")
                 )
+            )
 
         return {"bewerkingen": bewerkingen, "meldingen": meldingen}
 
