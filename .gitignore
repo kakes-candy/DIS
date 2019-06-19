@@ -4,3 +4,6 @@ BGGZ_2_0/Test_rapportages
 .vscode
 .~lock*
 driver_bggz.py
+*.zip
+*.csv
+*.txt
