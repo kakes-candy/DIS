@@ -93,7 +93,7 @@ class Behandeltraject(DISdataObject):
             self.valid = False
             meldingen.append(
                 "BEHANDELTRAJECT: {traject} val 1655 Prestatiecode geleverd niet geldig {code}".format(
-                    traject=self.__str__(), code=self._3269.strip(" ")
+                    traject=self.__str__(), code=self._3333.strip(" ")
                 )
             )
 
