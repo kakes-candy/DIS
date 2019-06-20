@@ -97,5 +97,25 @@ class Behandeltraject(DISdataObject):
                 )
             )
 
+        # Beroep 1e hoofbehandelaar (een psychiater mag sinds 2017 geen regiebehandelaar zijn)
+        if self._4034.strip(" ") == "MB.SP.psych" and int(self._3262[:4]) > 2016:
+            self.valid = False
+            meldingen.append(
+                "BEHANDELTRAJECT: {traject} val 2111 Beroepcode 1e hoofdbehandelaar niet geldig {code}".format(
+                    traject=self.__str__(), code=self._4034.strip(" ")
+                )
+            )
+
+        # Beroep 1e hoofbehandelaar (een psychiater mag sinds 2017 geen regiebehandelaar zijn)
+        if self._4036.strip(" ") == "MB.SP.psych" and int(self._3262[:4]) > 2016:
+            self.valid = False
+            meldingen.append(
+                "BEHANDELTRAJECT: {traject}  Beroepcode 2e hoofdbehandelaar niet geldig {code}".format(
+                    traject=self.__str__(), code=self._4036.strip(" ")
+                )
+            )
+
+
+
         return {"bewerkingen": bewerkingen, "meldingen": meldingen}
 
