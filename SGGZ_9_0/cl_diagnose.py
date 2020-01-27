@@ -1,5 +1,5 @@
 from Basis.cl_DIS_dataobject import DISdataObject
-from SGGZ_8_0.definitions import format_diagnose
+from SGGZ_9_0.definitions import format_diagnose
 import datetime
 
 

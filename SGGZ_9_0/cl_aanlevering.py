@@ -2,12 +2,12 @@ import shutil, tempfile, os
 from csv import DictWriter
 
 
-from SGGZ_8_0.cl_pakbon import PakbonTekst
-from SGGZ_8_0.cl_patient import Patient
-from SGGZ_8_0.cl_zorgtraject import Zorgtraject
-from SGGZ_8_0.cl_dbctraject import DBCTraject
-from SGGZ_8_0.cl_tijdschrijven import Tijdschrijven
-from SGGZ_8_0.cl_diagnose import Diagnose
+from SGGZ_9_0.cl_pakbon import PakbonTekst
+from SGGZ_9_0.cl_patient import Patient
+from SGGZ_9_0.cl_zorgtraject import Zorgtraject
+from SGGZ_9_0.cl_dbctraject import DBCTraject
+from SGGZ_9_0.cl_tijdschrijven import Tijdschrijven
+from SGGZ_9_0.cl_diagnose import Diagnose
 
 
 # klas om alle Disobjecten vast te houden
