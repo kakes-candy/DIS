@@ -7,3 +7,5 @@ driver_bggz.py
 *.zip
 *.csv
 *.txt
+ENV/
+~$*
