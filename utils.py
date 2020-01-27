@@ -2,7 +2,7 @@ import pprint, xlrd
 
 
 path = (
-    "/home/niels/workspace/Python/DIS/BGGZ/Documentatie/bggz bestanden definities.xlsx"
+    "SGGZ_9_0\Docs\helpbestand voor definitions.xlsx"
 )
 
 
