@@ -1,9 +1,7 @@
 import pprint, xlrd
 
 
-path = (
-    "SGGZ_9_0\Docs\helpbestand voor definitions.xlsx"
-)
+path = "SGGZ_9_0\Docs\helpbestand voor definitions.xlsx"
 
 
 def read_format_defs(path, sheet):
