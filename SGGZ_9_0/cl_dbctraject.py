@@ -31,12 +31,12 @@ class DBCTraject(DISdataObject):
         # Een zorgtraject hoort alleen in de export als er verwante dbctrajecten zijn.
         for type in self.child_types:
             if len(self.children[type]) < 1 and type != "Diagnose":
-                valid = False
                 meldingen.append(
                     "DBCTRAJECT: {} heeft geen kinderen van het type {}".format(
                         self.__str__(), type
                     )
                 )
+                self.valid = False
 
         # En er moet een patient als parent zijn
         if not self.parent:
@@ -50,6 +50,7 @@ class DBCTraject(DISdataObject):
             meldingen.append(
                 "DBCTRAJECT: {} startdatum > einddatum (val 515)".format(self.__str__())
             )
+            self.valid = False
 
         # validatie 1388, begindatum dbc eerder dan begindatum zorgtraject
         if self.parent and start_dbc < datetime.datetime.strptime(
@@ -60,6 +61,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # validatie 2124 duur dbc langer dan 365 dagen
         if (eind_dbc - start_dbc).days >= 365:
@@ -68,6 +70,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # validatie 2083: er moet tenminste 1 hoofdbehandelaar Zijn
         if self._4091.strip(" ") == "" and self._4092.strip(" ") == "":
@@ -76,6 +79,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # validatie 2191: Beroepcode 1e hoofdbehandelaar ontrbreekt
         if self._4091.strip(" ") != "" and self._4093.strip(" ") == "":
@@ -84,6 +88,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # validatie 2200: Beroepcode 1e hoofdbehandelaar ontrbreekt
         if self._4092.strip(" ") != "" and self._4094.strip(" ") == "":
@@ -92,6 +97,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # validatie 2201: 4146 Verwijzer is niet gevuld terwijl 4095 Verwijstype/code(zelf)verwijzer is 01,02,03 of 04
         if self._4146.strip(" ") == "" and self._4095 in ("01", "02", "03", "04"):
@@ -100,6 +106,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
 
         # Validatie verkoopprijs
         try:
@@ -110,6 +117,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
         else:
             if bedrag < 0:
                 meldingen.append(
@@ -117,6 +125,7 @@ class DBCTraject(DISdataObject):
                         self.__str__()
                     )
                 )
+                self.valid = False
 
         # validatie 2068: 1473 Productgroepcode (positie 4 t/m 6) komt niet overeen met het productgroepcodebehandeldeel positie (10 t/m 12) in 1474 Prestatiecode Productgroepcode (positie 4 t/m 6) komt niet overeen met het productgroepcodebehandeldeel positie (10 t/m 12) in 1474 Prestatiecode
         if self._1473[-3:] != self._1474[-3:]:
@@ -125,6 +134,7 @@ class DBCTraject(DISdataObject):
                     self.__str__(), self._1473[:-3], self._1474[:-3]
                 )
             )
+            self.valid = False
 
         # Validatie DBC bedrag
         try:
@@ -135,6 +145,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
         else:
             if dbcbedrag < 0:
                 meldingen.append(
@@ -142,6 +153,7 @@ class DBCTraject(DISdataObject):
                         self.__str__()
                     )
                 )
+                self.valid = False
 
         # Validatie verrekenbedrag
         try:
@@ -152,6 +164,7 @@ class DBCTraject(DISdataObject):
                     self.__str__()
                 )
             )
+            self.valid = False
         else:
             if verrekenbedrag < 0:
                 meldingen.append(
@@ -159,6 +172,7 @@ class DBCTraject(DISdataObject):
                         self.__str__()
                     )
                 )
+                self.valid = False
 
         return {"bewerkingen": bewerkingen, "meldingen": meldingen}
 

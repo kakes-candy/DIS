@@ -41,47 +41,28 @@ class Diagnose(DISdataObject):
             )
             self.valid = False
 
-        # Validatie 2116: 1483 Diagnosecode is gelijk aan 1456 Primaire diagnosecode
-        if self._1483 == self.parent.parent._1456:
-            meldingen.append(
-                "DIAGNOSE: {} nevendiagnose is gelijk aan primaire diagnose".format(
-                    self.__str__()
-                )
-            )
-            self.valid = False
-
-        # Validatie 2308: 4167 Diagnosecode DSM-5 is niet gevuld terwijl 1483 Diagnosecode <> as1_18.02 of as1_18.03 of as2_18.02 of as2_18.03 of as4_110.
-        if self._4167.strip(" ") == "" and self._1483.strip(" ") not in (
-            "as1_18.02" "as1_18.03",
-            "as2_18.02",
-            "as2_18.03",
-            "as4_110",
+        # 5121 Nevendiagnosehoofdgroep komt niet voor of is niet (meer) geldig in de codelijst Diagnose	2318
+        if self._5121 not in (
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006",
+            "007",
+            "008",
+            "009",
+            "010",
+            "011",
+            "012",
+            "013",
+            "014",
+            "015",
+            "016",
+            "017",
         ):
             meldingen.append(
-                "DIAGNOSE: {} er had een dsm 5 code moeten staan (val 2308)".format(
-                    self.__str__()
-                )
-            )
-            self.valid = False
-
-        # Validatie 2288: 4167 Diagnosecode DSM-5 komt niet voor of is niet (meer) geldig in codelijst Diagnose DSM-5.
-        if self._4167.strip(" ") == "GeenDiagnose":
-            meldingen.append(
-                "DIAGNOSE: {} val(2288) 4167 Diagnosecode DSM-5 komt niet voor of is niet (meer) geldig in codelijst Diagnose DSM-5".format(
-                    self.__str__()
-                )
-            )
-            self.valid = False
-
-        # Validatie 2290: 4167 Diagnosecode DSM-5 is niet gevuld terwijl 1483 Diagnosecode <> as1_18.02 of as1_18.03 of as2_18.02 of as2_18.03 of as4_110.
-        if self._4167.strip(" ") == "" and self._1483.strip(" ") not in (
-            "as1_18.02" "as1_18.03",
-            "as2_18.02",
-            "as2_18.03",
-            "as4_110",
-        ):
-            meldingen.append(
-                "DIAGNOSE: {} er had een dsm 5 code moeten staan (val 2308)".format(
+                "DIAGNOSE: {} nevendiagnosehoofdgroep niet geldig (val 2318)".format(
                     self.__str__()
                 )
             )

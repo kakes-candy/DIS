@@ -53,41 +53,44 @@ class Zorgtraject(DISdataObject):
                 )
             )
 
-        # validatie 1330, diagnose dsm 4 is niet leeg tenzij kinderen allemaal sluitreden 5 of 20 hebben.
+        # validatie 2313, diagnose dsm 4 is niet leeg tenzij kinderen allemaal sluitreden 5 of 20 hebben.
         # lijst van sluitredenen
         redenen = [
             x._1470.strip(" ")
             for x in self.children["DBCTraject"].values()
             if x._1470.strip(" ") not in ("5", "20")
         ]
-        if self._1456.strip(" ") == "" and len(redenen) > 0:
+        if self._5119.strip(" ") == "" and len(redenen) > 0:
             self.valid = False
             meldingen.append(
-                "ZORGTRAJECT: {} geen diagnose terwijl dbc traject niet sluitreden 5 of 20 (val 1330)".format(
+                "ZORGTRAJECT: {} geen diagnose terwijl dbc traject niet sluitreden 5 of 20 (val 2313)".format(
                     self.__str__()
                 )
             )
 
-        # validatie 2292, diagnose dsm 5 is niet leeg tenzij kinderen allemaal sluitreden 5 of 20 hebben.
-        # lijst van sluitredenen
-        redenen = [
-            x._1470.strip(" ")
-            for x in self.children["DBCTraject"].values()
-            if x._1470.strip(" ") not in ("5", "20")
-        ]
-        if self._1456.strip(" ") == "" and len(redenen) > 0:
+        # 5119 Diagnosehoofdgroep komt niet voor of is niet (meer) geldig in codelijst Diagnose	(2314)
+        if (self._5119.strip(" ") != "") and self._5119 not in (
+            "001",
+            "002",
+            "003",
+            "004",
+            "005",
+            "006",
+            "007",
+            "008",
+            "009",
+            "010",
+            "011",
+            "012",
+            "013",
+            "014",
+            "015",
+            "016",
+            "017",
+        ):
             self.valid = False
             meldingen.append(
-                "ZORGTRAJECT: {} geen diagnose terwijl dbc traject niet sluitreden 5 of 20 (val 2292)".format(
-                    self.__str__()
-                )
-            )
-
-        # validatie 2067, primaire diagnose is niet as_1 of as_2 en niet leeg
-        if self._1456[:4] not in ("as1_", "as2_") and self._1456.strip(" ") != "":
-            self.valid = False
-            meldingen.append(
-                "ZORGTRAJECT: {} diagnosecode niet as_1 of as_2 (val 2067)".format(
+                "ZORGTRAJECT: {} nevendiagnosehoofdgroep niet geldig (val 2314)".format(
                     self.__str__()
                 )
             )
