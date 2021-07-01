@@ -33,43 +33,45 @@ print(len(aanlevering.tijdschrijven))
 print(len(aanlevering.diagnoses))
 
 
-# aanlevering.validate(autocorrect=True)
+aanlevering.validate(autocorrect=True)
 
-# # Patienten valideren en verwijderen
-# for invalid_patient in [
-#     x.__str__() for x in aanlevering.patienten.values() if x.valid == False
-# ]:
-#     aanlevering.del_patient(invalid_patient)
+# Patienten valideren en verwijderen
+for invalid_patient in [
+    x.__str__() for x in aanlevering.patienten.values() if x.valid == False
+]:
+    aanlevering.del_patient(invalid_patient)
 
-# # Zorgtrajecten valideren en verwijderen
-# for invalid_traject in [
-#     x.__str__() for x in aanlevering.zorgtrajecten.values() if x.valid == False
-# ]:
-#     aanlevering.del_zorgtraject(invalid_traject)
+# Zorgtrajecten valideren en verwijderen
+for invalid_traject in [
+    x.__str__() for x in aanlevering.zorgtrajecten.values() if x.valid == False
+]:
+    aanlevering.del_zorgtraject(invalid_traject)
 
-# # dbc valideren en verwijderen
-# for invalid_dbc in [
-#     x.__str__() for x in aanlevering.dbctrajecten.values() if x.valid == False
-# ]:
-#     aanlevering.del_dbctraject(invalid_dbc)
+# dbc valideren en verwijderen
+for invalid_dbc in [
+    x.__str__() for x in aanlevering.dbctrajecten.values() if x.valid == False
+]:
+    aanlevering.del_dbctraject(invalid_dbc)
 
-# # tijdschrijven valideren en verwijderen
-# for invalid_tijd in [
-#     x.__str__() for x in aanlevering.tijdschrijven.values() if x.valid == False
-# ]:
-#     aanlevering.del_tijdschrijven(invalid_tijd)
+# tijdschrijven valideren en verwijderen
+for invalid_tijd in [
+    x.__str__() for x in aanlevering.tijdschrijven.values() if x.valid == False
+]:
+    aanlevering.del_tijdschrijven(invalid_tijd)
 
-# # diagnoses valideren en verwijderen
-# for invalid_diagnoses in [
-#     x.__str__() for x in aanlevering.diagnoses.values() if x.valid == False
-# ]:
-#     aanlevering.del_diagnose(invalid_diagnoses)
+# diagnoses valideren en verwijderen
+for invalid_diagnoses in [
+    x.__str__() for x in aanlevering.diagnoses.values() if x.valid == False
+]:
+    aanlevering.del_diagnose(invalid_diagnoses)
 
 # # Even laten zien wat er uit de validatie kwam
-# print(aanlevering.meldingen)
-# print(aanlevering.bewerkingen)
+print(aanlevering.meldingen)
+print(aanlevering.bewerkingen)
 
 # opgeschoonde data wegschrijven.
-# aanlevering.exporteren_zip(doelmap=doelmap, volgnummer=2)
-aanlevering.exporteren_csv(doelmap_csv)
+aanlevering.exporteren_zip(doelmap=doelmap, volgnummer=2)
+# aanlevering.exporteren_csv(doelmap_csv)
+
+print("klaar!")
 
